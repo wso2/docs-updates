@@ -240,4 +240,3 @@ If you encounter any of above listed OS related issue:
 
 * If the error occurs even after enabling the above permissions, please report to WSO2 by accessing the  [Contact page](https://wso2.com/contact). 
 Please be sure to attach the details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
-
