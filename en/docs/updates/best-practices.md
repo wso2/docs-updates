@@ -20,3 +20,4 @@ Here are the guidelines and recommendations to receive best update experience wi
     running tests on your update environment ensures that all existing and new functionalities are working perfectly fine. Whenever 
     you apply an update WSO2 recommends to apply the updates to lower environments, run tests and update the 
     production environment.
+    

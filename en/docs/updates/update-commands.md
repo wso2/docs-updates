@@ -283,4 +283,3 @@ Revert-hotfix command reverts most recently applied hotfix to the product distri
 Revert the previously applied hotfix
  	   
  	   wso2update_linux revert-hotfix
-

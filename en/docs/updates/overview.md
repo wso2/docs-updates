@@ -60,10 +60,3 @@ security updates sooner whenever we release a security update. This will ensure 
 
 <b>Update Tool</b> client delivers hotfixes and updates seamlessly on top of to the product pack. The Update 
 Tool is available in each product release distribution and is located at <i>product-home/bin</i> directory.
-
-
-
-
-
-
-
