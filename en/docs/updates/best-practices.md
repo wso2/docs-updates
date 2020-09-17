@@ -12,7 +12,7 @@ Here are the guidelines and recommendations to receive best update experience wi
 2. Add custom configurations or modifications
 
     Follow guidelines when adding customization to product pack files. This will reduce the merge conflicts. Refer
-    [how to reduce merge conflicts](../../updates/resolve-conflics.md).
+    [how to reduce merge conflicts](../updates/resolve-conflics.md).
       
 3. Run tests
 
