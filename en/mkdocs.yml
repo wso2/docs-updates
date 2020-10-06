@@ -23,7 +23,7 @@ site_url: https://updates.docs.wso2.com/en/latest/
 # Repository
 repo_name: wso2/docs-updates
 repo_url: https://github.com/wso2/docs-updates
-edit_uri: https://github.com/wso2/docs-ei/edit/7.0.0/en/micro-integrator/docs/
+edit_uri: https://github.com/wso2/docs-updates/edit/master/en/docs/
 
 # Copyright
 copyright: WSO2 Updates 2.0 - Documentation
