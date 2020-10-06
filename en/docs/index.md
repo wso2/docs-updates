@@ -68,7 +68,7 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
             <div class="content" style="">
                 Update tool
                 <div class="description" style="">
-                Set of information about Update tool and how it aids in updating in quick and easy manner
+                Set of information about Update tool and how it aids in updating in a quick and easy manner
                 </div>
             </div>
         </div>     
