@@ -3,19 +3,25 @@
 
 You can use a trial subscription for 90 days.
 
-Find out more about [WSO2 Subscriptions]((https://wso2.com/subscription/)
+Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
 ### What are the benefits I get from a subscription?
 
 A paid subscription allows you to:
 
-- Deploy updates into your production enviroment immediately, without waiting for an open source release.
-- Receive 24x7 support from WSO2 to resolve issues quickly. 
+- Deploy **updates into your production environment immediately**, without waiting for an open source release.
+- Receive **24x7 support** from WSO2 to resolve issues quickly. 
 - Help fund our ongoing R&D and operations.
 
-Find out more about [WSO2 Subscriptions]((https://wso2.com/subscription/)
+Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
-### Do I need a key to unlock updates for production?
+###How often  WSO2 Updates will be releases to the user?
+Updates will be released **bi-weekly** as new update levels. Follow the updates commands in
+[Updates command page](../../updates/update-commands/)
+
+In production environments, WSO2 will announce urgent security fixes to customers via support JIRAs. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore It is recommended to update your production environments monthly.
+
+ ### Do I need a key to unlock updates for production?
 
 No. We trust our customers to adhere to the license terms. We make the terms clear to avoid accidental violations and reserve the right to remove access to updates or take other means to enforce the license against intentional violators.
 
@@ -30,13 +36,6 @@ level to the chosen level, applying the updates in between.
 
 We are releasing WSO2 updates with a commercial EULA license. Find out more about the [EULA license](https://wso2.com/licenses/eula/3.1).
 
-### How frequently is it recommended to get updates?
-
-WSO2 releases frequent updates with bug fixes and security fixes. It is recommended to get these updates to 
-your development environments weekly or bi-weekly.
-
-In production environments, WSO2 will announce urgent security fixes to customers via support JIRAs. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore It is recommended to update your production environments monthly.
-
 ### Should I test my updates and hotfixes?
 
 WSO2 takes accountability to test all updates and hotfixes thoroughly in systems where all previous updates are 
@@ -46,12 +45,12 @@ thereafter apply to the production environment.
 
 ### How do I know when updates are available?
 
-You can be aware of the latest updates from WSO2 by logging into Update Portal [Updates Portal].
+You can be aware of the latest updates from WSO2 by logging into Update Portal [Updates Portal](https://updates-info.wso2.com).
 
 ### Where can I find description and instructions related to specific updates and hotfixes?
 
-You can check details about each update and hotfix in [Updates Portal]. Information about your subscribed products is
- also shown in [Updates Portal].
+You can check details about each update and hotfix in [Updates Portal](https://updates-info.wso2.com). Information about your subscribed products is
+ also shown in [Updates Portal](https://updates-info.wso2.com).
 
 ### What can I do in case of an issue?
 
@@ -60,7 +59,7 @@ details of the error when you report it. You can get the details by getting the 
 
 ### How can I know what changes are included in an update?
 
-You can check the changelog of an update by log into the [Updates Portal].
+You can check the changelog of an update by log into the [Updates Portal](https://updates-info.wso2.com).
 
 ### I get the error as 'invalid credentials. Please enter valid WSO2 credentials'. What should I do?
 
@@ -122,7 +121,7 @@ Update tool client supports use of flags for user input values and exit codes fo
 ### How do I migrate from WUM and In-place to Updates 2.0 ?
 
 * Update the current product pack to the latest update level using WUM or in-place tool. This will make Update tool 
-client available inside `<product_home>/bin` diretory. 
+client available inside `<product_home>/bin` directory. 
 * Run the update command on top of the update tool. This will 
 update the product pack to comply with Updates 2.0.
   

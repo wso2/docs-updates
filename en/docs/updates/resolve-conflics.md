@@ -10,7 +10,7 @@ the customizations on top of the updated files.
 ### How to minimize Merge Conflicts?
 
 Given below are the best practices to follow for different file types when updating your products. 
-This Best Practices guilde ensures a flawless update process and a lower number of merge conflicts.
+This Best Practices guide ensures a flawless update process, and a lower number of merge conflicts.
 
 - .jar files	
     -   Do not modify the original .jar files.
@@ -24,7 +24,7 @@ To avoid loosing your previous customizations, use an extension point as explain
 also refer https://store.wso2.com/store/pages/top-assets for a list of released connectors and extensions.
 
 - .war files	
-    -   When updating your product, the WSO2 update tool unarchives your .war file (if applicable) and applies updates
+    -   When updating your product, the WSO2 update tool unarchive your .war file (if applicable) and applies updates
      on top of your customizations(if applicable).
 
 - .car files	
