@@ -21,7 +21,7 @@ Updates will be released **bi-weekly** as new update levels. Follow the updates 
 
 In production environments, WSO2 will announce urgent security fixes to customers via support JIRAs. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore It is recommended to update your production environments monthly.
 
- ### Do I need a key to unlock updates for production?
+###Do I need a key to unlock updates for production?
 
 No. We trust our customers to adhere to the license terms. We make the terms clear to avoid accidental violations and reserve the right to remove access to updates or take other means to enforce the license against intentional violators.
 
@@ -72,8 +72,8 @@ yes, escape the $ sign using escape character '\'.
 
 ### Configurations I should do when I have a proxy server/firewall running?
 
-Yes. WSO2 updates are received by connecting to the https://api.updates.wso2.com, https://cdn.updates.wso2.com, 
-https://product-dist.wso2.com and https://wso2.com. If your system connects to 
+Yes. WSO2 updates are received by connecting to the `https://api.updates.wso2.com, https://cdn.updates.wso2.com, 
+https://product-dist.wso2.com and https://wso2.com`. If your system connects to 
 the Update service through a proxy server/firewall, whitelist the above-mentioned endpoints.
 
 Since WSO2 update tool is a command-line tool, the proxy should be configured from your command-line using below 
