@@ -1,4 +1,4 @@
-#### Best Practices
+### Best Practices to adhere when using WSO2 Updates
 Here are the guidelines and recommendations to receive best update experience with WSO2 Updates 2.0.
 
 1. Update frequently
@@ -17,7 +17,9 @@ Here are the guidelines and recommendations to receive best update experience wi
 3. Run tests
 
     WSO2 thoroughly tests and certifies each update and hotfix released. Regardless of whether an update or hotfix 
-    running tests on your update environment ensures that all existing and new functionalities are working perfectly fine. Whenever 
-    you apply an update WSO2 recommends you to apply the updates to lower environments, run tests and update the 
+    running tests on your update environment ensures that all existing and new functionalities are working perfectly fine.
+    
+!!! Note  
+    Whenever you apply an update WSO2 recommends you to apply the updates to lower environments, run tests and update the 
     production environment.
     
