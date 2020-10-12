@@ -110,13 +110,13 @@ Update tool client supports use of flags for user input values and exit codes fo
     
    * Use user input commands 
    
-  <img src="../../../assets/img/updates/full-flag.png" width="700">
+  <img src="../../assets/img/updates/full-flag.png" width="700">
    
-  <img src="../../../assets/img/updates/abri-flag.png" width="700">
+  <img src="../../assets/img/updates/abri-flag.png" width="700">
    
    * Use exit codes
    
-   <img src="../../../assets/img/updates/exit-code.png" width="700"> 
+   <img src="../../assets/img/updates/exit-code.png" width="700"> 
    
 ### How do I migrate from WUM and In-place to Updates 2.0 ?
 
