@@ -70,7 +70,7 @@ yes, escape the $ sign using escape character '\'.
          Password - 123$abc
          Should be entered as 123\$abc
 
-### Configurations I should do when I have a proxy server/firewall running?
+### Should I change configurations when a proxy server/firewall is running?
 
 Yes. WSO2 updates are received by connecting to the `https://api.updates.wso2.com, https://cdn.updates.wso2.com, 
 https://product-dist.wso2.com and https://wso2.com`. If your system connects to 
