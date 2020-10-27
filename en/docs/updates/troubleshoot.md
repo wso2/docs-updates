@@ -94,13 +94,9 @@ Please be sure to attach the details of the error when you report it. You can ge
 </tr>
 <tr>
 <td>Unable to identify the product</td>
-<td>The update tool cannot identify the product it will be updating.</td>
-<td>Make sure that the <ProductHome>/updates/product.txt file exists.</td>
-</tr>
-<tr>
-<td>Unable to identify the product</td>
-<td>Invalid product name in the product pack.</td>
-<td>Make sure the <ProductHome>/updates/product.txt file contains valid product information.</td>
+<td>The update tool cannot identify the product it will be updating if the <code>product.txt</code> file is absent 
+<strong>or</strong> if the information in the <code>product.txt</code>is been altered.</td>
+<td>Make sure that the <code><ProductHome>code>/updates/product.txt file exists and the file contains valid product information.</td>
 </tr>
 <tr>
 <td>Only one service can be enabled at a given time</td>
