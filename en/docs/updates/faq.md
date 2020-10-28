@@ -15,13 +15,17 @@ A paid subscription allows you to:
 
 Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
-###How often  WSO2 Updates will be releases to the user?
+### How often  WSO2 Updates will be releases to the user?
 Updates will be released **bi-weekly** as new update levels. Follow the updates commands in
 [Updates command page](../../updates/update-commands/)
 
 In production environments, WSO2 will announce urgent security fixes to customers via support JIRAs. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore It is recommended to update your production environments monthly.
 
-###Do I need a key to unlock updates for production?
+### How can I update my product pack if my environment doesn't have Internet access?
+First, update the product pack in a environment that has Internet access.
+Thereafter, transfer the updated pack to the lockdown environment.
+
+### Do I need a key to unlock updates for production?
 
 No. We trust our customers to adhere to the license terms. We make the terms clear to avoid accidental violations and reserve the right to remove access to updates or take other means to enforce the license against intentional violators.
 
@@ -83,6 +87,10 @@ command: 
         
 If you are behind an NTLM proxy, you can use a third party tool like CNTLM to do the NTLM proxy authentication. See 
 the [CNTLM documentation](http://cntlm.sourceforge.net/) for instructions.
+
+### Do I have to run the update tool in all the servers in my environment?
+This is not a WSO2 recommended approach. If you have several servers running in your environment, it is prudent to use a configuration Management system.
+In this way, you update the product pack once and distribute the same using the Configuration Management System to other servers.
 
 ### WSO2 recommended configuration management tools to deploy configurations to client nodes?
 
