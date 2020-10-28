@@ -89,7 +89,7 @@ If you are behind an NTLM proxy, you can use a third party tool like CNTLM to 
 the [CNTLM documentation](http://cntlm.sourceforge.net/) for instructions.
 
 ### Do I have to run the update tool in all the servers in my environment?
-This is not a WSO2 recommended approach. If you have several servers running in your environment, it is prudent to use a configuration Management system.
+This is not a WSO2 recommended approach. If you have several servers running in your environment, it is prudent to use a Configuration Management System.
 In this way, you update the product pack once and distribute the same using the Configuration Management System to other servers.
 
 ### WSO2 recommended configuration management tools to deploy configurations to client nodes?
