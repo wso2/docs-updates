@@ -49,7 +49,7 @@ thereafter apply to the production environment.
 
 ### How do I know when updates are available?
 
-You can be aware of the latest updates from WSO2 by logging into Update Portal [Updates Portal](https://updates-info.wso2.com).
+You can be aware of the latest updates from WSO2 by logging into [Updates Portal](https://updates-info.wso2.com).
 
 ### Where can I find description and instructions related to specific updates and hotfixes?
 
@@ -92,9 +92,9 @@ the [CNTLM documentation](http://cntlm.sourceforge.net/) for instructions.
 This is not a WSO2 recommended approach. If you have several servers running in your environment, it is prudent to use a Configuration Management System.
 In this way, you update the product pack once and distribute the same using the Configuration Management System to other servers.
 
-### WSO2 recommended configuration management tools to deploy configurations to client nodes?
+### What are the recommended configuration management tools to deploy configurations to client nodes?
 
-The Recommended configuration tools to work with when using WSO2 updates are Ansible and Puppet.
+WSO2 recommended configuration tools to work with when using WSO2 updates are Ansible and Puppet.
 
 Ansible resources: 
 
