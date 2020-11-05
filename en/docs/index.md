@@ -75,7 +75,8 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
     </a>
 </div>
 <div class="integratorDescription">
-    <div style="color: #222222;" href="updates/update-commands">
+    <a style="color: #222222;" href="updates/update-commands">
+        <div>
             <div>
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;width: 60px;" xml:space="preserve">
@@ -104,8 +105,8 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
                 A constructive approach to perform updates effectively.illustrated here is a set of updates commands that may come in handy.
                 </div>
             </div>
-         </div>  
-      </a>
+         </div>     
+       </a>
 </div>
 <div class="integratorDescription">
     <a style="color: #222222;" href="updates/resolve-conflics">
