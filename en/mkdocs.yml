@@ -98,6 +98,7 @@ extra_css:
 extra_javascript:
   - assets/lib/highlightjs/highlight.min.js
   - assets/js/theme.js
+  - assets/js/fslightbox.js
   - assets/lib/backtotop/js/util.js
   - assets/lib/backtotop/js/main.js
 extra:
