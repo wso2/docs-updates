@@ -6,6 +6,9 @@ Shown below is an essential set of update commands that a user require to acquir
    * For linux   - `linux`
    * For windows - `windows`
 
+!!! tip "Before you begin"
+    The following commands should be performed in command prompt under the folder path of <strong>`<product-home>/bin`</strong>  
+
 ### [wso2update_<os\>]()
 
    **Synopsis**
