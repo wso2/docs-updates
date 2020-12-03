@@ -57,6 +57,7 @@ nav:
       - 'Best Practise': 'updates/best-practices.md'
       - 'Troubleshoot guide': 'updates/troubleshoot.md'
       - 'Frequently Asked Questions': 'updates/faq.md'
+      - 'Reference Page': 'updates/reference.md'
     - '': page-not-found.md
      
 # Extensions

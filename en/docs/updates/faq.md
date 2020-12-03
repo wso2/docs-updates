@@ -133,3 +133,16 @@ client available inside `<product_home>/bin` directory.
 * Run the update command on top of the update tool. This will 
 update the product pack to comply with Updates 2.0.
   
+### Are the updates I get from the Updates Client is secure and assures authenticity?
+The <strong>Update tool</strong> communicates with the <strong>WSO2 Update Service</strong> to get details of the updates that need to be downloaded and applied. During this communication, 
+the following information is obtained from the  WSO2 Update Service:<br>
+        1. Artifacts to be downloaded. <br>
+        2. md5sum values of the artifacts.<br>
+        3. Several other metadata required for the next invocations.
+    
+After getting information on the updated files, the Update tool makes an authenticated invocation to the CDN to download the necessary updates. 
+The client’s communication with the WSO2 Update Service and CDN are secured through HTTPS.
+    
+After the necessary files have been downloaded, the Update tool validates the authenticity of the files by comparing their md5sum values with the values obtained 
+from the WSO2 Update Service in the initial step. This ensures that the files have not been tampered with after the download is complete. 
+Thereafter, the Update tool applies the downloaded updates and creates an updated product distribution.
