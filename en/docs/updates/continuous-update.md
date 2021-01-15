@@ -23,17 +23,17 @@ listed below are the steps:
 Refer the following diagram for a better understanding on continuous updates:
 
 <a class="open-modal" data-open="modal1">
+<<<<<<< HEAD
     <img src="../../assets/img/updates/continous-update.png" >
+=======
+    <img src="../../assets/img/updates/continous-update.png">
+>>>>>>> Add templete tag information and clear broken link
 </a>
 
 <div class="modal" id="modal1" data-animation="">
     <div class="modal-dialog">
         <header class="modal-header">
-<<<<<<< HEAD
             Continuous update <button class="close-modal" aria-label="close modal" data-close>✕</button>
-=======
-            Continuous updates <button class="close-modal" aria-label="close modal" data-close>✕</button>
->>>>>>> Add continuous updates information as a new content page
         </header>
         <section class="modal-content">
              <img src="../../assets/img/updates/continous-update.png" style="max-width: 1200px">
@@ -43,6 +43,9 @@ Refer the following diagram for a better understanding on continuous updates:
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 >>>>>>> Add continuous updates information as a new content page
 
+=======
+>>>>>>> Add templete tag information and clear broken link
 Need to further refer WSO2 recommended Puppet and Ansible, Click [Here](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes).
