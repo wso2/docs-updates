@@ -47,6 +47,9 @@ To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.co
  	-p, --password
       	Specify your password.
 
+        --template string      
+        Specify the template output.
+
  	-v, --verbose
       	Enable verbose mode.
 
@@ -87,22 +90,29 @@ Here is a list of exit codes:
 
 * Check the current version of Update tool in use on your system
 ``` bash
-    wso2update_linux --version
+wso2update_linux --version
 ```
+
 * Get help on how to use the update command
 ``` bash
-    wso2update_linux help check
+wso2update_linux help check
 ```
+
 * Update the product to the latest level. You will be prompted to enter WSO2 credentials.
 ``` xml
-    wso2update_linux
-    Username: user@wso2.com
-    Password for ‘user@wso2.com’: my_password
+wso2update_linux
+Username: user@wso2.com
+Password for ‘user@wso2.com’: my_password
 ```
 
 * Update the product to the latest level by entering WSO2 credentials as arguments.
 ``` bash
 wso2update_linux --username user@wso2.com --password my_password
+```
+
+* Use templating to obtain output specific to the type of information that is required. 
+``` bash
+wso2update_linux --template Added: {{.Added}}, Modified: {{.Modified}}, Removed: {{.Removed}}
 ```
 
 * Update the product up to a given level
@@ -261,7 +271,7 @@ Apply a hotfix to the product
  	   
  	   wso2update_linux apply-hotfix wso2am-3.0.0-abc-hf1.zip
 
-#### [wso2update_<os\> revert-hotfix]()
+### [wso2update_<os\> revert-hotfix]()
 
 **Name**
  	
@@ -286,3 +296,29 @@ Revert-hotfix command reverts most recently applied hotfix to the product distri
 Revert the previously applied hotfix
  	   
  	   wso2update_linux revert-hotfix
+
+### [wso2update_<os\> create-docker]()
+
+`create-docker` is used to build a docker image of the product, which will be created along with the applied updates and hotfixes, that will be run in a test environment
+prior to applying the same to a production environment.
+
+**Synopsis**
+
+            wso2update_linux create-docker [flags]
+
+**Examples**
+
+            wso2update_linux create-docker [flags]
+
+**Options**
+
+    -h, --help                help for create-docker
+    --os string               Base OS of the Docker image (default "alpine")
+    -p, --password string     Specify your WSO2 account password
+    -t, --tag string          Value the created image should be tagged with (default "alpine")
+
+    --trial-subscription      Continue with a trial subscription
+    -u, --username string     Specify your WSO2 account email
+
+    Global Flags:
+        -v, --verbose         Enable verbose mode
