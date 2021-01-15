@@ -23,7 +23,7 @@ listed below are the steps:
 Refer the following diagram for a better understanding on continuous updates:
 
 <a class="open-modal" data-open="modal1">
-<img src="../../assets/img/updates/continous-update.png">
+    <img src="../../assets/img/updates/continous-update.png">
 </a>
 
 <div class="modal" id="modal1" data-animation="">
@@ -36,6 +36,5 @@ Refer the following diagram for a better understanding on continuous updates:
         </section>
     </div>
 </div>
-
 
 Need to further refer WSO2 recommended Puppet and Ansible, Click [Here](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes).
