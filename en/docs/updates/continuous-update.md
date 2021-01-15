@@ -28,4 +28,4 @@ listed below are the steps:
 Refer the following diagram for a better understanding on continuous updates:
 <img src="../../assets/img/updates/continous-update.png" width="700">
 
-Need to further refer WSO2 recommended Puppet and Ansible, Click [Here](../updates/faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes).
+Need to further refer WSO2 recommended Puppet and Ansible, Click [Here](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes).
