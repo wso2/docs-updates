@@ -95,10 +95,11 @@ markdown_extensions:
 extra_css:
   - assets/lib/highlightjs/default.min.css
   - assets/css/theme.css
+  - assets/css/lightbox.css
 extra_javascript:
   - assets/lib/highlightjs/highlight.min.js
   - assets/js/theme.js
-  - assets/js/fslightbox.js
+  - assets/js/lightbox.js
   - assets/lib/backtotop/js/util.js
   - assets/lib/backtotop/js/main.js
 extra:
