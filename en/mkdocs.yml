@@ -54,9 +54,11 @@ nav:
         - 'Using Update Tool': 'updates/update-tool.md'
         - 'Useful Update Commands': 'updates/update-commands.md'
         - 'Resolve Conflicts': 'updates/resolve-conflics.md'
+        - 'Continuous Update': 'updates/continuous-update.md'
       - 'Best Practise': 'updates/best-practices.md'
       - 'Troubleshoot guide': 'updates/troubleshoot.md'
       - 'Frequently Asked Questions': 'updates/faq.md'
+      - 'Reference Page': 'updates/reference.md'
     - '': page-not-found.md
      
 # Extensions
