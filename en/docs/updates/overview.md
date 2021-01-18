@@ -9,7 +9,7 @@ With updates, you do not have to wait until the next product version release to 
 <div class="modal" id="modal1" data-animation="">
     <div class="modal-dialog">
         <header class="modal-header">
-            WSO2 Updates <button class="close-modal" aria-label="close modal" data-close>✕</button>
+            WSO2 Update Model <button class="close-modal" aria-label="close modal" data-close>✕</button>
         </header>
         <section class="modal-content">
              <img src="/assets/img/updates/update-model.png">
