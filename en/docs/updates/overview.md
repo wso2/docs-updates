@@ -2,9 +2,20 @@
 WSO2 Updates include improvements that are released by WSO2, on top of a released WSO2 product version. 
 With updates, you do not have to wait until the next product version release to get the product enhancements and security fixes. 
 
-<a data-fslightbox href="/assets/img/updates/update-model.png">
+<a class="open-modal" data-open="modal1">
     <img src="/assets/img/updates/update-model.png">
 </a>
+
+<div class="modal" id="modal1" data-animation="">
+    <div class="modal-dialog">
+        <header class="modal-header">
+            WSO2 Updates <button class="close-modal" aria-label="close modal" data-close>✕</button>
+        </header>
+        <section class="modal-content">
+             <img src="/assets/img/updates/update-model.png">
+        </section>
+    </div>
+</div>
 
 WSO2 delivers improvements to customers in two ways. 
 
