@@ -21,7 +21,7 @@ WSO2 delivers improvements to customers in two ways.
 
 1.Update 
         
-   **An Update** can be a collection of bug fixes, new features, security fixes, or improvements on a existing product product. 
+   **An Update** can be a collection of bug fixes, new features, security fixes, or improvements on a existing product. 
    Updates are delivered through update levels. When an update is applied to a product, the product version goes up by one update level. <br> 
       
 2.Hotfix 
@@ -67,7 +67,7 @@ It is imperative to update your products frequently. It will ensure your environ
 improvements and the bug fixes. In case you are faced with an issue in your environment, but if this has been fixed in an 
 update already,and if you have missed a recent update, it could be possible that this issues is already fixed in a most recent update.
 
-Whenever WSO2 releases a security update, we inform our customers the at our earliest. WSO2 always recommend to apply 
+Whenever WSO2 releases a security update, we inform our customers at our earliest. WSO2 always recommend to apply 
 security updates sooner whenever we release a security update. This will ensure your production environment is secure.
 
 ## How to update your WSO2 products?
