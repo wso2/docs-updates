@@ -26,6 +26,20 @@ listed below are the steps:
 5.After the product is updated, propagate the updated product pack to the relevant environments. (i.e. Development, Staging and Production)
 
 Refer the following diagram for a better understanding on continuous updates:
-<img src="../../assets/img/updates/continous-update.png" width="700">
+
+<a class="open-modal" data-open="modal1">
+    <img src="../../assets/img/updates/continous-update.png" >
+</a>
+
+<div class="modal" id="modal1" data-animation="">
+    <div class="modal-dialog">
+        <header class="modal-header">
+            Continuous update <button class="close-modal" aria-label="close modal" data-close>✕</button>
+        </header>
+        <section class="modal-content">
+             <img src="../../assets/img/updates/continous-update.png" style="max-width: 1200px">
+        </section>
+    </div>
+</div>
 
 Need to further refer WSO2 recommended Puppet and Ansible, Click [Here](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes).

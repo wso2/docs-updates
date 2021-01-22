@@ -3,7 +3,7 @@ WSO2 Updates include improvements that are released by WSO2, on top of a release
 With updates, you do not have to wait until the next product version release to get the product enhancements and security fixes. 
 
 <a class="open-modal" data-open="modal1">
-    <img src="/assets/img/updates/update-model.png">
+    <img src="../../assets/img/updates/update-model.png">
 </a>
 
 <div class="modal" id="modal1" data-animation="">
@@ -12,7 +12,7 @@ With updates, you do not have to wait until the next product version release to 
             WSO2 Update Model <button class="close-modal" aria-label="close modal" data-close>✕</button>
         </header>
         <section class="modal-content">
-             <img src="/assets/img/updates/update-model.png">
+             <img src="../../assets/img/updates/update-model.png">
         </section>
     </div>
 </div>
