@@ -26,14 +26,9 @@ listed below are the steps:
 5.After the product is updated, propagate the updated product pack to the relevant environments. (i.e. Development, Staging and Production)
 
 Refer the following diagram for a better understanding on continuous updates:
-<<<<<<< HEAD
 
 <a class="open-modal" data-open="modal1">
-<<<<<<< HEAD
-    <img src="../../assets/img/updates/continous-update.png" >
-=======
     <img src="../../assets/img/updates/continous-update.png">
->>>>>>> Add templete tag information and clear broken link
 </a>
 
 <div class="modal" id="modal1" data-animation="">
