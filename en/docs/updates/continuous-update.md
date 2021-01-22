@@ -28,7 +28,7 @@ listed below are the steps:
 Refer the following diagram for a better understanding on continuous updates:
 
 <a class="open-modal" data-open="modal1">
-    <img src="../../assets/img/updates/continous-update.png">
+    <img src="../../assets/img/updates/continous-update.png" >
 </a>
 
 <div class="modal" id="modal1" data-animation="">
