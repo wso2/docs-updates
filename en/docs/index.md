@@ -146,7 +146,22 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
             </div>
         </div>   
     </a>   
-</div>   
+</div>
+<div class="integratorDescription">
+    <a style="color: #222222;" href="updates/continuous-update">
+        <div>
+            <div>
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 62.9 62.9" style="enable-background:new 0 0 60 60;width: 60px;" xml:space="preserve"><style>.st0{fill:none;stroke:#ff7300;stroke-width:1.5;stroke-miterlimit:10}</style><path class="st0" d="M36.4 40.3c0-7.6-6.2-13.8-13.8-13.8S8.9 32.7 8.9 40.3 15 54.1 22.6 54.1c.8 0 1.7-.1 2.4-.2"/><path class="st0" d="M31.4 36.8l5.2 4.6 3.7-6"/><path d="M58.6 4.3c5.2 5.2 4.4 12.4 0 16.7C46 33.6 25.2 6.7 7.2 24.6c-8.3 8.3-8.9 22.2 0 31.1s22.7 8.3 31.1 0C56.5 37.5 29 17.2 41.9 4.3c5.7-5.7 13.2-3.6 16.7 0z" fill="none" stroke="#212a32" stroke-width="1.5" stroke-miterlimit="10"/></svg>
+            </div>
+            <div class="content" style="">
+                Continuous Update
+                <div class="description" style="">
+                  Use the guild to decipher how a continuous management tool could be used to instill updates to other deployment settings.          
+                 </div>
+            </div>
+        </div>   
+    </a>   
+</div>
 <div class="integratorDescription">
     <a style="color: #222222;" href="updates/best-practices">
         <div>
