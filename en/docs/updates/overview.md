@@ -21,7 +21,7 @@ WSO2 delivers improvements to customers in two ways.
 
 1.Update 
         
-   **An Update** can be a collection of bug fixes, new features, security fixes, or improvements on a existing product. 
+   **An Update** can be a collection of bug fixes, new features, security fixes, or improvements on an existing product. 
    Updates are delivered through update levels. When an update is applied to a product, the product version goes up by one update level. <br> 
       
 2.Hotfix 
