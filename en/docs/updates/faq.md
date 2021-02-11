@@ -44,7 +44,7 @@ We are releasing WSO2 updates with a commercial EULA license. Find out more abo
 
 WSO2 takes accountability to test all updates and hotfixes thoroughly in systems where all previous updates are 
 installed. However, it is best to install the updates or hotfixes to either your development, staging or testing 
-environment that has the same product distribution that runs on your production environment, execute tests run and 
+environment that has the same product distribution that runs on your production environment, execute test run and 
 thereafter apply to the production environment.
 
 ### How do I know when updates are available?
