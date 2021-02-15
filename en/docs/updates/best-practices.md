@@ -6,7 +6,7 @@ Here are the guidelines and recommendations to receive best update experience wi
     Frequent update of products will ensure the product is bug free and always  up to dated with new features, 
     security enhancements and improvements. WSO2 recommends updating your systems weekly or bi-weekly. Before 
     directly applying any updates to your production system, WSO2 always recommends applying any update to lower 
-    environments such an testing, development or staging environments which has a similar product distribution as in
+    environments such as testing, development or staging environments which has a similar product distribution as in
     production environment. 
 
 2. Add custom configurations or modifications
