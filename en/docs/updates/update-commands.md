@@ -1,5 +1,5 @@
 ## Important Updates commands
-Shown below is an essential set of update commands that a user require to acquire updates seamlessly.  
+Shown below is an essential set of update commands that a user require to receive  updates seamlessly.  
  To use below update commands replace the tag **<os\>**  with correct name depending on the operating system.
 
    * For mac     - `darwin`
@@ -134,7 +134,7 @@ wso2update_linux --dry-run
 **Description**
  
 Help provides help for any command in the tool.	
-If Help command is applied with no options and no command, the synopsis of the update command and a list of updates are printed.
+If Help command is applied with no options and no command, the synopsis of the update command, and a list of updates are printed.
 If a command is given, full details for that command is brought up.
 
 !!! Note 
@@ -252,12 +252,12 @@ Get the current status of the product
 
 Apply an available hotfix.
 
-Apply-hotfix command applies available hotfix to the product distribution. This path should be pointed to a `.zip`
+Apply-hotfix command applies an available hotfix to the product distribution. This path should be pointed to a `.zip`
 file that contains a WSO2 provided hotfix.
 
 
 !!! Note 
-    That a Hotfix cannot be applied when an update is take immidiately before taking a Hotfix. 
+    That a Hotfix cannot be applied when an update is taken immediately before taking a Hotfix. 
 
 **Options**
 

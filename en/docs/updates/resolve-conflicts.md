@@ -1,6 +1,6 @@
 ### What are Merge Conflicts?
-A conflict is likely to happen when a configuration file or an artifact that you have customized has changed during the
-update. If a file or an artifact has conflicts, the update tool does not attempt to merge them. In such situation, you need to manually apply 
+A conflict is likely to happen when a configuration file, or an artifact that you have customized has changed during the
+update. If a file or an artifact has conflicts, the update tool does not attempt to merge them. In such a situation, you need to manually apply 
 the customizations on top of the updated files.
 
 
