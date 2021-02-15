@@ -1,7 +1,7 @@
 
 ### Can I get WSO2 Updates free?
 
-You can use a trial subscription for 90 days.
+You can use a trial subscription for 90 days.
 
 Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
@@ -9,8 +9,8 @@ Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
 A paid subscription allows you to:
 
-- Deploy **updates into your production environment immediately**, without waiting for an open source release.
-- Receive **24x7 support** from WSO2 to resolve issues quickly. 
+- Deploy **updates into your production environment immediately**, without waiting for an open source release.
+- Receive **24x7 support** from WSO2 to resolve issues quickly.
 - Help fund our ongoing R&D and operations.
 
 Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
@@ -19,10 +19,10 @@ Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 Updates will be released **bi-weekly** as new update levels. Follow the updates commands in
 [Updates command page](../../updates/update-commands/)
 
-In production environments, WSO2 will announce urgent security fixes to customers via support JIRAs. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore It is recommended to update your production environments monthly.
+In production environments, WSO2 will announce urgent security fixes to customers via support JIRAs. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore, It is recommended to update your production environments monthly.
 
 ### How can I update my product pack if my environment doesn't have Internet access?
-First, update the product pack in a environment that has Internet access.
+First, update the product pack in an environment that has Internet access.
 Thereafter, transfer the updated pack to the lockdown environment.
 
 ### Do I need a key to unlock updates for production?
@@ -38,7 +38,7 @@ level to the chosen level, applying the updates in between.
 
 ### What license are WSO2 updates on?
 
-We are releasing WSO2 updates with a commercial EULA license. Find out more about the [EULA license](https://wso2.com/licenses/eula/3.1).
+We are releasing WSO2 updates with a commercial EULA license. Find out more about the [EULA license](https://wso2.com/licenses/eula/3.1).
 
 ### Should I test my updates and hotfixes?
 
@@ -58,7 +58,7 @@ You can check details about each update and hotfix in [Updates Portal](https://u
 
 ### What can I do in case of an issue?
 
-If you encounter any issues when using WSO2 updates, report a ticket at Support JIRA. Please be sure to attach the 
+If you encounter any issues when using WSO2 updates, report a ticket at Support JIRA. Please be sure to attach the 
 details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
 
 ### How can I know what changes are included in an update?
@@ -67,7 +67,7 @@ You can check the changelog of an update by log into the [Updates Portal](https:
 
 ### I get the error as 'invalid credentials. Please enter valid WSO2 credentials'. What should I do?
 
-Check whether you have given the correct WSO2 credentials. If yes, check whether your password has the $ sign. If 
+Check whether you have given the correct WSO2 credentials. If yes, check whether your password has the $ sign. If 
 yes, escape the $ sign using escape character '\'. 
     
         Example
@@ -77,16 +77,16 @@ yes, escape the $ sign using escape character '\'.
 ### Should I change configurations when a proxy server/firewall is running?
 
 Yes. WSO2 updates are received by connecting to the `https://api.updates.wso2.com, https://cdn.updates.wso2.com, 
-https://product-dist.wso2.com and https://wso2.com`. If your system connects to 
-the Update service through a proxy server/firewall, whitelist the above-mentioned endpoints.
+https://product-dist.wso2.com and https://wso2.com`. If your system connects to 
+the Update service through a proxy server/firewall, whitelist the above-mentioned endpoints.
 
 Since WSO2 update tool is a command-line tool, the proxy should be configured from your command-line using below 
-command: 
+command:
 
         export http_proxy=http://username:password@proxyhost:port/
         
-If you are behind an NTLM proxy, you can use a third party tool like CNTLM to do the NTLM proxy authentication. See 
-the [CNTLM documentation](http://cntlm.sourceforge.net/) for instructions.
+If you are behind an NTLM proxy, you can use a third party tool like CNTLM to do the NTLM proxy authentication. See 
+the [CNTLM documentation](http://cntlm.sourceforge.net/) for instructions.
 
 ### Do I have to run the update tool in all the servers in my environment?
 This is not a WSO2 recommended approach. If you have several servers running in your environment, it is prudent to use a Configuration Management System.
