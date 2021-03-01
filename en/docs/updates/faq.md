@@ -142,7 +142,8 @@ To get Updates using the new WSO2 Updates model follow the steps below<br>
 !!! Note
     The diff ZIP is created in the location from where you executed the diff command.
 <br>
-3. Now your current pack is congruent with WSO2 Update 2.0, thus you are able to run the [Updates tool](../../updates/update-tool/) and receive WSO2 Updates.
+3. Now your current pack is congruent with WSO2 Update 2.0, thus you are able to run the [Updates tool](../../updates/update-tool/) and receive WSO2 Updates.<br>
+4. Test the updated product distribution and deploy it in your production environment.
 
 ### Are the updates I get from the Updates Client is secure and assures authenticity?
 The <strong>Update tool</strong> communicates with the <strong>WSO2 Update Service</strong> to get details of the updates that need to be downloaded and applied. During this communication, 
