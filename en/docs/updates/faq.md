@@ -130,9 +130,16 @@ Update tool client supports use of flags for user input values and exit codes fo
 
 * Update the current product pack to the latest update level using WUM or in-place tool. This will make Update tool 
 client available inside `<product_home>/bin` directory. 
-* Run the update command on top of the update tool. This will 
-update the product pack to comply with Updates 2.0.
-  
+* Run the [Update commands](../../updates/update-tool/) on top of the update tool. This will 
+update the product pack to comply with Updates 2.0
+
+### How can a user merge the *WUM Diff* manually to get updates using WSO2 Updates 2.0?
+To get Updates using the new WSO2 Updates model follow the steps below<br>
+
+1. First get the newest product pack from WUM [See [WUM add](https://docs.wso2.com/display/updates100/WUM+Commands+Guide#WUMCommandsGuide-wumadd)]. <br>
+2. Apply [WUM diff](https://docs.wso2.com/display/updates100/WUM+Commands+Guide#WUMCommandsGuide-wumdiff) as you have been doing before to a copy of product pack (which contain your customizations). <br>
+3. Now your current pack is congruent with WSO2 Update 2.0, thus you are able to run the [Updates tool](../../updates/update-tool/) and receive WSO2 Updates.
+
 ### Are the updates I get from the Updates Client is secure and assures authenticity?
 The <strong>Update tool</strong> communicates with the <strong>WSO2 Update Service</strong> to get details of the updates that need to be downloaded and applied. During this communication, 
 the following information is obtained from the  WSO2 Update Service:<br>
@@ -146,3 +153,16 @@ The client’s communication with the WSO2 Update Service and CDN are secured th
 After the necessary files have been downloaded, the Update tool validates the authenticity of the files by comparing their md5sum values with the values obtained 
 from the WSO2 Update Service in the initial step. This ensures that the files have not been tampered with after the download is complete. 
 Thereafter, the Update tool applies the downloaded updates and creates an updated product distribution.
+
+### How can I get docker images with updates and how will those be distinguished?
+Navigate to official [WSO2 Docker Repository](https://docker.wso2.com/index.php) observe all the docker images for that chosen product listed,
+select the docker image based on `<product-name>`,`<product-version>`,`<update-level>` and the optional `[OS]` requirement.<br>
+The `<docker-file-version>` represents the docker file version that was used to build this image for reference purposes (you may disregard this value).
+
+Naming conversion of docker images is as follows:<br>
+
+``
+    <product-name>:<product-version>.<update-level>-<docker-file-version>-[OS]
+``
+
+e.g., wso2am:3.2.0.3-spec1-alpine

@@ -51,7 +51,10 @@ The WSO2 Update service delivers fixes to subscribers in an ease of use format t
 
 - Paid Subscription: After discussing your specific requirements with one of our WSO2 Accounts manager a paid subscription can be obtained.  Through the aforementioned Subscription the subscriber will receive all updates including bug fixes, security fixes, and improvements and 24x7 expert incident [support](https://wso2.com/subscription/#support).
 
-Read more about [WSO2 subscriptions](https://wso2.com/subscription/)
+Read more about [WSO2 subscriptions](https://wso2.com/subscription/)<br>
+
+!!! info
+    If you have received updates before using **WUM/Inplace tool** refer [FAQ section](../faq/#how-do-i-migrate-from-wum-and-in-place-to-updates-20) to migrate to WSO2 updates 2.0 model.
 
 ## When to use hotfixes?
 
