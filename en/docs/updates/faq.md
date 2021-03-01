@@ -136,11 +136,12 @@ update the product pack to comply with Updates 2.0
 ### How can a user merge the *WUM Diff* manually to get updates using WSO2 Updates 2.0?
 To get Updates using the new WSO2 Updates model follow the steps below<br>
 
-1. First get the newest product pack from WUM [See [WUM add](https://docs.wso2.com/display/updates100/WUM+Commands+Guide#WUMCommandsGuide-wumadd)]. <br>
+1. First get the newest product pack from WUM (Run `wum update <product>` e.g., wum update wso2am-3.0.0). <br>
 2. Apply [WUM diff](https://docs.wso2.com/display/updates100/WUM+Commands+Guide#WUMCommandsGuide-wumdiff) as you have been doing before to a copy of product pack (which contain your customizations). <br>
 
 !!! Note
     The diff ZIP is created in the location from where you executed the diff command.
+<br>
 3. Now your current pack is congruent with WSO2 Update 2.0, thus you are able to run the [Updates tool](../../updates/update-tool/) and receive WSO2 Updates.
 
 ### Are the updates I get from the Updates Client is secure and assures authenticity?
