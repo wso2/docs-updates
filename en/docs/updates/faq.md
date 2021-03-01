@@ -138,6 +138,9 @@ To get Updates using the new WSO2 Updates model follow the steps below<br>
 
 1. First get the newest product pack from WUM [See [WUM add](https://docs.wso2.com/display/updates100/WUM+Commands+Guide#WUMCommandsGuide-wumadd)]. <br>
 2. Apply [WUM diff](https://docs.wso2.com/display/updates100/WUM+Commands+Guide#WUMCommandsGuide-wumdiff) as you have been doing before to a copy of product pack (which contain your customizations). <br>
+
+!!! Note
+    The diff ZIP is created in the location from where you executed the diff command.
 3. Now your current pack is congruent with WSO2 Update 2.0, thus you are able to run the [Updates tool](../../updates/update-tool/) and receive WSO2 Updates.
 
 ### Are the updates I get from the Updates Client is secure and assures authenticity?
