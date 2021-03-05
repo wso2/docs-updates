@@ -54,7 +54,7 @@ The WSO2 Update service delivers fixes to subscribers in an ease of use format t
 Read more about [WSO2 subscriptions](https://wso2.com/subscription/)<br>
 
 !!! info
-    If you have received updates before using **WUM/Inplace tool** refer [FAQ section](../faq/#how-do-i-migrate-from-wum-and-in-place-to-updates-20) to migrate to WSO2 updates 2.0 model.
+    If you have received updates before using **WUM/Inplace tool** refer [Migrating to updates page](../../updates/migrating-to-updates2.0/) to migrate to WSO2 updates 2.0 model.
 
 ## When to use hotfixes?
 

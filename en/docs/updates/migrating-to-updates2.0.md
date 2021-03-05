@@ -1,4 +1,4 @@
-### How do I migrate from WUM and In-place to Updates 2.0 ?
+### How do I migrate from WUM and In-place to Updates 2.0?
 
 * Update the current product pack to the latest update level using WUM or in-place tool. This will make Update tool
   client available inside `<product_home>/bin` directory.
