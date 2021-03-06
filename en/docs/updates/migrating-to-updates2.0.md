@@ -1,4 +1,4 @@
-### How do I migrate from WUM and In-place to Updates 2.0 ?
+### How do I migrate from WUM and In-place to Updates 2.0?
 
 * Update the current product pack to the latest update level using WUM or in-place tool. This will make Update tool
   client available inside `<product_home>/bin` directory.
@@ -17,7 +17,7 @@ To get Updates using the new WSO2 Updates model follow the steps below<br>
 3. Now your current pack is congruent with WSO2 Update 2.0, thus you are able to run the [Updates tool](../../updates/update-tool/) and receive WSO2 Updates.<br>
 4. Test the updated product distribution and deploy it in your production environment.
 
-### Is it mandatory to have a configuration management tool configured or can we take the Updates manually ?
+### Is it mandatory to have a configuration management tool configured or can we take the Updates manually?
 It is not mandatory to have a configuration management tool configured, but having a configuration management tool makes the continuous updates process easy, 
 and it aids configuration with less possibility of human error.
 
@@ -29,7 +29,7 @@ Steps to apply the same update level across all node: <br>
 2. Run all testcases and verify the update in that environment.<br>
 3. Propagate the updates to production environment (using rolling updates, Canary or Blue-green update methods).
 
-### If nodes are started with product profiles, how to take the manual Updates ?
+### If nodes are started with product profiles, how to take the manual Updates?
 First take the update of the base product and thereafter distribute the updated pack to other deployment environments. 
 Then, run different profiles on those environments as needed.
 

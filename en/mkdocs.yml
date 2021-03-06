@@ -49,11 +49,11 @@ nav:
     - Updates :
       - Get Started :
         - 'Overview': 'updates/overview.md'
+        - 'Migrating to Updates 2.0': 'updates/migrating-to-updates2.0.md'
         - 'New to this Release': 'updates/new-in-this-release.md'
       - How to Update :
         - 'Using Update Tool': 'updates/update-tool.md'
         - 'Useful Update Commands': 'updates/update-commands.md'
-        - 'Migrating to Updates 2.0': 'updates/migrating-to-updates2.0.md'
         - 'Resolve Conflicts': 'updates/resolve-conflicts.md'
         - 'Continuous Update': 'updates/continuous-update.md'
       - 'Best Practise': 'updates/best-practices.md'
