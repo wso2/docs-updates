@@ -40,11 +40,11 @@ The Following steps are used to get latest WSO2 APIM updates using Ansible as a 
 3. Checkout tag 3.2.0.x take the latest tag - Ansible scripts will be compatible with the new update model<br>
 4. Take future updates by running the `.update.sh` command. <br>
 
-### A customer who runs on a containerized deployment, How to differentiate docker images created with new updates from WSO2 Docker Repository?
+### How to differentiate docker images created with new updates from WSO2 Docker Repository?
 1. Login to [WSO2 Docker Repository](https://docker.wso2.com/) <br>
 2. In the shown list, choose the product that is used in your deployment environment (To easily explain we will use WSO2 APIM as a product).<br>
 3. Considering the example mentioned above, Choose wso2am as the repository name.<br>
     Docker images with updates:<br>
-    1. If user is using **three digit version** like wso2am:3.2.0 then switch to e.g.,3.2.0.0 to get docker images created with updates. <br>
-    2. If the customer was **using timestamp** image like wso2am:3.2.0.1612370755920.2 they can switch to an image with specific update level wso2am:3.2.0.8 <br>
+    1. If you are using docker images in WUM with **three digit version** like wso2am:3.2.0 then switch to e.g.,3.2.0.0 to get docker images created using the new WSO2 updates 2.0. <br>
+    2. Using the WUM model if you have used docker images **with timestamp** like wso2am:3.2.0.1612370755920.2 then switch to an image with specific update level for example wso2am:3.2.0.8 using the new WSO2 updates 2.0<br>
     
