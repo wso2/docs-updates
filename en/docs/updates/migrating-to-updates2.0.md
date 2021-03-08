@@ -21,7 +21,7 @@ To get Updates using the new WSO2 Updates model follow the steps below<br>
 It is not mandatory to have a configuration management tool configured, but having a configuration management tool makes the continuous updates process easy, 
 and it aids configuration with less possibility of human error.
 
-### what’s are the correct steps to apply the same Update level to all the nodes in the deployment if the user has not configured a configuration management tool?
+### What are the correct steps to apply the same Update level to all the nodes in the deployment if a configuration management tool is not being used?
 In some situations' a Configuration Management Tool will not be configured, however WSO2 recommends the use of a Configuration Management Tool to mitigate human errors 
 as the manual intervention may lead to some flaws. <br>
 Steps to apply the same update level across all node: <br>
