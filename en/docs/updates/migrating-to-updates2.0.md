@@ -25,7 +25,7 @@ and it aids configuration with less possibility of human error.
 In some situations' a Configuration Management Tool will not be configured, however WSO2 recommends the use of a Configuration Management Tool to mitigate human errors 
 as the manual intervention may lead to some flaws. <br>
 Steps to apply the same update level across all node: <br>
-1. Apply the update to a pre-production environment.<br>
+1. In a pre-production environment, update to the required update level using the --level flag (e.g., ./wso2update_linux --level 10)<br>
 2. Run all testcases and verify the update in that environment.<br>
 3. Propagate the updates to production environment (using rolling updates, Canary or Blue-green update methods).
 
