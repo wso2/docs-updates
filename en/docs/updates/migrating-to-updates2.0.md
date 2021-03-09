@@ -36,9 +36,9 @@ Then, run different profiles on those environments as needed.
 ### How to use Configuration Management Tool to get WUM updates?
 The Following steps are used to get latest WSO2 APIM updates using Ansible as a Configuration Management Tool.<br>
 1. Folk the newest WSO2 APIM Pack for the latest tag. <br>
-2. Run the `update.sh` and update the pack - by performing this action product pack takes its latest state<br>
+2. Run the `./update.sh` and update the pack - by performing this action product pack takes its latest state<br>
 3. Checkout tag 3.2.0.x take the latest tag - Ansible scripts will be compatible with the new update model<br>
-4. Take future updates by running the `.update.sh` command. <br>
+4. Take future updates by running the `./update.sh` command. <br>
 
 ### How to differentiate docker images created with new updates from WSO2 Docker Repository?
 1. Login to [WSO2 Docker Repository](https://docker.wso2.com/) <br>
