@@ -33,13 +33,19 @@ Steps to apply the same update level across all node: <br>
 First take the update of the base product and thereafter distribute the updated pack to other deployment environments. 
 Then, run different profiles on those environments as needed.
 
-### How to use Configuration Management Tool to get WUM updates?
-The Following steps are used to get latest WSO2 APIM updates using Ansible as a Configuration Management Tool.<br>
-1. Folk the newest WSO2 APIM Pack for the latest tag. <br>
-2. Run the `./update.sh` and update the pack - by performing this action product pack takes its latest state<br>
-3. Checkout tag 3.2.0.x take the latest tag - Ansible scripts will be compatible with the new update model<br>
-4. Take future updates by running the `./update.sh` command. <br>
+### How to migrate from WUM to the new Updates model if a Configuration Management Tool is being used ?
+If a Configuration Management Tool is being used, follow the steps below to convert to the new updates model.<br>
+The respective product pack lies in the `files/packs` directory, to migrate to updates2.0 seamlessly you have to make both the product pack, and the `/scripts/update.sh` file compatible with WSO2 Updates 2.0.
+<br>
+- To update the **product pack** - Go to` scripts` directory and run the './update.sh' script.<br>
+- To update **/scripts/update.sh** file - Checkout the latest [v3.2.0.x](https://github.com/wso2/ansible-apim/tags) tag, in this example WSO2 APIM.
 
+  ``
+            git checkout v3.2.0.3
+  ``
+   
+Now your updates setup is compatible with the new updates model. Thus, in the future when the `update.sh` script is executed updates will be delivered using the new updates model.
+      
 ### How to differentiate docker images created with new updates from WSO2 Docker Repository?
 1. Login to [WSO2 Docker Repository](https://docker.wso2.com/) <br>
 2. In the shown list, choose the product that is used in your deployment environment (To easily explain we will use WSO2 APIM as a product).<br>
