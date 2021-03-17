@@ -28,8 +28,8 @@ and it aids configuration with less possibility of human errors.
 Refer [APIM Ansible repository Documentation](https://github.com/wso2/ansible-apim/tree/3.2.x#including-custom-keystore-and-truststore) to get an insight on customizing keystore and truststore configurations that are integrated with a configuration management tool.
 
 ### How to persist customizations done on the servers during each update?
-1. If there are .jar or UI customization those changes should be done in configuration management server.Those changes should also be pushed to your forked repository, for future use.<br>
-2. The customized files should be in the sub-directories of the `/files` directory. (Particularly, all .jar files and UI customizations should be added to the `misc` folder.)<br>
+1. If there are .jar or UI customization those changes should be done in configuration management server. Those changes should also be pushed to your forked repository, for future use.<br>
+2. The customized files should be in the sub-directories of the `files` directory. (Particularly, all .jar files and UI customizations should be added to the `misc` folder.)<br>
 3. Next you need to change the script to include [group customizations/changes](https://github.com/wso2/ansible-apim/blob/3.2.x/roles/common/tasks/custom.yml). On the contrary, if there are any [role specific changes](https://github.com/wso2/ansible-apim/blob/3.2.x/roles/common/tasks/custom.yml) the script changes should be performed in the respective role(s).
 
 ### What are the correct steps to apply the same Update level to all the nodes in the deployment if a configuration management tool is not being used?
