@@ -24,6 +24,13 @@ No, Wum diff in the older/WUM model requires manual intervention. Therefore, it 
 It is not mandatory to have a configuration management tool configured, but having a configuration management tool makes the continuous updates process easy, 
 and it aids configuration with less possibility of human errors.
 
+### How the keystore and truststore configurations are incorporated with a configuration management tool?
+Refer [APIM Ansible repository Documentation](https://github.com/wso2/ansible-apim/tree/3.2.x#including-custom-keystore-and-truststore) to get an insight on customizing keystore and truststore configurations that are integrated with a configuration management tool.
+
+### How to persist customizations done on the servers during each update?
+if there are .jar or UI customization those changes should be done on the base pack of the Configuration Management Tool. (e.g., APIM 3.2.0 ansible the customized files should be in `/files` in the suitable directory. further, all .jar files should be added to the `misc` folder)
+next you need to change the script[common task](https://github.com/chamindi-a/ansible-apim/blob/3.2.x/roles/common/tasks/custom.yml) to include group customizations or changes. If there are any role specific changes the script changes should be performed in the required role(s).
+
 ### What are the correct steps to apply the same Update level to all the nodes in the deployment if a configuration management tool is not being used?
 In some situations' a Configuration Management Tool will not be configured, however WSO2 recommends the use of a Configuration Management Tool to mitigate human errors 
 as the manual intervention may lead to some flaws. <br>
