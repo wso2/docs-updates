@@ -46,10 +46,10 @@ Then, run different profiles on those environments as needed.
 
 ### How to migrate from WUM to the new Updates model if a Configuration Management Tool is being used ?
 If a Configuration Management Tool is being used, follow the steps below to convert to the new updates model.<br>
-The respective product pack lies in the `files/packs` directory, to migrate to updates 2.0 seamlessly you have to make both the product pack, and the `/scripts/update.sh` file compatible with Updates 2.0.
+The respective product pack lies in the `files/packs` directory, to migrate to updates 2.0 seamlessly you have to make both the product pack, and the `scripts/update.sh` file compatible with Updates 2.0.
 <br>
 - To update the **product pack** - Go to` scripts` directory and run the `./update.sh` script.<br>
-- To update **/scripts/update.sh** file - Checkout the latest [v3.2.0.x](https://github.com/wso2/ansible-apim/tags) tags, in this example WSO2 APIM.
+- To update **scripts/update.sh** file - Checkout the latest [v3.2.0.x](https://github.com/wso2/ansible-apim/tags) tags, in this example WSO2 APIM.
 
   ``
     git checkout v3.2.0.3
