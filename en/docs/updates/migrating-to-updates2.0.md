@@ -7,15 +7,16 @@
 
 ### How can a user currently using *WUM Diff* migrate to WSO2 Updates 2.0?
 To get updates using the new WSO2 Updates model follow the steps below: <br>
-1. First, get the newest product pack from WUM (Run `wum update <product>` e.g., wum update wso2am-3.0.0).<br>
-2. Apply [WUM diff](https://docs.wso2.com/display/updates100/WUM+Commands+Guide#WUMCommandsGuide-wumdiff) as you have been doing before to a copy of product pack (which contain your customizations). <br>
+1. First, get the updated product pack from WUM (Run `wum update <product>` e.g., wum update wso2am-3.0.0).<br>
+2. Run [WUM diff](https://docs.wso2.com/display/updates100/WUM+Commands+Guide#WUMCommandsGuide-wumdiff) command as you have been doing before to create a zip file (which contains a diff between timestamps you have specified). <br>
+3. Perform [steps 4 to 9](https://docs.wso2.com/display/updates100/Getting+Continuous+Updates) stated in the document.
 
-!!! Note
-    The diff ZIP is created in the location from where you executed the diff command.
+!!! Info
+    Now you have updated the product pack to the up to date state using the WUM model. After updating, you have the required tools to get updates from Update2.0 model in the future. <br> Read about the new [Update2.0 model](https://wso2.com/updates).
 <br>
-3. Run the new Update Tool (e.g., wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will update the product pack to comply with WSO2 Updates 2.0, and the product pack will be in its latest update level.<br>
-4. Now your current pack is congruent with WSO2 Updates 2.0.<br>
-5. Test the updated product distribution and deploy it in your production environment.
+4. Run the new Update Tool (e.g., wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will update the product pack to comply with WSO2 Updates 2.0, and the product pack will be in its latest update level.<br>
+5. Now your current pack is congruent with WSO2 Updates 2.0.<br>
+6. Test the updated product distribution and deploy it in your production environment.
 
 ### Does the new WSO2 Updates 2.0 support a command similar to *WUM Diff*?
 No, Wum diff in the older/WUM model requires manual intervention. Therefore, it is prone to errors as a result commands that need manual file copying task were excluded from the updates 2.0
@@ -63,5 +64,5 @@ Now your updates setup is compatible with the new updates model. Thus, in the fu
 3. Considering the example mentioned above, Choose wso2am as the repository name.<br>
     Docker images with updates:<br>
     1. If you are using docker images in WUM with **three digit version** like wso2am:3.2.0 then switch to e.g.,3.2.0.0 to get docker images created using the new WSO2 updates 2.0. <br>
-    2. Using the WUM model if you have used docker images **with timestamp** like wso2am:3.2.0.1612370755920.2 then switch to an image with specific update level for example wso2am:3.2.0.8 using the new WSO2 updates 2.0<br>
+    2. Using the WUM model if you have used docker images **with a timestamp** like wso2am:3.2.0.1612370755920.2 then switch to an image with specific update level for example wso2am:3.2.0.8 using the new WSO2 updates 2.0<br>
     

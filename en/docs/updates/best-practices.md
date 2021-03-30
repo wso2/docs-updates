@@ -24,10 +24,10 @@ Here are the guidelines and recommendations to receive best update experience wi
     production environment.
 <br>
 4.  Getting Updates to a lockdown Environment <br>
-    The best practice to disseminate updates to production environment with no internet connection is quite easy. <br>
+    The best practices disseminating updates to production environment with no internet connection is as follows: <br>
     First [receive the updates](../update-tool/#update-commands-for-os) in a lower environment that is connected to the internet. Test the environment thoroughly.
-    Perform security checks mandate by your organization and verify the updated pack. Last moved the verified pack to lockdown environment securely.
+    Perform security checks mandate by your organization and verify the updated pack. Last move the verified pack to the lockdown environment securely.
     <br><br>
 5. Use a Configuration Management tool. <br>
-   There are a myriad of benefits of using Configuration Management Tool. WSO2 advise the use of Configuration Management Tool such as [Puppet and Ansible](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes) to carry configuration changes flawlessly.
+   There are a myriad of benefits of using a Configuration Management Tool. WSO2 advise the use of Configuration Management Tool such as [Puppet and Ansible](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes) to carry configuration changes flawlessly.
    Read more on our [Continuous Update Document](../continuous-update).
