@@ -124,26 +124,7 @@ Update tool client supports use of flags for user input values and exit codes fo
    
    * Use exit codes
    
-   <img src="../../assets/img/updates/exit-code.png" width="700"> 
-   
-### How do I migrate from WUM and In-place to Updates 2.0 ?
-
-* Update the current product pack to the latest update level using WUM or in-place tool. This will make Update tool 
-client available inside `<product_home>/bin` directory. 
-* Run the [Update commands](../../updates/update-tool/) on top of the update tool. This will 
-update the product pack to comply with Updates 2.0
-
-### How can a user merge the *WUM Diff* manually to get updates using WSO2 Updates 2.0?
-To get Updates using the new WSO2 Updates model follow the steps below<br>
-
-1. First get the newest product pack from WUM (Run `wum update <product>` e.g., wum update wso2am-3.0.0). <br>
-2. Apply [WUM diff](https://docs.wso2.com/display/updates100/WUM+Commands+Guide#WUMCommandsGuide-wumdiff) as you have been doing before to a copy of product pack (which contain your customizations). <br>
-
-!!! Note
-    The diff ZIP is created in the location from where you executed the diff command.
-<br>
-3. Now your current pack is congruent with WSO2 Update 2.0, thus you are able to run the [Updates tool](../../updates/update-tool/) and receive WSO2 Updates.<br>
-4. Test the updated product distribution and deploy it in your production environment.
+   <img src="../../assets/img/updates/exit-code.png" width="700">
 
 ### Are the updates I get from the Updates Client is secure and assures authenticity?
 The <strong>Update tool</strong> communicates with the <strong>WSO2 Update Service</strong> to get details of the updates that need to be downloaded and applied. During this communication, 
