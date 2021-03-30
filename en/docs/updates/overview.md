@@ -21,7 +21,7 @@ WSO2 delivers improvements to customers in two ways.
 
 1.Update 
         
-   **An Update** can be a collection of bug fixes, new features, security fixes, or improvements on a existing product. 
+   **An Update** can be a collection of bug fixes, new features, security fixes, or improvements on an existing product. 
    Updates are delivered through update levels. When an update is applied to a product, the product version goes up by one update level. <br> 
       
 2.Hotfix 
@@ -49,9 +49,13 @@ The WSO2 Update service delivers fixes to subscribers in an ease of use format t
 
 - Trial Subscription: Provides all the functionality of a subscription for <strong>90 days</strong>.
 
-- Paid Subscription: After discussing your specific requirements with one of our WSO2 Accounts manager a paid subscription can be ontained.  Through the aforementioned Subscription the subscriber will receive all updates including bug fixes, security fixes, and improvements and 24x7 expert incident [support](https://wso2.com/subscription/#support).
+- Paid Subscription: After discussing your specific requirements with one of our WSO2 Accounts manager a paid subscription can be obtained.  Through the aforementioned Subscription the subscriber will receive all updates including bug fixes, security fixes, and improvements and 24x7 expert incident [support](https://wso2.com/subscription/#support).
 
-Read more about [WSO2 subscriptions](https://wso2.com/subscription/)
+Read more about [WSO2 subscriptions](https://wso2.com/subscription/)<br>
+
+!!! info
+    If you have received updates before using **WUM/Inplace tool** refer [Migrating to updates page](../../updates/migrating-to-updates2.0/) to migrate to WSO2 updates 2.0 model.
+
 
 ## When to use hotfixes?
 

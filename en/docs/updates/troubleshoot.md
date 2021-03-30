@@ -220,7 +220,7 @@ You may encounter the following error messages due to permission restrictions at
 </tbody>
 </table>
 
-If you encounter any of above listed OS related issue:
+If you encounter any of the above listed OS related issue:
 
 * Check the OS-level permissions for creating directories in the relevant locations. 
 
