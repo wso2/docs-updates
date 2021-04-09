@@ -322,3 +322,5 @@ prior to applying the same to a production environment.
 
     Global Flags:
         -v, --verbose         Enable verbose mode
+
+Refer our [Webinar on Updates 2.0](https://youtu.be/Z2XeRhzkdpI?t=1050) to witness how you could receive updates with WSO2 Updates 2.0

@@ -55,10 +55,13 @@ nav:
         - 'Using Update Tool': 'updates/update-tool.md'
         - 'Useful Update Commands': 'updates/update-commands.md'
         - 'Resolve Conflicts': 'updates/resolve-conflicts.md'
-        - 'Continuous Update': 'updates/continuous-update.md'
+        - Continuous Update :
+          - 'Simple Setup': 'updates/continuous-update.md'
+          - 'Advance Setup': 'updates/advance-continuous-update.md'
       - 'Best Practise': 'updates/best-practices.md'
       - 'Troubleshoot guide': 'updates/troubleshoot.md'
       - 'Frequently Asked Questions': 'updates/faq.md'
+      - 'WUM/In-place Decommission Plan': 'updates/wum-decommission.md'
       - 'Reference Page': 'updates/reference.md'
     - '': page-not-found.md
      
