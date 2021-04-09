@@ -39,7 +39,7 @@ The WSO2 Update service delivers fixes to subscribers in an ease of use format t
 * Utilizing all available updates, eliminates the possibility of being stymied by a known issue during your evaluation or development.
 * A support request often results in an improvement, or a fix which is built,well-tested, and delivered to you as an update.
 * WSO2 Updates gives you immediate access to a surge of improvements, packaged for easy deployment into your production systems, making sure the deployment is solid and secure.
-* Update Channels deliver all updates or exclusively security updates to fit your project lifecycle.
+* Update Channels deliver all updates including security updates to fit your project lifecycle.
 * Update Services are available for WSO2 releases for Ten years, thus you can exploit bug and security fixes while remaining free to manage your upgrade schedule.
 * We carefully monitor hundreds of open source projects, collect and assess security reports from users or academia, run code security reviews and automate code analysis to identify and address possible security weaknesses.
 

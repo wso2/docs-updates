@@ -27,3 +27,5 @@ There are myriad of features of the WSO2 Updates Tool. Following describe the fe
 returns with `exit code 2`
 - Update tool takes backups of the current pack before performing updates. These backups are used when reverting the 
 pack to the previous state.
+
+Watch our [Webinar on Updates 2.0](https://youtu.be/Z2XeRhzkdpI?t=1050) to witness how you could receive updates with WSO2 Updates 2.0
