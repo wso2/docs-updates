@@ -1,5 +1,5 @@
 Following is the impending decommission plan for WUM/In-Place tool. WSO2 
-recommends all users to shift to the new WSO2 Updates2.0 model to alleviate from future updates challenges.
+recommends all users to shift to the new WSO2 Updates 2.0 model to alleviate from future updates challenges.
 <br>
 
 <a class="open-modal" data-open="modal1">
