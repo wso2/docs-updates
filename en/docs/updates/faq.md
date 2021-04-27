@@ -17,13 +17,18 @@ Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
 ### How often  WSO2 Updates will be releases to the user?
 Updates will be released **bi-weekly** as new update levels. Follow the updates commands in
-[Updates command page](../../updates/update-commands/)
+[updates command page](../../updates/update-commands/)
 
 In production environments, WSO2 will announce urgent security fixes to customers via support JIRAs. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore, It is recommended to update your production environments monthly.
 
 ### How can I update my product pack if my environment doesn't have Internet access?
-First, update the product pack in an environment that has Internet access.
-Thereafter, transfer the updated pack to the lockdown environment.
+1. First, update the product pack in an environment that has Internet access using **create-update** command. <br>
+2. Next, transfer the created zip file securely to your isolated environment(s).<br>
+3. Then run the **apply-update** command pointing the proper zip file location. If you have an older update client tool version, at this point the tool will show a message to re-run the same command.<br>
+[The first run of `apply-update` command will self-update the tool]
+4. Upon running the `apply-update` command again will propagate new updates to that environment easily.    
+
+Learn more on the `create-update` and `apply-update` commands by referring [updates command page](../../updates/update-commands/)
 
 ### Do I need a key to unlock updates for production?
 
@@ -77,7 +82,7 @@ yes, escape the $ sign using escape character '\'.
 ### Should I change configurations when a proxy server/firewall is running?
 
 Yes. WSO2 updates are received by connecting to the `https://api.updates.wso2.com, https://cdn.updates.wso2.com, 
-https://product-dist.wso2.com and https://wso2.com`. If your system connects to 
+https://product-dist.wso2.com and https://wso2.com, https://gateway.api.cloud.wso2.com`. If your system connects to 
 the Update service through a proxy server/firewall, whitelist the above-mentioned endpoints.
 
 Since WSO2 update tool is a command-line tool, the proxy should be configured from your command-line using below 
