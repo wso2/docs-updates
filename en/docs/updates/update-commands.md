@@ -365,23 +365,21 @@ prior to applying the same to a production environment.
 
 **Synopsis**
 
-            wso2update_linux create-docker [flags]
+            wso2update_linux create-docker [Options]
 
 **Examples**
 
-            wso2update_linux create-docker [flags]
+            wso2update_linux create-docker [Options]
 
 **Options**
 
-    -h, --help                help for create-docker
-    --os string               Base OS of the Docker image (default "alpine")
-    -p, --password string     Specify your WSO2 account password
-    -t, --tag string          Value the created image should be tagged with (default "alpine")
+    -h, --help                   help for create-docker
+        --os string              Base OS of the Docker image (default "alpine")
+    -p, --password string        Specify your WSO2 account password
+    -t, --tag string             Value the created image should be tagged with(default "alpine")
 
-    --trial-subscription      Continue with a trial subscription
-    -u, --username string     Specify your WSO2 account email
-
-    Global Flags:
-        -v, --verbose         Enable verbose mode
+        --trial-subscription     Continue with a trial subscription
+    -u, --username string        Specify your WSO2 account email
+    -v, --verbose                Enable verbose mode
 
 Refer our [Webinar on Updates 2.0](https://youtu.be/Z2XeRhzkdpI?t=1050) to witness how you could receive updates with WSO2 Updates 2.0
