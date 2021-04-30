@@ -51,7 +51,7 @@ Shown below is the folder structure of the `dev` folder.
 
 2. For more information on executing the update script, please refer to the documentation in `ansible-apim/scripts/update_README.md`.
 3. When the above-mentioned update.sh file is executed, the script brings up the relevant product pack to its latest update level.
-4. While the product pack is brought up-to-date, conflicts could be encountered If the user has made customizations to the pack and will be displayed in the console.
+4. While the product pack is brought up-to-date, conflicts could be encountered if the user has made customizations to the pack and will be displayed in the console.
 5. Therefore, conflicting changes should be resolved by perusing the [resolve conflicts page](../resolve-conflicts/) and thereafter re-running the update.sh file.<br>
 
     [For example `./update.sh -p <profile-name>`]<br>
