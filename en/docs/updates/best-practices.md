@@ -8,14 +8,16 @@ Here are the guidelines and recommendations to receive best update experience wi
     directly applying any updates to your production system, WSO2 always recommends applying any update to lower 
     environments such as testing, development or staging environments which has a similar product distribution as in
     production environment. 
+   
+!!! Note
+    Before you run the update tool, **remember to stop** the product pack from running.
 
-2. Add custom configurations or modifications
-
-    Follow guidelines when adding customization to product pack files. This will reduce the merge conflicts. Refer
+<br>
+2. Add custom configurations or modifications<br>
+   Follow guidelines when adding customization to product pack files. This will reduce the merge conflicts. Refer
     [how to reduce merge conflicts](../updates/resolve-conflicts.md).
-      
-3. Run tests
-
+<br>    
+3. Run tests<br>
     WSO2 thoroughly tests and certifies each update and hotfix released. Regardless of whether an update or hotfix 
     running tests on your update environment ensures that all existing and new functionalities are working perfectly fine.
     
