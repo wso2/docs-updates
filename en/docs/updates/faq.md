@@ -171,10 +171,10 @@ Updates can be received to nodes when the same is sharing deployment/server dire
 </ul>
 <ul>Without the aid of a **Configuration Management Tool**:<br>
 <ol>
-    <li>In the deployment, the user has to first stop all product packs.<br></li>
+    <li>In the deployment, first stop all product packs.<br></li>
     <li>Unmount the shared directory (deployment/server) in all servers except in one server/instance.<br></li>
     <li>Run WSO2 Update Tool to update the product pack with the latest changes (jar, war, and webapp changes).<br></li>
-    <li>If there are conflicts the user has to manually resolve them.[Refer Resolve Conflicts page](../../updates/resolve-conflicts/)<br>
+    <li>If there are conflicts take steps to manually resolve them.[Refer Resolve Conflicts page](../../updates/resolve-conflicts/)<br>
     <li>This will apply all the updates sent for deployment/server directories from WSO2. <br></li>
     <li>Copy the updated pack to all other nodes replacing their existing product.<br></li>
     <li>Mount the shared directory in all nodes and start servers. Now the whole deployment is updated.</li>
