@@ -180,3 +180,10 @@ Updates can be received to nodes when the same is sharing deployment/server dire
     <li>Mount the shared directory in all nodes and start servers. Now the whole deployment is updated.</li>
 </ol>
 </ul>
+
+### What if my proxy runs only on http: protocol?
+You can achieve this by sending HTTPS traffic to the proxy server using plain http, Change the variable HTTPS_PROXY to be as follows:
+
+``
+    HTTPS_PROXY=https://<proxyIP>:<proxyPort>  ->  HTTPS_PROXY=http://<proxyIP>:<proxyPort>
+``
