@@ -17,13 +17,18 @@ Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
 ### How often  WSO2 Updates will be releases to the user?
 Updates will be released **bi-weekly** as new update levels. Follow the updates commands in
-[Updates command page](../../updates/update-commands/)
+[updates command page](../../updates/update-commands/)
 
 In production environments, WSO2 will announce urgent security fixes to customers via support JIRAs. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore, It is recommended to update your production environments monthly.
 
 ### How can I update my product pack if my environment doesn't have Internet access?
-First, update the product pack in an environment that has Internet access.
-Thereafter, transfer the updated pack to the lockdown environment.
+1. First, update the product pack in an environment that has Internet access using **create-update** command. <br>
+2. Next, transfer the created zip file securely to your isolated environment(s).<br>
+3. Then run the **apply-update** command pointing the proper zip file location. If you have an older update client tool version, at this point the tool will show a message to re-run the same command.<br>
+[The first run of `apply-update` command will self-update the tool]
+4. Upon running the `apply-update` command again will propagate new updates to that environment easily.    
+
+Learn more on the `create-update` and `apply-update` commands by referring [updates command page](../../updates/update-commands/)
 
 ### Do I need a key to unlock updates for production?
 
@@ -77,7 +82,7 @@ yes, escape the $ sign using escape character '\'.
 ### Should I change configurations when a proxy server/firewall is running?
 
 Yes. WSO2 updates are received by connecting to the `https://api.updates.wso2.com, https://cdn.updates.wso2.com, 
-https://product-dist.wso2.com and https://wso2.com`. If your system connects to 
+https://product-dist.wso2.com and https://wso2.com, https://gateway.api.cloud.wso2.com`. If your system connects to 
 the Update service through a proxy server/firewall, whitelist the above-mentioned endpoints.
 
 Since WSO2 update tool is a command-line tool, the proxy should be configured from your command-line using below 
@@ -152,3 +157,33 @@ Naming conversion of docker images is as follows:<br>
 ``
 
 e.g., wso2am:3.2.0.3-spec1-alpine
+
+### How can I receive updates to each node (Dev, Staging and Production) when deployment/server directory is shared among nodes? 
+Updates can be received to nodes when the same is sharing deployment/server directory. Listed below are the recommended ways to achieve this:<br>
+<ul>With the aid of a **Configuration Management Tool**:<br>
+<ol>
+    <li>Stop all running product packs.</li> 
+    <li>Unmount the shared directory from all nodes except the main node of Configuration Management Tool. (If the shared directory is not mounted in the main node of the Config Management setup, the user has to mount it to the main node).<br></li>
+    <li>Execute WSO2 update tool on the main node to update the product pack.<br></li>
+    <li>Using the configuration management tool, transfer the updated pack to the other nodes.<br>
+    <li>Mount the shared directory on other nodes, at this point the update is successful on all the deployment node.<br>
+<ol>
+</ul>
+<ul>Without the aid of a **Configuration Management Tool**:<br>
+<ol>
+    <li>In the deployment, first stop all product packs.<br></li>
+    <li>Unmount the shared directory (deployment/server) in all servers except in one server/instance.<br></li>
+    <li>Run WSO2 Update Tool to update the product pack with the latest changes (jar, war, and webapp changes).<br></li>
+    <li>If there are conflicts take steps to manually resolve them.[Refer Resolve Conflicts page](../../updates/resolve-conflicts/)<br>
+    <li>This will apply all the updates sent for deployment/server directories from WSO2. <br></li>
+    <li>Copy the updated pack to all other nodes replacing their existing product.<br></li>
+    <li>Mount the shared directory in all nodes and start servers. Now the whole deployment is updated.</li>
+</ol>
+</ul>
+
+### What if my proxy runs only on http: protocol?
+You can achieve this by sending HTTPS traffic to the proxy server using plain http, Change the variable HTTPS_PROXY to be as follows:
+
+``
+    HTTPS_PROXY=https://<proxyIP>:<proxyPort>  ->  HTTPS_PROXY=http://<proxyIP>:<proxyPort>
+``
