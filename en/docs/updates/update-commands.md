@@ -35,6 +35,9 @@ To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.co
       	Update the product upto the given level. The provided level
             may or may not contain the product version.
 
+	-b, --backup       
+        Specify updates backup directory.
+
  	-d, --dry-run
       	Simulate the update in a temporary location.
 
@@ -67,9 +70,11 @@ Here is a list of available subcommands:
 
 | **Sub commands**  | **Detail**                                                                                       |
 |------------------|--------------------------------------------------------------------------------------------------|
+|   apply-hotfix   |      Apply an available hotfix                                                                   |
+|   apply-update   |      Apply updates to an isolated environment                                                    | 
 |   check          |      Check available new levels for the product<br>                                              |
 |   current-state  |      Show current details of the product                                                         |
-|   apply-hotfix   |      Apply an available hotfix                                                                   |
+|   create-update  |      Creates a zip file with updates corresponding to an update level range                      |
 |   revert-hotfix  |      Revert the most recently applied hotfix                                                     |
 |   version        |      Print Update tool version                                                                   |  
 |   help           |      Prints usage details of a command                                                           |
@@ -241,6 +246,62 @@ Get the current status of the product
  	   
  	    wso2update_linux current-state
 
+### [wso2update_<os\> create-update]()
+
+**Synopsis**
+ 	
+ 	wso2update_linux create-update [options]
+
+**Description**<br>
+`create-update` command produces a zip file containing updates corresponding to an update level range
+that is applied to a product in an environment without Internet access.
+
+**Options**
+ 	
+    -e, --end-level string
+      	Ending update level 
+    -h, --help
+      	Help for create-update 
+    -s, --start-level string
+      	Starting update level
+    -p, --password string
+      	Specify your WSO2 account password 
+    -u, --username string
+      	Specify your WSO2 account email
+    -v, --verbose
+      	Enable verbose mode
+
+**Examples**
+
+Creates a zip file that comprises update level range that is applied to a product.
+ 	   
+ 	    wso2update_linux create-update
+
+### [wso2update_<os\> apply-update]()
+
+**Synopsis**
+ 	
+ 	wso2update_linux apply-update [options]
+
+**Description**<br>
+`apply-update` command pointing to the update zip file would facilitate the propagation of updates to a WSO2 product in a lockdown environment. 
+First apply-update command would ascertain whether the latest version of the update client is being used, if the latest version of the tool is absent the client updates itself.
+Thereafter, it would prompt the user for a re-run of apply-update command.
+
+**Options**
+
+        --continue      Merge resolved conflicts
+        --dry-run       Simulate the update
+    -h, --help          Help for apply-update
+        --revert        Revert to the previous update level
+    -v, --verbose       Enable verbose mode   
+
+**Examples**
+
+Executing the `apply-update` command pointing the update zip file location would facilitate receiving updates to the lockdown environment.
+ 	   
+ 	    wso2update_linux apply-update <path-to-update-zip-file>
+
 ### [wso2update_<os\> apply-hotfix]()
 
 **Synopsis**
@@ -304,23 +365,21 @@ prior to applying the same to a production environment.
 
 **Synopsis**
 
-            wso2update_linux create-docker [flags]
+            wso2update_linux create-docker [Options]
 
 **Examples**
 
-            wso2update_linux create-docker [flags]
+            wso2update_linux create-docker [Options]
 
 **Options**
 
-    -h, --help                help for create-docker
-    --os string               Base OS of the Docker image (default "alpine")
-    -p, --password string     Specify your WSO2 account password
-    -t, --tag string          Value the created image should be tagged with (default "alpine")
+    -h, --help                   help for create-docker
+        --os string              Base OS of the Docker image (default "alpine")
+    -p, --password string        Specify your WSO2 account password
+    -t, --tag string             Value the created image should be tagged with(default "alpine")
 
-    --trial-subscription      Continue with a trial subscription
-    -u, --username string     Specify your WSO2 account email
-
-    Global Flags:
-        -v, --verbose         Enable verbose mode
+        --trial-subscription     Continue with a trial subscription
+    -u, --username string        Specify your WSO2 account email
+    -v, --verbose                Enable verbose mode
 
 Refer our [Webinar on Updates 2.0](https://youtu.be/Z2XeRhzkdpI?t=1050) to witness how you could receive updates with WSO2 Updates 2.0

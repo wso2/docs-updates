@@ -1,4 +1,4 @@
-## Whats New?
+
 The new updates model has several features that enhance user experience. Following are the key benefits of WSO2 Updates Model 2.0: 
 
 * Consist of `Hotfixes` to deliver quick fixes to customers for incidents.
