@@ -290,11 +290,12 @@ Thereafter, it would prompt the user for a re-run of apply-update command.
 
 **Options**
 
-        --continue      Merge resolved conflicts
-        --dry-run       Simulate the update
-    -h, --help          Help for apply-update
-        --revert        Revert to the previous update level
-    -v, --verbose       Enable verbose mode   
+    -b, --backup string   Specify updates backup directory
+        --continue        Merge resolved conflicts
+        --dry-run         Simulate the update
+    -h, --help            Help for apply-update
+        --revert          Revert to the previous update level
+    -v, --verbose         Enable verbose mode   
 
 **Examples**
 
