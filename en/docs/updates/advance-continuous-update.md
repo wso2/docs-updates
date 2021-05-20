@@ -77,13 +77,3 @@ Shown below is the folder structure of the `dev` folder.
         ansible-playbook -i production site.yml
 <br>
 10. Updated product pack changes will be distributed to the respective deployment environment.
-
-
-
-
-
-
-
-
-
-
