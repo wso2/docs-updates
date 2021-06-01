@@ -47,7 +47,7 @@ The WSO2 Update service delivers fixes to subscribers in an ease of use format t
 
 <strong>A subscription is mandatory to get WSO2 updates</strong>. A Subscription can be obtained by following manner:
 
-- Trial Subscription: Provides all the functionality of a subscription for <strong>14 days</strong>.
+- Trial Subscription: Provides all the functionality of a subscription for <strong>90 days</strong>.
 
 - Paid Subscription: After discussing your specific requirements with one of our WSO2 Accounts manager a paid subscription can be obtained.  Through the aforementioned Subscription the subscriber will receive all updates including bug fixes, security fixes, and improvements and 24x7 expert incident [support](https://wso2.com/subscription/#support).
 
