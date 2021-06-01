@@ -13,9 +13,9 @@ Shown below is an essential set of update commands that a user require to receiv
 
    **Synopsis**
     
-       wso2update_linux [--version | version] [--help | help]
-                        [<options>]
-                        <command> [<args>]
+       ./wso2update_linux [--help | help]
+                          [<options>]
+                          <command> [<args>]
 
    **Description**
  
@@ -56,9 +56,6 @@ To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.co
  	-v, --verbose
       	Enable verbose mode.
 
- 	-V, --version
-      	Prints the Update tool version in use.
-
  	-h, --help
       	Prints usage details of a command.
 
@@ -95,12 +92,12 @@ Here is a list of exit codes:
 
 * Check the current version of Update tool in use on your system
 ``` bash
-wso2update_linux --version
+./wso2update_linux --version
 ```
 
 * Get help on how to use the update command
 ``` bash
-wso2update_linux help check
+./wso2update_linux help check
 ```
 
 * Update the product to the latest level. You will be prompted to enter WSO2 credentials.
@@ -112,29 +109,29 @@ Password for ‘user@wso2.com’: my_password
 
 * Update the product to the latest level by entering WSO2 credentials as arguments.
 ``` bash
-wso2update_linux --username user@wso2.com --password my_password
+./wso2update_linux --username user@wso2.com --password my_password
 ```
 
 * Use templating to obtain output specific to the type of information that is required. 
 ``` bash
-wso2update_linux --template Added: {{.Added}}, Modified: {{.Modified}}, Removed: {{.Removed}}
+./wso2update_linux --template "Added: {{.Added}}, Modified: {{.Modified}}, Removed: {{.Removed}}"
 ```
 
 * Update the product up to a given level
 ``` bash
-wso2update_linux --level 3.0.0.10
+./wso2update_linux --level 3.0.0.10
 ```
 
 * Simulate the update 
 ``` bash
-wso2update_linux --dry-run
+./wso2update_linux --dry-run
 ```
 
 ### [wso2update_<os\> help]()
 
 **Synopsis**
  	
- 	wso2update_linux help [command] [options]
+ 	./wso2update_linux help [command] [options]
 
 **Description**
  
@@ -153,15 +150,17 @@ If a command is given, full details for that command is brought up.
 **Examples**
 
 * Get help on how to use the check command
-   	   
-   	    wso2update_linux help check
+
+``    
+    ./wso2update_linux help check
+``  
 
 
 ### [wso2update_<os\> version]()
 
 **Synopsis**
  	
- 	wso2update_linux version [options]
+ 	./wso2update_linux version [options]
 
 **Description**
  
@@ -172,29 +171,18 @@ operating system, architecture and Go version.
 	
  	 	-v, --verbose
           	Enable verbose mode.
-    
-     	--default-template
-          	Get the default template output.
-    
-     	--template {{.<output_mode>}}
-          	Specify the template output mode (UpdateVersion, ReleaseDate, OS, 
-                Architecture, GoVersion).
 
 **Examples**
 
-* Get update tool version information in the default template
+* Get update tool version information.
    	   
-   	        wso2update_linux version --default-template
-  
-* Get release date information in template mode
-   	   
-   	        wso2update_linux version --template {{.ReleaseDate}}
+    ./wso2update_linux version
 
 ### [wso2update_<os\> check]()
 
 **Synopsis**
  	
- 	wso2update_linux version [options]
+ 	./wso2update_linux version [options]
 
 **Description**
  
@@ -207,27 +195,17 @@ Check command detects available new levels for the product and prints the findin
  	-v, --verbose
       	Enable verbose mode.
 
- 	--default-template
-      	Get the default template output.
-
- 	--template {{.<output_mode>}}
-      	Specify the template output mode (AllUpdates, ProductList).
-
 **Examples**
 
 Check new levels
  	   
- 	    wso2update_linux check
-
-Check new levels in template mode
- 	   
- 	    wso2update_linux check --template {{.AllUpdates}}
+    ./wso2update_linux check
 
 ### [wso2update_<os\> current-state]()
 
 **Synopsis**
  	
- 	wso2update_linux current-state [options]
+    ./wso2update_linux current-state [options]
 
 **Description**
  
@@ -244,13 +222,13 @@ Current-state command prints the current details of the product. This command re
 
 Get the current status of the product
  	   
- 	    wso2update_linux current-state
+    ./wso2update_linux current-state
 
 ### [wso2update_<os\> create-update]()
 
 **Synopsis**
  	
- 	wso2update_linux create-update [options]
+    ./wso2update_linux create-update [options]
 
 **Description**<br>
 `create-update` command produces a zip file containing updates corresponding to an update level range
@@ -275,13 +253,13 @@ that is applied to a product in an environment without Internet access.
 
 Creates a zip file that comprises update level range that is applied to a product.
  	   
- 	    wso2update_linux create-update
+    ./wso2update_linux create-update
 
 ### [wso2update_<os\> apply-update]()
 
 **Synopsis**
  	
- 	wso2update_linux apply-update [options]
+ 	./wso2update_linux apply-update [options]
 
 **Description**<br>
 `apply-update` command pointing to the update zip file would facilitate the propagation of updates to a WSO2 product in a lockdown environment. 
@@ -301,13 +279,13 @@ Thereafter, it would prompt the user for a re-run of apply-update command.
 
 Executing the `apply-update` command pointing the update zip file location would facilitate receiving updates to the lockdown environment.
  	   
- 	    wso2update_linux apply-update <path-to-update-zip-file>
+    ./wso2update_linux apply-update <path-to-update-zip-file>
 
 ### [wso2update_<os\> apply-hotfix]()
 
 **Synopsis**
  	
- 	wso2update_linux apply-hotfix [options] <path-to-hotfix>
+ 	./wso2update_linux apply-hotfix [options] <path-to-hotfix>
                   
  
 **Description**
@@ -331,7 +309,7 @@ file that contains a WSO2 provided hotfix.
 
 Apply a hotfix to the product
  	   
- 	   wso2update_linux apply-hotfix wso2am-3.0.0-abc-hf1.zip
+    ./wso2update_linux apply-hotfix wso2am-3.0.0-abc-hf1.zip
 
 ### [wso2update_<os\> revert-hotfix]()
 
@@ -341,7 +319,7 @@ Apply a hotfix to the product
 
 **Synopsis**
 
- 	wso2update_linux revert-hotfix [options]                  
+ 	./wso2update_linux revert-hotfix [options]                  
  
 **Description**
 
@@ -357,7 +335,7 @@ Revert-hotfix command reverts most recently applied hotfix to the product distri
 
 Revert the previously applied hotfix
  	   
- 	   wso2update_linux revert-hotfix
+ 	   ./wso2update_linux revert-hotfix
 
 ### [wso2update_<os\> create-docker]()
 
@@ -366,11 +344,14 @@ prior to applying the same to a production environment.
 
 **Synopsis**
 
-            wso2update_linux create-docker [Options]
+    ./wso2update_linux create-docker [Options]
 
 **Examples**
 
-            wso2update_linux create-docker [Options]
+    ./wso2update_linux create-docker [Options]
+
+!!! Note
+    Open a terminal and run the following command(s) as the root user.
 
 **Options**
 
