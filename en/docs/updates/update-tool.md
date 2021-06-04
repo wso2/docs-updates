@@ -9,15 +9,15 @@ with the Update Tool is very easy.It is as simple as running one of the commands
 ### Update Commands for OS
 
 ```bash tab='On Linux'
-wso2update_linux 
+./wso2update_linux 
 ```
 
 ```bash tab='On Mac'
-wso2update_darwin
+./wso2update_darwin
 ```
 
 ```bash tab='On Windows'
-wso2update_windows.exe
+./wso2update_windows.exe
 ```
 
 There are myriad of features of the WSO2 Updates Tool. Following describe the features briefly: 
