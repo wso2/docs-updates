@@ -2,7 +2,7 @@
 
 * Update the current product pack to the latest update level using WUM or in-place tool. This will make the new Update tool
   client available inside `<product_home>/bin` directory.
-* Run the new Update Tool (e.g., wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will
+* Run the new Update Tool (e.g., ./wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will
   update the product pack to comply with WSO2 Updates 2.0, and the product pack will be in its latest update level.
 
 ### How can a user currently using *WUM Diff* migrate to WSO2 Updates 2.0?
@@ -14,7 +14,7 @@ To get updates using the new WSO2 Updates model follow the steps below: <br>
 !!! Info
     Now you have updated the product pack to the up to date state using the WUM model. After updating, you have the required tools to get updates from Update2.0 model in the future. <br> Read about the new [Update2.0 model](https://wso2.com/updates).
 <br>
-4. Run the new Update Tool (e.g., wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will update the product pack to comply with WSO2 Updates 2.0, and the product pack will be in its latest update level.<br>
+4. Run the new Update Tool (e.g., ./wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will update the product pack to comply with WSO2 Updates 2.0, and the product pack will be in its latest update level.<br>
 5. Now your current pack is congruent with WSO2 Updates 2.0.<br>
 6. Test the updated product distribution and deploy it in your production environment.
 
