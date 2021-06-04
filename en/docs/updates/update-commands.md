@@ -19,7 +19,7 @@ Shown below is an essential set of update commands that a user require to receiv
 
    **Description**
  
- wso2update_linux tool is a simple command-line tool that connects to the  WSO2 Update service, determines which updates are new and relevant, thereafter downloads and updates the product. 
+ ./wso2update_linux tool is a simple command-line tool that connects to the  WSO2 Update service, determines which updates are new and relevant, thereafter downloads and updates the product. 
  
  You will be prompted to enter WSO2 credentials to initializing the tool. Therefore, you require a WSO2 account to start using the
  update tool. 
@@ -140,7 +140,7 @@ If Help command is applied with no options and no command, the synopsis of the u
 If a command is given, full details for that command is brought up.
 
 !!! Note 
-    `wso2update_linux -h` and `wso2update_linux –-help` commands are identical to `wso2update_linux help`.
+    `./wso2update_linux -h` and `./wso2update_linux –-help` commands are identical to `./wso2update_linux help`.
 
 **Options**
  	
