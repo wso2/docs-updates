@@ -18,5 +18,5 @@ recommends all users to shift to the new WSO2 Updates 2.0 model to alleviate fro
 </div>
 
 !!! Note
-    <strong>To all the existing WUM/In-place users:</strong>The Initial WUM/In-place Decommission date has further extended to 7th of July 2021. Migrate your WSO2 update mechanism to Update 2.0 without fail at your earliest.
+    <strong>To all the existing WUM/In-place users:</strong>The Initial WUM/In-place Decommission date has further extended to 7th of August 2021. Migrate your WSO2 update mechanism to Update 2.0 without fail at your earliest.
  
