@@ -2,7 +2,7 @@
 
 * Update the current product pack to the latest update level using WUM or in-place tool. This will make the new Update tool
   client available inside `<product_home>/bin` directory.
-* Run the new Update Tool (e.g., wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will
+* Run the new Update Tool (e.g., ./wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will
   update the product pack to comply with WSO2 Updates 2.0, and the product pack will be in its latest update level.
 
 ### How can a user currently using *WUM Diff* migrate to WSO2 Updates 2.0?
@@ -14,12 +14,12 @@ To get updates using the new WSO2 Updates model follow the steps below: <br>
 !!! Info
     Now you have updated the product pack to the up to date state using the WUM model. After updating, you have the required tools to get updates from Update2.0 model in the future. <br> Read about the new [Update2.0 model](https://wso2.com/updates).
 <br>
-4. Run the new Update Tool (e.g., wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will update the product pack to comply with WSO2 Updates 2.0, and the product pack will be in its latest update level.<br>
+4. Run the new Update Tool (e.g., ./wso2update_linux for linux users) refer [Update commands](../../updates/update-tool/) for other OS's. This will update the product pack to comply with WSO2 Updates 2.0, and the product pack will be in its latest update level.<br>
 5. Now your current pack is congruent with WSO2 Updates 2.0.<br>
 6. Test the updated product distribution and deploy it in your production environment.
 
 ### Does the new WSO2 Updates 2.0 support a command similar to *WUM Diff*?
-No, Wum diff in the older/WUM model requires manual intervention. Therefore, it is prone to errors as a result commands that need manual file copying task were excluded from the updates 2.0
+Yes, The WUM Diff command is mimicked using [create-update](../../updates/update-commands/#wso2update_os62-create-update) and [apply-update](../../updates/update-commands/#wso2update_os62-apply-update) commands.
 
 ### Is it mandatory to have a configuration management tool configured or can we take the Updates manually to the environments?
 It is not mandatory to have a configuration management tool configured, but having a configuration management tool makes the continuous updates process easy, 
@@ -47,7 +47,7 @@ Then, run different profiles on those environments as needed.
 
 ### How to migrate from WUM to the new Updates model if a Configuration Management Tool is being used ?
 If a Configuration Management Tool is being used, follow the steps below to convert to the new updates model.<br>
-The respective product pack lies in the `files/packs` directory, to migrate to updates 2.0 seamlessly you have to make both the product pack, and the `scripts/update.sh` file compatible with Updates 2.0.
+The respective product pack lies in the `files/packs` directory, to migrate to Updates 2.0 seamlessly you have to make both the product pack, and the `scripts/update.sh` file compatible with Updates 2.0.
 <br>
 - To update the **product pack** - Go to` scripts` directory and run the `./update.sh` script.<br>
 - To update **scripts/update.sh** file - Checkout the latest [v3.2.0.x](https://github.com/wso2/ansible-apim/tags) tags, in this example WSO2 APIM.
