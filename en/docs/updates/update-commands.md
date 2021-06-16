@@ -50,11 +50,11 @@ To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.co
  	-p, --password
       	Specify your password.
 
-    -r, --revert
-         Revert to the previous update level.
+ 	-r, --revert
+      	Revert to the previous update level.
 
-    --template string      
-        Specify the template output.
+ 	-template string      
+      	Specify the template output.
 
  	-v, --verbose
       	Enable verbose mode.
