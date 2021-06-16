@@ -4,7 +4,8 @@ Update tool is a CLI distribution that is separate for Linux, MacOS and Windows 
 with the Update Tool is very easy.It is as simple as running one of the commands that matches with your Operating System.
 
 !!! tip "Before you begin"
-    The following commands should be performed in command prompt under the folder path of <strong>`<product-home>/bin`</strong>
+    -   Before you run the update tool, **remember to stop** the product pack from running.
+    -   The following commands should be performed in command prompt under the folder path of <strong>`<product-home>/bin`</strong>
 
 ### Update Commands for OS
 
