@@ -187,3 +187,30 @@ You can achieve this by sending HTTPS traffic to the proxy server using plain ht
 ``
     HTTPS_PROXY=https://<proxyIP>:<proxyPort>  ->  HTTPS_PROXY=http://<proxyIP>:<proxyPort>
 ``
+
+### Does the new WSO2 Updates 2.0 support a command similar to *WUM Diff*? 
+Yes, The WUM Diff command is mimicked using [create-update](../../updates/update-commands/#wso2update_os62-create-update) and [apply-update](../../updates/update-commands/#wso2update_os62-apply-update) commands.
+
+### Is it mandatory to have a configuration management tool configured or can we take the Updates manually to the environments? 
+It is not mandatory to have a configuration management tool configured, but having a configuration management tool makes the continuous updates process easy,
+and it aids configuration with less possibility of human errors.
+
+### How the keystore and truststore configurations are incorporated with a configuration management tool? 
+Refer [APIM Ansible repository Documentation](https://github.com/wso2/ansible-apim/tree/3.2.x#including-custom-keystore-and-truststore) to get an insight on customizing keystore and truststore configurations that are integrated with a configuration management tool.
+
+### How to persist customizations done on the servers during each update? 
+1. If there are .jar or UI customization those changes should be done in configuration management server. Those changes should also be pushed to your forked repository, for future use.<br>
+2. The customized files should be in the sub-directories of the `files` directory. (Particularly, all .jar files and UI customizations should be added to the `misc` folder.)<br>
+3. Next you need to change the script to include [group customizations/changes](https://github.com/wso2/ansible-apim/blob/3.2.x/roles/common/tasks/custom.yml). On the contrary, if there are any [role specific changes](https://github.com/wso2/ansible-apim/blob/3.2.x/roles/common/tasks/custom.yml) the script changes should be performed in the respective role(s).
+
+### What are the correct steps to apply the same Update level to all the nodes in the deployment if a configuration management tool is not being used? 
+In some situations' a Configuration Management Tool will not be configured, however WSO2 recommends the use of a Configuration Management Tool to mitigate human errors
+as the manual intervention may lead to some flaws. <br>
+Steps to apply the same update level across all node: <br>
+1. In a pre-production environment, update to the required update level using the --level flag (e.g., ./wso2update_linux --level 10)<br>
+2. Run all testcases and verify the update in that environment.<br>
+3. Propagate the same updated product pack to other and production environments(using rolling updates, Canary or Blue-green update methods).
+
+### If nodes are started with product profiles, how to take updates? 
+First take the update of the base product and thereafter distribute the updated pack to other deployment environments.
+Then, run different profiles on those environments as needed.
