@@ -6,6 +6,7 @@ with the Update Tool is very easy.It is as simple as running one of the commands
 !!! tip "Before you begin"
     -   Before you run the update tool, **remember to stop** the product pack from running.
     -   The following commands should be performed in command prompt under the folder path of <strong>`<product-home>/bin`</strong>
+    -   At first you need to run the relevant update command twice. First time you execute `./wso2update_<os>` updates the Update Client Tool. The subsequent `./wso2update_<os>` updates the product pack. 
 
 ### Update Commands for OS
 
