@@ -26,7 +26,15 @@ In production environments, WSO2 will announce urgent security fixes to customer
 2. Next, transfer the created zip file securely to your isolated environment(s).<br>
 3. Then run the **apply-update** command pointing the proper zip file location. If you have an older update client tool version, at this point the tool will show a message to re-run the same command.<br>
 [The first run of `apply-update` command will self-update the tool]
-4. Upon running the `apply-update` command again will propagate new updates to that environment easily.    
+4. Upon running the `apply-update` command again will propagate new updates to that environment easily.
+
+##### What should you do if you get an`unknown command "apply-update" for "wso2update` error while applying updates offline?
+The reason this error is displayed is because the update tool used is of an older version and is not supported by the new Updates tool. To resolve this problem keenly follow the steps given below:<br>
+
+1. Check the version of the Update Tool in the non-internet environment by running `wso2update_<os> version` command. <br>
+2. If the version of the Update Tool in the non-internet environment is <strong>earlier than 1.3.0</strong>, copy a newer version of the tool that is fetched by an environment with internet.<br>
+   &emsp;a. The latest version of the tool would be available in the `<PRODUCT>/bin` directory in the environment with internet after running the `create-update` command.<br>
+3. Then while copying the update zip file into the non-internet environment, copy the updated tool executable into the `<PRODUCT>/bin` directory.
 
 Learn more on the `create-update` and `apply-update` commands by referring [updates command page](../../updates/update-commands/)
 

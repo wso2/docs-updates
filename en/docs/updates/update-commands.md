@@ -284,6 +284,8 @@ Executing the `apply-update` command pointing the update zip file location would
  	   
     ./wso2update_linux apply-update <path-to-update-zip-file>
 
+<strong>Note:</strong> if you are faced with an `unknown command "apply-update" for "wso2update` error while applying updates offline, [Click here](../../updates/faq/#what-should-you-do-if-you-get-anunknown-command-apply-update-for-wso2update-error-while-applying-updates-offline)
+
 ### [wso2update_<os\> apply-hotfix]()
 
 **Synopsis**
