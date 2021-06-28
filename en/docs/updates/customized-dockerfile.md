@@ -2,7 +2,7 @@
 The `create-docker` command builds a Docker image of an updated product pack using the Docker resources developed by WSO2. However, the following steps should be followed if any customizations are required.
 
 In this example, we will assume that we are creating a custom Docker image for an updated product of WSO2 API Manager 3.0.0<br>
-    1. Go to the product Docker resources repository on GitHub (e.g., docker-apim).<br>
+    1. Go to the product Docker resources repository on GitHub (e.g., [docker-apim](https://github.com/wso2/docker-apim/)).<br>
     2. Find the latest tag corresponding to the product version (e.g., v3.0.0.x)<br>
 
 <img src="../../assets/img/updates/choose-new-product-tag.png" width="700">
@@ -26,9 +26,10 @@ In this example, we will assume that we are creating a custom Docker image for a
 
     cd <PROJECT>/docker
     ls
-    Dockerfile       	
-    docker-entrypoint.sh
-    wso2am-3.0.0.zip
+        Dockerfile       	
+        docker-entrypoint.sh
+        wso2am-3.0.0.zip
+
 <br>
     7. Open the Dockerfile in a text editor.<br>
 &emsp;&emsp;a. Remove the `wget command` downloading the product pack over the internet.
