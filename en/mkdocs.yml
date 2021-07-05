@@ -60,6 +60,7 @@ nav:
         - Continuous Update :
           - 'Simple Setup': 'updates/continuous-update.md'
           - 'Advance Setup': 'updates/advance-continuous-update.md'
+      - 'Hotfixes': 'updates/hotfixes.md'
       - 'Best Practise': 'updates/best-practices.md'
       - 'Troubleshoot guide': 'updates/troubleshoot.md'
       - 'Frequently Asked Questions': 'updates/faq.md'
