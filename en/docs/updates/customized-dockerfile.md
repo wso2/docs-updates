@@ -29,7 +29,6 @@ In this example, we will assume that we are creating a custom Docker image for a
         Dockerfile       	
         docker-entrypoint.sh
         wso2am-3.0.0.zip
-
 <br>
     7. Open the Dockerfile in a text editor.<br>
 &emsp;&emsp;a. Remove the `wget command` downloading the product pack over the internet.
