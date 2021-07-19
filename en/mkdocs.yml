@@ -56,11 +56,13 @@ nav:
         - 'Useful Update Commands': 'updates/update-commands.md'
         - 'Resolve Conflicts': 'updates/resolve-conflicts.md'
         - Using docker images:
+          - Docker image tags with Updates 2.0: 'updates/using-wso2-docker-images.md'
           - Creating Custom docker images:  'updates/customized-dockerfile.md'
         - Continuous Update :
           - 'Simple Setup': 'updates/continuous-update.md'
           - 'Advance Setup': 'updates/advance-continuous-update.md'
       - 'Hotfixes': 'updates/hotfixes.md'
+      - 'Updates Portal': 'updates/updates-portal.md'
       - 'Best Practise': 'updates/best-practices.md'
       - 'Troubleshoot guide': 'updates/troubleshoot.md'
       - 'Frequently Asked Questions': 'updates/faq.md'
