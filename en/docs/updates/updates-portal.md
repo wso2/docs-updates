@@ -12,8 +12,3 @@ Some of the main benefits users would receive by using the Updates Portal are de
 *   You would receive a comprehensive set of details of the Updates available, already installed updates,and last update date.<br>
 *   Update Levels for a specific product is can be easily searched, and the user is able to refer descriptions and instructions related to specific updates and hotfixes.<br>
 *   You could also receive Update Summery report and archived for future use.<br>
-
-
-
-
-
