@@ -42,5 +42,3 @@ According to the above example update level of this docker image is 10, which is
         </section>
     </div>
 </div>
-
-
