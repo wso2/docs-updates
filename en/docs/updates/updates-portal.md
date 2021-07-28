@@ -1,6 +1,6 @@
 
 WSO2 Update portal is also called 'WSO2 Updates Information Portal'.
-It is UI presentation provisioned to all WSO2 users to visualize a cluster of information.<br>
+It is a UI presentation provisioned to all WSO2 users to visualize a cluster of information.<br>
 Accessing the Updates Portal is easy. It requires you to be a WSO2 user to access the portal .<br>
 Follow the below steps: <br>
 1. Sign in to the [Updates Portal](https://updates-info.wso2.com/). <br>

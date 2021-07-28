@@ -149,7 +149,7 @@ by default) directory and run the update tool again.</p>
 <td>Backup directory &lt;backup_directory&gt; cannot be inside the product directory &lt;product_directory&gt;.</td>
 <td>Backup and the product pack location cannot be same.</td>
 <td><p>Change the backup location to a new location that is not within the product pack.
-       For more details on how to change the backup location click <a href="../faq/#how-to-change-the-backup-location">here</a></p></td>
+       For more details on changing the backup location refer <a href="../faq/#how-to-change-the-backup-location">how to change the backup location</a></p></td>
 </tr>
 </tbody>
 </table>
