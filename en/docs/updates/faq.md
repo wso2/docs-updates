@@ -231,4 +231,4 @@ By default, the WSO2 Update Tool will use `<user_home>/.wso2-updates` in the use
 ``
 
 !!! Note
-    The above flag needs to be provided only when changing the backup location. Subsequent execution of the same command repetitively will automatically use the provided bup location.
+    The above flag needs to be provided only when changing the backup location. Subsequent execution of the same command repetitively will automatically use the provided backup location.
