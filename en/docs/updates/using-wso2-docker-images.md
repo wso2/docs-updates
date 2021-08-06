@@ -26,7 +26,7 @@ WSO2_PRODUCT_VERSION : apim.3.2.0<br>
 UPDATE_LEVEL: 10<br>
 OS_PLATFORM : alpine<br>
 
-According to the above example update level of this docker image is 10, which is a unique tag getting you to a specific update level. A special update tag 0 can be used to stay on the latest update level by pointing to the image which does not contain an update level.
+According to the above example update level of this docker image is 10, which is a unique tag getting you to a specific update level. A special update tag 0 can also be used to stay on the latest update level. 
 
 <a class="open-modal" data-open="modal1">
 <img src="../../assets/img/updates/docker-tag.png">
