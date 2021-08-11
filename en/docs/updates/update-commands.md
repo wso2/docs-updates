@@ -31,37 +31,18 @@ To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.co
 
 **Options**
  	
- 	-l, --level <level>
-      	Update the product upto the given level. The provided level
-            may or may not contain the product version.
+ 	-l, --level <level>      Update the product upto the given level. 
+                             The provided level may or may not contain the product version.
 
-	-b, --backup       
-        Specify updates backup directory.
-
- 	-d, --dry-run
-      	Simulate the update in a temporary location.
-
- 	-c, --continue
-      	Continue the update with merging resolved conflicts.
-
- 	-u, --username
-      	Specify your email.
-
- 	-p, --password
-      	Specify your password.
-
- 	-r, --revert
-      	Revert to the previous update level.
-
- 	-template string      
-      	Specify the template output.
-
- 	-v, --verbose
-      	Enable verbose mode.
-
- 	-h, --help
-      	Prints usage details of a command.
-
+	-b, --backup             Specify updates backup directory.
+ 	-d, --dry-run            Simulate the update in a temporary location.
+    -c, --continue           Continue the update with merging resolved conflicts.
+    -u, --username           Specify your email.
+    -p, --password           Specify your password.
+    -r, --revert             Revert to the previous update level.
+    -template string         Specify the template output.
+    -v, --verbose            Enable verbose mode.
+    -h, --help               Prints usage details of a command.
 
 **Sub Commands**
 
@@ -178,14 +159,16 @@ operating system, architecture and Go version.
 **Examples**
 
 * Get update tool version information.
-   	   
+
+``  
     ./wso2update_linux version
+``  
 
 ### [wso2update_<os\> check]()
 
 **Synopsis**
  	
- 	./wso2update_linux version [options]
+ 	./wso2update_linux check [options]
 
 **Description**
  
@@ -238,25 +221,22 @@ Get the current status of the product
 that is applied to a product in an environment without Internet access.
 
 **Options**
- 	
-    -e, --end-level string
-      	Ending update level 
-    -h, --help
-      	Help for create-update 
-    -s, --start-level string
-      	Starting update level
-    -p, --password string
-      	Specify your WSO2 account password 
-    -u, --username string
-      	Specify your WSO2 account email
-    -v, --verbose
-      	Enable verbose mode
+
+    -e, --end-level string      Ending update level 
+    -h, --help                  Help for create-update 
+    -s, --start-level string    Starting update level
+    -p, --password string       Specify your WSO2 account password 
+    -u, --username string       Specify your WSO2 account email
+    -v, --verbose               Enable verbose mode
 
 **Examples**
 
 Creates a zip file that comprises update level range that is applied to a product.
  	   
     ./wso2update_linux create-update
+Creates a zip file with defined update level range that is applied to a product.
+    
+    ./wso2update_linux create-update -s <start_level> -e <end_level>
 
 ### [wso2update_<os\> apply-update]()
 
@@ -284,7 +264,7 @@ Executing the `apply-update` command pointing the update zip file location would
  	   
     ./wso2update_linux apply-update <path-to-update-zip-file>
 
-<strong>Note:</strong> if you are faced with an `unknown command "apply-update" for "wso2update` error while applying updates offline, [Click here](../../updates/faq/#what-should-you-do-if-you-get-anunknown-command-apply-update-for-wso2update-error-while-applying-updates-offline)
+<strong>Note:</strong> if you are faced with an `unknown command "apply-update" for "wso2update"` error while applying updates offline, [Click here](../../updates/faq/#what-should-you-do-if-you-get-anunknown-command-apply-update-for-wso2update-error-while-applying-updates-offline)
 
 ### [wso2update_<os\> apply-hotfix]()
 
