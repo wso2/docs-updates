@@ -228,13 +228,13 @@ You may encounter the following error messages due to permission restrictions at
 
 If you encounter any of the above listed OS related issue:
 
-* Check the OS-level permissions for creating directories in the relevant locations.
+* Check the OS-level permissions for creating directories in the relevant locations. 
 
 !!! Infor
-You can enable permission to create directories in the &lt;UpdatesHome&gt; directory (~/.wso2-updates by
-default).
+        You can enable permission to create directories in the &lt;UpdatesHome&gt; directory (~/.wso2-updates by 
+        default).
 
 * Check the available disc space and free some space if the available space is insufficient.
 
-* If the error occurs even after enabling the above permissions, please report to WSO2 by accessing the  [Contact page](https://wso2.com/contact).
-  Please be sure to attach the details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
+* If the error occurs even after enabling the above permissions, please report to WSO2 by accessing the  [Contact page](https://wso2.com/contact). 
+Please be sure to attach the details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
