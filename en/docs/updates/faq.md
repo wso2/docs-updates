@@ -222,3 +222,13 @@ Steps to apply the same update level across all node: <br>
 ### If nodes are started with product profiles, how to take updates? 
 First take the update of the base product and thereafter distribute the updated pack to other deployment environments.
 Then, run different profiles on those environments as needed.
+
+### How to change the Backup location?
+By default, the WSO2 Update Tool will use `<user_home>/.wso2-updates` in the users home directory as the backup location.<br> Therefore, if you want to change the backup location run the update tool command with <strong> --backup </strong> flag followed by the new backup location.<br>
+
+``
+    ./wso2update_<os> --backup <New backup location>
+``
+
+!!! Note
+    The above flag needs to be provided only when changing the backup location. Subsequent execution of the same command repetitively will automatically use the provided backup location.
