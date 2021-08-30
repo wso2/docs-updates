@@ -225,7 +225,7 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
             <div class="content" style="">
                 Hotfixes
                 <div class="description" style="">
-                  An effective method to resolve customer reported issues in a pragmatic manner as Hotfixes are deleivered       
+                  An effective method to resolve customer reported issues in a pragmatic manner as Hotfixes are delivered       
                  </div>
             </div>
         </div>   
