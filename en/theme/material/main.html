@@ -59,6 +59,7 @@
 {{ super() }}
 <link rel="stylesheet" href="{{ 'assets/fonts/font-awesome.css' | url }}">
 <link rel="stylesheet" href="{{ 'assets/css/font-wso2.css' }}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
 {% endblock %}
 
 {% block content %}
@@ -67,4 +68,20 @@
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSWTP6" height="0" width="0"
     style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script type="text/javascript"> docsearch({
+    apiKey: '5a6f3c84d147165631db0ad15d3ee62e',
+    indexName: 'wso2_updates',
+    inputSelector: '.md-search__input',
+    debug: false, // Set debug to true if you want to inspect the dropdown
+    // algoliaOptions: {"facetFilters":["language:en","version:2.0.0"]}
+});
+</script>
 {% endblock %}
+
+{% block site_meta %}
+<meta charset="utf-8"/>
+<meta name="docsearch:language" content="en" />
+<meta name="docsearch:version" content="2.0.0" />
+{% endblock %}
+

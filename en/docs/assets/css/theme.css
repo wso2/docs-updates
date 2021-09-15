@@ -677,7 +677,12 @@ html .md-typeset .superfences-tabs > label:hover {
     top: 3px;
     color: hsla(0, 0%, 19%, 0.7);
 }
-
+.md-footer-copyright {
+    display: flex;
+    width: 99%;
+    max-width: 100%;
+    align-items: center;
+}
 .md-footer-copyright__highlight,
 html .md-footer-meta.md-typeset a,
 .md-footer-copyright {
@@ -694,11 +699,14 @@ html .md-footer-meta.md-typeset a,
 
 .md-footer-copyright__highlight {
     padding-right: 10px;
-    border-right: 1px solid #9E9E9E;
     margin-right: 10px;
-    display: inline-block;
+    flex: 1;
 }
-
+.md-footer-copyright__content {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
 .md-footer-meta {
     background-color: #BDBDBD;
 }
