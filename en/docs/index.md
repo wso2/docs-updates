@@ -66,7 +66,7 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
               </svg>         
             </div>
             <div class="content" style="">
-                Update tool
+                Update Tool
                 <div class="description" style="">
                 Set of information about Update tool and how it aids in updating in a quick and easy manner
                 </div>
