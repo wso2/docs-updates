@@ -101,6 +101,13 @@ command:
 If you are behind an NTLM proxy, you can use a third party tool like CNTLM to do the NTLM proxy authentication. See 
 the [CNTLM documentation](http://cntlm.sourceforge.net/) for instructions.
 
+### What if my proxy runs only on http: protocol?
+You can achieve this by sending HTTPS traffic to the proxy server using plain http, Change the variable HTTPS_PROXY to be as follows:
+
+``
+HTTPS_PROXY=https://<proxyIP>:<proxyPort>  ->  HTTPS_PROXY=http://<proxyIP>:<proxyPort>
+``
+
 ### Do I have to run the update tool in all the servers in my environment?
 This is not a WSO2 recommended approach. If you have several servers running in your environment, it is prudent to use a Configuration Management System.
 In this way, you update the product pack once and distribute the same using the Configuration Management System to other servers.
@@ -188,13 +195,6 @@ Updates can be received to nodes when the same is sharing deployment/server dire
     <li>Mount the shared directory in all nodes and start servers. Now the whole deployment is updated.</li>
 </ol>
 </ul>
-
-### What if my proxy runs only on http: protocol?
-You can achieve this by sending HTTPS traffic to the proxy server using plain http, Change the variable HTTPS_PROXY to be as follows:
-
-``
-    HTTPS_PROXY=https://<proxyIP>:<proxyPort>  ->  HTTPS_PROXY=http://<proxyIP>:<proxyPort>
-``
 
 ### Does the new WSO2 Updates 2.0 support a command similar to *WUM Diff*? 
 Yes, The WUM Diff command is mimicked using [create-update](../../updates/update-commands/#wso2update_os62-create-update) and [apply-update](../../updates/update-commands/#wso2update_os62-apply-update) commands.
