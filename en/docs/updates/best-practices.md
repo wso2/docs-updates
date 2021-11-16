@@ -35,7 +35,7 @@ Here are the guidelines and recommendations to receive best update experience wi
    Read more on our [Continuous Update Document](../continuous-update).
    <br>
 6. Assess whether the environment getting the new updates has enough disk space before running the updates tool
-   It is important to have adequate disk space in the environment that gets updates. When the update the command is initiated the tool takes a full backup of the current product, load the applicable new updates and thereafter apply the new updates to the environment.
+   It is important to have adequate disk space in the environment that gets updates. When the update command is initiated, the tool takes a full backup of the current product, loads the applicable new updates and thereafter applies the new updates to the product pack.
    This process requires that your environment has enough space, and the tool calculates the same using the following equation: /n
    (3 x packsize) + (updates_count x update_size) + 500mb /n
    to ensure an error free update retrieval, check for adequate space before starting the update process.
