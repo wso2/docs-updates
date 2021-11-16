@@ -126,7 +126,7 @@ Please be sure to attach the details of the error when you report it. You can ge
 <tr>
 <td>Insufficient disk space</td>
 <td>The machine does not have sufficient space to update the product.</td>
-<td>Clear some disk space in the machine and run the update tool again.</td>
+<td>Clear some disk space in the machine and run the update tool again. For more information on the issue please refer the <a href="../updates/best-practices.md">Best Practices page</a></td>
 </tr>
 <tr>
 <td>Error while extracting downloaded clients</td>
