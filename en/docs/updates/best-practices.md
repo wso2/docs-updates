@@ -26,17 +26,23 @@ Here are the guidelines and recommendations to receive best update experience wi
     production environment.
 <br>
 4.  Getting Updates to a lockdown Environment <br>
-    The best practices disseminating updates to production environment with no internet connection is as follows: <br>
-    First [receive the updates](../update-tool/#update-commands-for-os) in a lower environment that is connected to the internet. Test the environment thoroughly.
-    Perform security checks mandate by your organization and verify the updated pack. Last move the verified pack to the lockdown environment securely.
-    <br>
-5. Use a Configuration Management tool. <br>
-   There are a myriad of benefits of using a Configuration Management Tool. WSO2 advise the use of Configuration Management Tool such as [Puppet and Ansible](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes) to carry configuration changes flawlessly.
-   Read more on our [Continuous Update Document](../continuous-update).
-   <br>
-6. Assess whether the environment getting the new updates has enough disk space before running the updates tool
-   It is important to have adequate disk space in the environment that gets updates. When the update command is initiated, the tool takes a full backup of the current product, loads the applicable new updates and thereafter applies the new updates to the product pack.
-   This process requires that your environment has enough space, and the tool calculates the same using the following equation: /n
-   (3 x packsize) + (updates_count x update_size) + 500mb /n
-   to ensure an error free update retrieval, check for adequate space before starting the update process.
+    The best practices disseminating updates to production environment with no internet connection is as follows:<br>
+     1. First [receive the updates](../update-tool/#update-commands-for-os) in a lower environment that is connected to the internet. <br>
+     2. Test the environment thoroughly.<br>
+     3. Perform security checks mandate by your organization and verify the updated pack.<br>
+     4. Last move the verified pack to the lockdown environment securely.
+    
+<br> 
+5.  Use a Configuration Management tool. <br>
+    There are a myriad of benefits of using a Configuration Management Tool. WSO2 advise the use of Configuration Management Tool such as [Puppet and Ansible](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes) 
+    to carry configuration changes flawlessly. Read more on our [Continuous Update Document](../continuous-update).
+
+<br>
+6.  Assess whether the environment getting the new updates has <strong>enough disk space</strong> before running the updates tool.<br>
+    It is important to have adequate disk space in the environment that gets updates. When the update command is initiated, the tool takes a full backup of the current product, loads the applicable new updates and thereafter applies the new updates to the product pack.
+    This process requires that your environment has enough space, and the tool calculates the same using the following equation: 
+<br>
+     (3 x packsize) + (updates_count x update_size) + 500mb 
+<br>
+    to ensure an error free update retrieval, check for adequate space before starting the update process.
    
