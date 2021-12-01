@@ -35,14 +35,15 @@ To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.co
                              The provided level may or may not contain the product version.
 
 	-b, --backup             Specify updates backup directory.
- 	-d, --dry-run            Simulate the update in a temporary location.
-    -c, --continue           Continue the update with merging resolved conflicts.
-    -u, --username           Specify your email.
-    -p, --password           Specify your password.
-    -r, --revert             Revert to the previous update level.
-    -template string         Specify the template output.
+    -c, --channel string     Channel updates should be downloaded (default "full")
+        --continue           Continue the update with merging resolved conflicts.
+        --dry-run            Simulate the update
+    -u, --username           Specify your WSO2 account email.
+    -p, --password           Specify your WSO2 account password.
+        --revert                  Revert to the previous update level.
+        --template string         Specify the template output.
     -v, --verbose            Enable verbose mode.
-    -h, --help               Prints usage details of a command.
+    -h, --help               Help for wso2update.
 
 **Sub Commands**
 
@@ -222,7 +223,7 @@ that is applied to a product in an environment without Internet access.
 
 **Options**
 
-    -e, --end-level string      Ending update level 
+    -e, --end-level string      Ending update level (default "0")
     -h, --help                  Help for create-update 
     -s, --start-level string    Starting update level
     -p, --password string       Specify your WSO2 account password 
