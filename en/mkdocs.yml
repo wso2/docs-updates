@@ -56,6 +56,7 @@ nav:
         - 'Useful Update Commands': 'updates/update-commands.md'
         - 'Resolve Conflicts': 'updates/resolve-conflicts.md'
         - Using docker images:
+          - Using Docker images to receive Updates: 'updates/how-to-use-docker-images-to-receive-updates.md'
           - Docker image tags with Updates 2.0: 'updates/using-wso2-docker-images.md'
           - Creating Custom docker images:  'updates/customized-dockerfile.md'
         - Continuous Update :
