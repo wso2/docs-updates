@@ -45,4 +45,8 @@ Here are the guidelines and recommendations to receive best update experience wi
      (3 x packsize) + (updates_count x update_size) + 500mb 
 <br>
     to ensure an error free update retrieval, check for adequate space before starting the update process.
+
+<br>
+7. WSO2 advise you to keep a copy of your most reliable Docker image in your own private Docker registry for future usage. Further, you can
+run security and other crucial compliance checks before you onboard an image to your private registry. Read the step-by step guidelines on this by clicking [here](../updates/how-to-use-docker-images-to-receive-updates.md).
    

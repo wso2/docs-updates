@@ -1,6 +1,6 @@
 ### Image Tagging with WSO2 Updates 2.0
 
-All the  Docker images packaging basic Updates for the relevant product profiles (except Hotfixes) are hosted in [WSO2 Private Docker registry](https://docker.wso2.com/).
+All the  Docker images packaging basic Updates for the relevant product profiles (except Hotfixes) are hosted in [WSO2 private Docker registry](https://docker.wso2.com/).
 The docker images in the Docker Private Registry does stay in a special tagging format <br>
 
 ``
