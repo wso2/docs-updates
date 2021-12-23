@@ -19,7 +19,7 @@ Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 Updates will be released **bi-weekly** as new update levels. Follow the updates commands in
 [updates command page](../../updates/update-commands/)
 
-In production environments, WSO2 will announce urgent security fixes to customers via support JIRAs. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore, It is recommended to update your production environments monthly.
+In production environments, WSO2 will announce urgent security fixes to customers via the Support Portal. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore, It is recommended to update your production environments monthly.
 
 ### How can I update my product pack if my environment doesn't have Internet access?
 1. First, update the product pack in an environment that has Internet access using **create-update** command. <br>
@@ -71,7 +71,7 @@ You can check details about each update and hotfix in [Updates Portal](https://u
 
 ### What can I do in case of an issue?
 
-If you encounter any issues when using WSO2 updates, report a ticket at Support JIRA. Please be sure to attach the 
+If you encounter any issues when using WSO2 updates, report a issue on Support Portal. Please be sure to attach the 
 details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
 
 ### How can I know what changes are included in an update?
