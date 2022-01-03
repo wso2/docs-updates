@@ -44,6 +44,7 @@ To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.co
         --template string         Specify the template output.
     -v, --verbose            Enable verbose mode.
     -h, --help               Help for wso2update.
+    --no-backup              Skip product backup
 
 **Sub Commands**
 
@@ -257,7 +258,8 @@ Thereafter, it would prompt the user for a re-run of apply-update command.
         --dry-run         Simulate the update
     -h, --help            Help for apply-update
         --revert          Revert to the previous update level
-    -v, --verbose         Enable verbose mode   
+    -v, --verbose         Enable verbose mode
+    --no-backup           Skip product backup
 
 **Examples**
 
