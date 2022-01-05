@@ -291,6 +291,8 @@ file that contains a WSO2 provided hotfix.
 
  	-v, --verbose
       	Enable verbose mode.
+    --offline 
+        Apply hotfix offline
 
 
 **Examples**
