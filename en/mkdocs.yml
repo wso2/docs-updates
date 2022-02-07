@@ -49,8 +49,9 @@ nav:
     - Updates :
       - Get Started :
         - 'Overview': 'updates/overview.md'
+        - 'New to WSO2 Updates': 'updates/new-user.md'
         - 'Migrating to Updates 2.0': 'updates/migrating-to-updates2.0.md'
-        - 'New on WSO2 Updates': 'updates/whats-new.md'
+        - 'Whats new in WSO2 Updates': 'updates/whats-new.md'
       - How to Update :
         - 'Using Update Tool': 'updates/update-tool.md'
         - 'Useful Update Commands': 'updates/update-commands.md'

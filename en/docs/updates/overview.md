@@ -76,5 +76,5 @@ security updates sooner whenever we release a security update. This will ensure 
 
 ## How to update your WSO2 products?
 
-<b>Update Tool</b> client delivers hotfixes and updates seamlessly on top of to the product pack. The Update 
+<b>Update Tool</b> client delivers hotfixes and updates seamlessly on top of the product pack. The Update 
 Tool is available in each product release distribution and is located at <code>`<product-home>/bin`</code> directory.
