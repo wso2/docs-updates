@@ -6,7 +6,7 @@ Further, A hotfix is particular to a customer reported issue, and an update leve
 Hotfixes are <strong>best-suited</strong> if you are:<br>
 1. Experiencing a sudden issues, after a long error-free spell in your production environment.<br>
 2. Have tested a certain update level thoroughly in a QA Environment and just before concluding testing you have found some test cases are failing.<br>
-3. Having a single issue to be addressed and needs to be push the production environment soon. Reporting an issue and receiving a hotfix saves you time and trouble.
+3. Having a single issue to be addressed and needs to be pushed to the production environment soon. Reporting an issue and receiving a hotfix saves you time and trouble.
 
 ### How to apply hotfix(es)?
 As you already know hotfixes for an important fix is received as a zip file. The zip file can be applied to your environment as shown as [here](../../updates/update-commands/#wso2update_os62-apply-hotfix)
