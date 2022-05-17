@@ -232,3 +232,30 @@ By default, the WSO2 Update Tool will use `<user_home>/.wso2-updates` in the use
 
 !!! Note
     The above flag needs to be provided only when changing the backup location. Subsequent execution of the same command repetitively will automatically use the provided backup location.
+
+### How to create an updated product zip to be used in a pipeline?
+Follow the steps described below to create an updated product zip that can be used in a pipeline.<br>
+1. Open a terminal and run the following commands:<br>
+    
+        export WSO2_UPDATES_SKIP_CONFLICTS="true"
+        export WSO2_UPDATES_SKIP_MIGRATIONS="true"
+<br>
+2. Download the required U2 base pack from WSO2 website.<br>
+3. After navigating to the pipeline directory, copy the zip file to the same folder with the command shown below.<br>
+   
+        cp <path to U2 base product pack location>
+<br>
+4. Unzip the product pack. Use the command shown below:<br>
+   
+        unzip -q <product pack zip name>
+<br>
+5. Navigate to the `bin` folder in the unzipped product pack and run the update command suited to your OS. Refer [link](../../updates/update-tool/#update-commands-for-os)<br>
+<strong>Note :</strong> If you already have a WSO2 subscription use the following command to start the update with the user credentials.<br>
+
+        path_to_product_pack]/bin/<OS specific update command> -u $WSO2_UPDATE_USER -p $WSO2_UPDATE_PASSWORD
+<br>
+6. Return to the root of the product folder and apply the following command 
+
+        zip -r [path_to_product_pack].zip [path_to_product_pack]
+<br>
+7. Use this zip file from the pipeline
