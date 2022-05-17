@@ -235,27 +235,26 @@ By default, the WSO2 Update Tool will use `<user_home>/.wso2-updates` in the use
 
 ### How to create an updated product zip to be used in a pipeline?
 Follow the steps described below to create an updated product zip that can be used in a pipeline.<br>
-1. Open a terminal and run the following commands:<br>
+1. Set the following environment variables<br>
     
-        export WSO2_UPDATES_SKIP_CONFLICTS="true"
-        export WSO2_UPDATES_SKIP_MIGRATIONS="true"
+        WSO2_UPDATES_SKIP_CONFLICTS="true"
+        WSO2_UPDATES_SKIP_MIGRATIONS="true"
 <br>
-2. Download the required U2 base pack from WSO2 website.<br>
-3. After navigating to the pipeline directory, copy the zip file to the same folder with the command shown below.<br>
-   
-        cp <path to U2 base product pack location>
+2. Download/Copy the required U2 base pack to your pipeline workspace. (You can download the U2 base pack from the WSO2 website and host it Internally so that you can access the same from your pipeline.)
 <br>
-4. Unzip the product pack. Use the command shown below:<br>
+3. Unzip the product pack. Use the command shown below:<br>
    
         unzip -q <product pack zip name>
 <br>
-5. Navigate to the `bin` folder in the unzipped product pack and run the update command suited to your OS. Refer [link](../../updates/update-tool/#update-commands-for-os)<br>
-<strong>Note :</strong> If you already have a WSO2 subscription use the following command to start the update with the user credentials.<br>
+4. Run the update tool suited to your OS. Refer the [link](../../updates/update-tool/#update-commands-for-os)<br>
+<strong>Note :</strong><br>&nbsp;&nbsp; a. If you already have a WSO2 subscription use the following command to run the updates with the user credentials.<br>
+&nbsp;&nbsp; b.  When a self update (the update tool will run a self update when the tool is not up to date. This is a automatic procedure) is executed, the update tool will generate a Exit Code of 2. Thus, it is recommended to configure the pipeline to rerun the update command.
 
-        path_to_product_pack]/bin/<OS specific update command> -u $WSO2_UPDATE_USER -p $WSO2_UPDATE_PASSWORD
+        [path_to_product_pack]/bin/<OS specific update command> -u $WSO2_UPDATE_USER -p $WSO2_UPDATE_PASSWORD
 <br>
-6. Return to the root of the product folder and apply the following command 
+
+5.Run the following command to re-zip the updated product pack.
 
         zip -r [path_to_product_pack].zip [path_to_product_pack]
 <br>
-7. Use this zip file from the pipeline
+6. You can use the zip file created in step 6 in the rest of the pipeline.
