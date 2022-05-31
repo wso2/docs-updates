@@ -240,7 +240,7 @@ Follow the steps described below to create an updated product zip that can be us
         WSO2_UPDATES_SKIP_CONFLICTS="true"
         WSO2_UPDATES_SKIP_MIGRATIONS="true"
 <br>
-2. Download/Copy the required U2 base pack to your pipeline workspace. (You can download the U2 base pack from the WSO2 website and host it Internally so that you can access the same from your pipeline.)
+2. Download/Copy the required U2 base pack to your pipeline workspace. (You can download the U2 base pack from the WSO2 website and host it internally so that you can access the same from your pipeline.)
 <br>
 3. Unzip the product pack. Use the command shown below:<br>
    
