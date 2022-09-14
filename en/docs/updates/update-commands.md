@@ -313,8 +313,7 @@ Apply a hotfix to the product
  
 **Description**
 
-Revert-hotfix command reverts most recently applied hotfix to the product distribution. 
-
+Revert-hotfix command reverts the most recently applied hotfix and any configuration that you may have changed while the newest hotfix is installed to the product distribution.
 
 **Options**
 
