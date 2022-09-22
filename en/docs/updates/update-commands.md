@@ -78,7 +78,7 @@ Here is a list of exit codes:
 
 * Check the current version of Update tool in use on your system
 ``` bash
-./wso2update_linux --version
+./wso2update_linux version
 ```
 
 * Get help on how to use the update command
