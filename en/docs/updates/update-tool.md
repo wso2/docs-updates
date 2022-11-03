@@ -9,6 +9,11 @@ with the Update Tool is very easy.It is as simple as running one of the commands
     -   The following commands should be performed in command prompt under the folder path of <strong>`<product-home>/bin`</strong>
     -   At first you may need to run the relevant update command twice. First time you execute `./wso2update_<os>` updates the Update Client Tool. The subsequent `./wso2update_<os>` updates the product pack. 
 
+!!! important
+    We have compiled the Update Tool to be compatible with AMD64 (X86_64) architecture, and we have three separate binaries for Windows, Linux and MacOS.<br>
+    If your runtime environment doesn't belong to any mentioned setup above, <strong>we recommend you to keep a builder machine of the above mentioned kind, run the Update Tool in the builder machine, and ship the updated packs to your runtime environment.</strong?
+
+
 ### Update Commands for OS
 
 ```bash tab='On Linux'
