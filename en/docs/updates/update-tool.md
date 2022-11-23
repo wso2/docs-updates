@@ -14,6 +14,7 @@ with the Update Tool is very easy.It is as simple as running one of the commands
     If your runtime environment doesn't belong to any mentioned setup above, <strong>we recommend you to keep a builder machine of the above mentioned kind, run the Update Tool in the builder machine, and ship the updated packs to your runtime environment.</strong>
 
 
+
 ### Update Commands for OS
 
 ```bash tab='On Linux'
