@@ -19,7 +19,7 @@ recommends all users to shift to the new WSO2 Updates 2.0 model to alleviate fro
 
 
 !!! Note
-    <strong>To all the existing WUM/In-place users:</strong>The Initial WUM/In-place Decommission date has further extended to 7th of August 2021. [Migrate your WSO2 update mechanism to Update 2.0](../../updates/migrating-to-updates2.0/) without fail at your earliest.
+    <strong>To all the existing WUM/In-place users:</strong>The final WUM/In-place decommission date is on 15th of February 2023. [Migrate your WSO2 update mechanism to Update 2.0](../../updates/migrating-to-updates2.0/) to avoid inconvenience.
 
 Listed below is the WSO2 Updates Release plan in detail
 
@@ -29,3 +29,4 @@ Listed below is the WSO2 Updates Release plan in detail
 |  **7th May<br>   2021</br>**   | WSO2 Updates 2.0 receive priority to disperse updates over WUM/In-place. Users of Updates 2.0 receive updates sooner.<br>
 |  **7th June  2021**   | Initial decommission date of WUM/In-place. However, this date was extended for user convenience. WUM/In-place users are advised to migrate to Updates 2.0 soon.<br>
 |  **7th August 2021**  | Extended time given to WUM/In-place users to migrate to Updates 2.0, After this day users are able to run the WUM/In-place but there won't be updates given using WUM/In-place. Updates are solely delivered using Updates 2.0.<br>
+|  **15th February 2023**  | WUM/In-place tool is decommissioned completely.<br>
