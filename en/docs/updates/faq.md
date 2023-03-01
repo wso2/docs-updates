@@ -1,7 +1,7 @@
 
 ### Can I get WSO2 Updates free?
 
-You can use a trial subscription for 90 days.
+You can use a trial subscription for 6 months.
 
 Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
@@ -258,3 +258,6 @@ Follow the steps described below to create an updated product zip that can be us
         zip -r [path_to_product_pack].zip [path_to_product_pack]
 <br>
 6. You can use the zip file created in step 6 in the rest of the pipeline.
+
+### What is the update tool currently used?
+if you unable to recall the update tool used to update your respective product pack refer the [page](../updates/finding-the-update-tool.md).
