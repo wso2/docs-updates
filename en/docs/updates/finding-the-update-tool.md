@@ -1,6 +1,7 @@
 How can I identify the update model I am currently using to update product packs<br>
 
 1.   If you remember the tool you have used to update the product for the last time it is easy to identify which model you used.<br>
+
     a.   If you ran `wum update <product-name-version>`, or a variant of `wum update` command in your last update process, you have used WUM method to update your respective product pack.<br><br>
     b.   If you executed `update_linux` command to update, or a variant of `update_linux`, you had used the In-place update tool to update the product. The In-place update tool is also an update method categorized under
 WUM.<br><br>
