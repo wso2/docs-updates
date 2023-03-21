@@ -224,7 +224,7 @@ First take the update of the base product and thereafter distribute the updated 
 Then, run different profiles on those environments as needed.
 
 ### How to change the Backup location?
-By default, the WSO2 Update Tool will use `<user_home>/.wso2-updates` in the users home directory as the backup location.<br> Therefore, if you want to change the backup location run the update tool command with <strong> --backup </strong> flag followed by the new backup location.<br>
+By default, the WSO2 Update tool will use `<user_home>/.wso2-updates` in the users home directory as the backup location.<br> Therefore, if you want to change the backup location run the update tool command with <strong> --backup </strong> flag followed by the new backup location.<br>
 
 ``
     ./wso2update_<os> --backup <New backup location>

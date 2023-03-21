@@ -25,9 +25,21 @@ Creating a hotfix applied Docker image is simple. Follow the steps given below t
 Once the issue has been addressed in an update level, we recommend you to move to the update level that includes the fix or latest update level. This can be done by retrieving the docker image from the [WSO2 private Docker registry](https://docker.wso2.com/)  with the right version tag.
 
 ### Steps to follow if you are moving from hotfixes to the latest update level on your product pack
-Hotfixes are temporary fixes provided to address critical issue(s) in the production environment. Once the issue has been addressed in an update level, we recommend you to revert the hotfix(es) and move to the latest update level.
+Hotfix is a single fix provisioned to address a critical issue in the production environment. Once the issue has been addressed in an update level, we recommend you to revert the hotfix(es) and move to the latest update level.
 
-This can be done using the following steps:<br>
+To avoid missing any changes made during the application of hotfixes, it is important to back up the following directories from the current product pack before reverting the hotfix(es).
+
+- `repository/deployment/server/` - only if you have created new APIs, execution plans<br>
+    <strong>Note</strong>: For IAM products this is not needed.<br>
+- `repository/tenants/` - only if you are using multi tenancy<br>
+    <strong>Note</strong>: For MI products this is not needed<br>
+- `repository/resources/security/` - only if you have renewed or altered JKS after the hotfix(es) are applied.
+- `repository/database/` - if you are not using external RDBMS for any of the databases.
+- `repository/components/lib/` - if you have copied new jars to the lib directory after the hotfix(es) are applied.
+- `repository/components/dropins/` - if you have copied new bundles to the dropins directory after the hotfix(es) are applied.
+- `repository/logs/` - if you need to preserve the old logs created during the hotfix applied duration.
+
+After all the above directories are backed up, follow below steps to reverting the applied hotfix(es)<br>
 
 1. Run the following command from the bin folder (`<product-home>/bin`) to check the current state: This command will list all the hotfix(es) that has been applied to a particular product pack. 
    

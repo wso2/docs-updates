@@ -18,8 +18,8 @@ To get updates using the new WSO2 Updates model follow the steps below: <br>
 5. Now your current pack is congruent with WSO2 Updates 2.0.<br>
 6. Test the updated product distribution and deploy it in your production environment.
 
-### How to migrate from WUM to the new Updates model if a Configuration Management Tool is being used ?
-If a Configuration Management Tool is being used, follow the steps below to convert to the new updates model.<br>
+### How to migrate from WUM to the new Updates model if a Configuration Management Tool is been used ?
+If a Configuration Management Tool is been used, follow the steps below to convert to the new updates model.<br>
 The respective product pack lies in the `files/packs` directory, to migrate to Updates 2.0 seamlessly you have to make both the product pack, and the `scripts/update.sh` file compatible with Updates 2.0.
 <br>
 - To update the **product pack** - Go to` scripts` directory and run the `./update.sh` script.<br>
