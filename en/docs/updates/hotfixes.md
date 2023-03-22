@@ -21,6 +21,38 @@ Creating a hotfix applied Docker image is simple. Follow the steps given below t
   6. Rollout the newly created Docker image to Staging environment and test thoroughly.<br>
   7. If all compliance test are passing, follow Step 5 in other environments including the    Production environment.
 
+### How to create a Docker image with Hotfixes for Pipelines?
+The method being used is akin to the one described in [How to create a Docker image with Hotfixes?](../../updates/hotfixes/#how-to-create-a-docker-image-with-hotfixes).
+However, the sole contrast lies in the need to automate the process of implementing Hotfixes. A sample script has been devised as an example for your convenience, which can be accessed [here](https://drive.google.com/drive/folders/1Gpvu0zX3Kn44SBTHW98YWe9A_1r5rsq3).
+
+Make use of the script as a reference and customize it as per the specifications of your pipeline.
+
+You have to run the script as follows:<br>
+
+    ./apply-hotfix.sh <product_pack_path> <hotfix_directory> <username> <password>
+
+`<product_pack_path>` : The product pack that is updated to a corresponding update level.<br>For example - wso2am-4.1.0.10<br>
+`<hotfix_directory>` : Path to a directory where you have already copied all the hotfixes corresponding to the update level. e.g., in this example, update level 10<br>
+`<username>`: The username you used to access WSO2 Updates<br>
+`<password>`: The password of the user
+
+The script performs the following actions:
+
+1.  The script first validates the operating system (the sample script only runs on Darwin and Linux Operating Systems)
+2.  Validate inputs
+3.  Extract the product pack
+4.  Initialize the update tool. This will allow the update tool to self update if there is a newer version of the update tool
+5.  Validate hotfix sequence. The hotfixes need to be applied in a specific sequence. e.g., 1, 2, 3
+6.  [Install hotfixes](../../updates/update-commands/#wso2update_os62-apply-hotfix)
+7.  Create a Docker image.
+
+After creating the Docker image, you can push it to your private Docker registry and conduct any necessary security checks.
+Thereafter, you can refer to this Docker image in the remainder of your pipeline.
+
+!!! Note
+
+    To undo a hotfix, you can run this script again after removing the corresponding hotfix. It is important to note that the remaining files in the hotfix directory must always be in sequence. Therefore, you should remove hotfixes in descending order.
+****
 ### How move hotfixes to the latest update level in a containerized environment?
 Once the issue has been addressed in an update level, we recommend you to move to the update level that includes the fix or latest update level. This can be done by retrieving the docker image from the [WSO2 private Docker registry](https://docker.wso2.com/)  with the right version tag.
 
