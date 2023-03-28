@@ -23,7 +23,7 @@ Creating a hotfix applied Docker image is simple. Follow the steps given below t
 
 ### How to create a Docker image with Hotfixes for Pipelines?
 The method being used is akin to the one described in [How to create a Docker image with Hotfixes?](../../updates/hotfixes/#how-to-create-a-docker-image-with-hotfixes).
-However, the sole contrast lies in the need to automate the process of implementing Hotfixes. A sample script has been devised as an example for your convenience, which can be accessed [here](https://drive.google.com/drive/folders/1Gpvu0zX3Kn44SBTHW98YWe9A_1r5rsq3).
+However, the sole contrast lies in the need to automate the process of implementing Hotfixes. A sample script has been devised as an example for your convenience, which can be accessed [here](../../assets/attachments/apply-hotfix.sh).
 
 Make use of the script as a reference and customize it as per the specifications of your pipeline.
 
