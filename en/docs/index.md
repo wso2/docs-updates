@@ -179,7 +179,7 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
             <div class="content" style="">
                 Continuous Update
                 <div class="description" style="">
-                  Use the guild to decipher how a continuous management tool could be used to instill updates to other deployment settings.          
+                  Use the guide to know how a continuous management tool could be used to install updates to other deployment settings.          
                  </div>
             </div>
         </div>   

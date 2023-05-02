@@ -53,10 +53,6 @@ The WSO2 Update service delivers fixes to subscribers in an ease of use format t
 
 Read more about [WSO2 subscriptions](https://wso2.com/subscription/)<br>
 
-!!! info
-    If you have received updates before using **WUM/Inplace tool** refer [Migrating to updates page](../../updates/migrating-to-updates2.0/) to migrate to WSO2 updates 2.0 model.
-
-
 ## When to use hotfixes?
 
 When you are faced an issue in your deployment environment, you can raise a ticket at [WSO2 Support](https://support.wso2.com). We will provide you a hotfix for critical issues, which have not been addressed before in any of the previous updates. 
