@@ -15,11 +15,18 @@ A paid subscription allows you to:
 
 Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
-### How often  WSO2 Updates will be releases to the user?
+### How can I migrate from WUM/In-place model to the new WSO2 Updates 2.0 model?
+The WSO2 WUM and In place update tools have been decommissioned on 7th March 2023, Refer [Decommission plan](../../updates/wum-decommission/) and for any inquiries reach out to our [support team](https://support.wso2.com/).
+
+### How often WSO2 Updates will be released to the user?
 Updates will be released **bi-weekly** as new update levels. Follow the updates commands in
 [updates command page](../../updates/update-commands/)
 
 In production environments, WSO2 will announce urgent security fixes to customers via the Support Portal. In addition, WSO2 will announce all security updates, if any, to the customers monthly. Therefore, It is recommended to update your production environments monthly.
+
+### How will I know the update tool I am currently using?
+The WSO2 WUM and In place update tools have been decommissioned on 7th March 2023, Refer [Decommission plan](../../updates/wum-decommission/) and for any inquiries reach out to our [support team](https://support.wso2.com/).
+
 
 ### How can I update my product pack if my environment doesn't have Internet access?
 1. First, update the product pack in an environment that has Internet access using **create-update** command. <br>
@@ -196,9 +203,6 @@ Updates can be received to nodes when the same is sharing deployment/server dire
 </ol>
 </ul>
 
-### Does the new WSO2 Updates 2.0 support a command similar to *WUM Diff*? 
-Yes, The WUM Diff command is mimicked using [create-update](../../updates/update-commands/#wso2update_os62-create-update) and [apply-update](../../updates/update-commands/#wso2update_os62-apply-update) commands.
-
 ### Is it mandatory to have a configuration management tool configured or can we take the Updates manually to the environments? 
 It is not mandatory to have a configuration management tool configured, but having a configuration management tool makes the continuous updates process easy,
 and it aids configuration with less possibility of human errors.
@@ -258,6 +262,3 @@ Follow the steps described below to create an updated product zip that can be us
         zip -r [path_to_product_pack].zip [path_to_product_pack]
 <br>
 6. You can use the zip file created in step 6 in the rest of the pipeline.
-
-### What is the update tool currently used?
-if you unable to recall the update tool used to update your respective product pack refer the [page](../updates/finding-the-update-tool.md).
