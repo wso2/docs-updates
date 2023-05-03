@@ -17,19 +17,15 @@ With updates, you do not have to wait until the next product version release to 
     </div>
 </div>
 
-WSO2 delivers improvements to customers in two ways. 
+WSO2 delivers improvements to customers in two ways.
 
-1.Update 
-        
-   **An Update** can be a collection of bug fixes, new features, security fixes, or improvements on an existing product. 
-   Updates are delivered through update levels. When an update is applied to a product, the product version goes up by one update level. <br> 
-      
-2.Hotfix 
-   
-   **A Hotfix** is delivered upon a customer reported bug. Hotfixes are an immediate fix for a customer reported
-   incident and will always be applied on an update level. Hotfixes are in the form of a `.zip file` that 
-   needs to be applied on top of the product pack using the update client tool. **Every fix sent as a hotfix 
-   will also be carried to other subscribed users through an update.**
+1. Update
+
+**An Update** can be a collection of bug fixes, new features, security fixes, or improvements to an existing product. Updates are delivered through update levels. When an update is applied to a product, the product version goes up by one update level.
+
+2. Hotfix
+
+**A Hotfix** is delivered upon a customer reported bug. Hotfixes are an immediate fix for a customer reported incident and will always be applied on an update level. Hotfixes are in the form of a.zip file that needs to be applied on top of the product pack using the update client tool. **Every fix sent as a hotfix will also be carried to other subscribed users through an update**.
         
 ## Why use WSO2 Updates?
 
