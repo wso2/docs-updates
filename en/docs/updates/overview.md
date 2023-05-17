@@ -1,6 +1,6 @@
-## What are WSO2 Updates?
-WSO2 Updates include improvements that are released by WSO2, on top of a released WSO2 product version. 
-With updates, you do not have to wait until the next product version release to get the product enhancements and security fixes. 
+## What is WSO2 Updates?
+WSO2 Updates is how WSO2 releases improvements to existing products, on top of a released WSO2 product version. 
+With updates, you do not have to wait until the next product version release to get  product enhancements and security fixes. 
 
 <a class="open-modal" data-open="modal1">
     <img src="../../assets/img/updates/update-model.png">
@@ -17,60 +17,50 @@ With updates, you do not have to wait until the next product version release to 
     </div>
 </div>
 
-WSO2 delivers improvements to customers in two ways. 
+WSO2 delivers improvements to customers in two ways: 
 
-1.Update 
+###1.Updates### 
         
    **An Update** can be a collection of bug fixes, new features, security fixes, or improvements on an existing product. 
    Updates are delivered through update levels. When an update is applied to a product, the product version goes up by one update level. <br> 
       
-2.Hotfix 
+###2.Hotfixes###
    
-   **A Hotfix** is delivered upon a customer reported bug. Hotfixes are an immediate fix for a customer reported
-   incident and will always be applied on an update level. Hotfixes are in the form of a `.zip file` that 
-   needs to be applied on top of the product pack using the update client tool. **Every fix sent as a hotfix 
-   will also be carried to other subscribed users through an update.**
+   **A Hotfix** is a bug-specific patch that WSO2 can create for customers-reported bugs. Hotfixes are an immediate fix for a customer-reported issue and will  be applied on an update level. Hotfixes are in the form of a `ZIP file` that 
+   needs to be applied on top of the product pack using the update client tool. **All Hotfixes 
+   will be included in future updates for all subscribers.**
         
-## Why use WSO2 Updates?
+## Why should you use WSO2 Updates?
 
-Continuous maintenance of your software solution ensures system health and security throughout its lifetime. 
-The WSO2 Update service delivers fixes to subscribers in an ease of use format throughout the product lifecycle.
+Continuous maintenance of your WSO2 software ensures a healthy and secure system. There are many specific reasons why you should use WSO2 Updates for your products:
 
-* Utilizing all available updates, eliminates the possibility of being stymied by a known issue during your evaluation or development.
-* A support request often results in an improvement, or a fix which is built,well-tested, and delivered to you as an update.
-* WSO2 Updates gives you immediate access to a surge of improvements, packaged for easy deployment into your production systems, making sure the deployment is solid and secure.
+* Eliminate the possibility of wasting time due to a known issue during your evaluation or development.
+* Easily deploy updates through WSO2 Updatesas they are packaged for easy deployment into your production systems, ensuring your deployment is solid and secure.
 * Update Channels deliver all updates including security updates to fit your project lifecycle.
-* Update Services are available for WSO2 releases for Ten years, thus you can exploit bug and security fixes while remaining free to manage your upgrade schedule.
-* We carefully monitor hundreds of open source projects, collect and assess security reports from users or academia, run code security reviews and automate code analysis to identify and address possible security weaknesses.
+* Use WSO2 Update Services for WSO2 releases for ten years, enabling you to use bug and security fixes while remaining free to manage your upgrade schedule.
+* Let WSO2 carefully monitor hundreds of open source projects, collect and assess security reports from users or academia, run code security reviews, and automate code analysis to identify and address possible security weaknesses.
 
-## How to get WSO2 updates?
+## How do you get WSO2 updates?
 
-<strong>A subscription is mandatory to get WSO2 updates</strong>. A Subscription can be obtained by following manner:
+<strong>A WSO2 Subscription is required to use WSO2 updates</strong>. A Subscription can be obtained by following manner:
 
-- Trial Subscription: Provides all the functionality of a subscription for <strong>6 Months</strong>.
+- Trial Subscription: Provides all the functionality of a subscription for <strong>six months</strong>.
 
-- Paid Subscription: After discussing your specific requirements with one of our WSO2 Accounts manager a paid subscription can be obtained.  Through the aforementioned Subscription the subscriber will receive all updates including bug fixes, security fixes, and improvements and 24x7 expert incident [support](https://wso2.com/subscription/#support).
+- Paid Subscription: WSO2 Subscription customers receive all updates, including bug fixes, security updates, and product improvements.
 
-Read more about [WSO2 subscriptions](https://wso2.com/subscription/)<br>
+Learn more about [WSO2 Subscriptions](https://wso2.com/subscription/)<br>
 
-## When to use hotfixes?
+## When should you use hotfixes?
 
-When you are faced an issue in your deployment environment, you can raise a ticket at [WSO2 Support](https://support.wso2.com). We will provide you a hotfix for critical issues, which have not been addressed before in any of the previous updates. 
+If you find an issue in your deployment environment, you can raise a ticket at [WSO2 Support](https://support.wso2.com). We can then potentially create a hotfix for your critical issues that has not been addressed in previous updates.
 
 !!! Note 
-    You cannot update a product pack that has hotfixes applied. In such cases, to update the pack hotfixes 
-    applied needs to be reverted first. 
+    You cannot update a product pack that has hotfixes applied. To apply a product pack update, you might first remove all hotfixes.
 
-## When to use Updates?
+## When should you use WSO2 Updates?
 
-It is imperative to update your products frequently. It will ensure your environment has the latest 
-improvements and the bug fixes. In case you are faced with an issue in your environment, but if this has been fixed in an 
-update already,and if you have missed a recent update, it could be possible that this issues is already fixed in a most recent update.
+WSO2 recommends updating frequently to ensure your environments have the latest improvements and  bug fixes. When WSO2 releases security updates, we inform our customers right away. WSO2 recommends applying security updates whenever they are available to ensure the most secure environments possible.
 
-Whenever WSO2 releases a security update, we inform our customers at our earliest. WSO2 always recommend to apply 
-security updates sooner whenever we release a security update. This will ensure your production environment is secure.
+## How do you update your WSO2 products?
 
-## How to update your WSO2 products?
-
-<b>Update Tool</b> client delivers hotfixes and updates seamlessly on top of the product pack. The Update 
-Tool is available in each product release distribution and is located at <code>`<product-home>/bin`</code> directory.
+The <b>WSO2 Update Tool</b> delivers hotfixes and updates on top of the product pack. The Update Tool is available in each product release distribution and is located in the <code>`<product-home>/bin`</code> directory.
