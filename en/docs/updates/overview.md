@@ -29,6 +29,7 @@ WSO2 delivers improvements to customers in two ways:
    **A Hotfix** is a bug-specific patch that WSO2 can create for customers-reported bugs. Hotfixes are an immediate fix for a customer-reported issue and will  be applied on an update level. Hotfixes are in the form of a `ZIP file` that 
    needs to be applied on top of the product pack using the update client tool. **All Hotfixes 
    will be included in future updates for all subscribers.**
+
         
 ## Why should you use WSO2 Updates?
 
