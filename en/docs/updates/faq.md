@@ -67,7 +67,7 @@ You can learn about the latest updates from WSO2 by logging into [Updates Portal
 
 You can review details about each update and hotfix in [Updates Portal](https://updates-info.wso2.com). Information about your subscribed products is available in [Updates Portal](https://updates-info.wso2.com).
 
-### How can you print update information by accessing the Updates portal?
+### How can I print update information by accessing the Updates portal?
 
 Follow the steps given below:<br>
 1. Login to the [Updates portal](https://updates-info.wso2.com/)<br>
@@ -76,7 +76,7 @@ Follow the steps given below:<br>
 4. Click on the products  **"Already installed updates"** button or **"Newly Available Updates"** button.<br>
 5. Click on the **"View Report"** button then the user is able to print the update report.
 
-### What can you do in case of an issue?
+### What can I do in case of an issue?
 
 If you encounter any issues when using WSO2 updates, report a issue on [Support Portal](https://wso2.com/contact/?ref=subscription). Please be sure to attach the 
 details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
@@ -85,7 +85,7 @@ details of the error when you report it. You can get the details by getting the 
 
 You can check the changelog of an update by log into the [Updates Portal](https://updates-info.wso2.com).
 
-### when you get an error as 'invalid credentials. Please enter valid WSO2 credentials'. What should you do?
+### when I get an error as 'invalid credentials. Please enter valid WSO2 credentials'. What should I do?
 
 Check whether you have given the correct WSO2 credentials. If you have, check whether your password has the $ sign. If 
 yes, escape the $ sign using escape character '\'. 
@@ -229,7 +229,7 @@ If you want to change the backup location, run the update tool command with <str
 ``
 
 !!! Note
-    You need to provite the flag only when changing the backup location. Subsequent executions of the same command will automatically use the provided backup location.
+    You need to provide the flag only when changing the backup location. Subsequent executions of the same command will automatically use the provided backup location.
 
 ### How do I create an updated product zip to be used in a pipeline?
 Follow the steps described below to create an updated product zip that can be used in a pipeline.<br>
