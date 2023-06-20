@@ -67,15 +67,25 @@ You can learn about the latest updates from WSO2 by logging into [Updates Portal
 
 You can review details about each update and hotfix in [Updates Portal](https://updates-info.wso2.com). Information about your subscribed products is available in [Updates Portal](https://updates-info.wso2.com).
 
-### What can I do in case of an issue?
+### How can you print update information by accessing the Updates portal?
 
-If you encounter any issues when using WSO2 updates, please report your issue on the Support Portal. Please attach the details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
+Follow the steps given below:<br>
+1. Login to the [Updates portal](https://updates-info.wso2.com/)<br>
+2. Enter your WSO2 user credentials and click on the 'Sign In' button.<br>
+3. The page will be directed to the 'WSO2 Updates Information Portal'.<br>
+4. Click on the products  **"Already installed updates"** button or **"Newly Available Updates"** button.<br>
+5. Click on the **"View Report"** button then the user is able to print the update report.
+
+### What can you do in case of an issue?
+
+If you encounter any issues when using WSO2 updates, report a issue on [Support Portal](https://wso2.com/contact/?ref=subscription). Please be sure to attach the 
+details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
 
 ### How can I know what changes are included in an update?
 
 You can check the changelog of an update by log into the [Updates Portal](https://updates-info.wso2.com).
 
-### I get the error as 'invalid credentials. Please enter valid WSO2 credentials'. What should I do?
+### when you get an error as 'invalid credentials. Please enter valid WSO2 credentials'. What should you do?
 
 Check whether you have given the correct WSO2 credentials. If you have, check whether your password has the $ sign. If 
 yes, escape the $ sign using escape character '\'. 

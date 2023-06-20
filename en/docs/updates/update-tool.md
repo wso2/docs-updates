@@ -1,7 +1,9 @@
 ## What is the Update Tool?
 
 Update tool is a CLI distribution that is separate for Linux, MacOS and Windows distributions. Bringing your product up to date 
-with the Update Tool is very easy.It is as simple as running one of the commands that matches with your Operating System.
+with the Update Tool is very easy.It is as simple as running one of the commands that matches with your operating system.
+
+If you have not taken updates using WSO2 Updates, we recommend referring the [new user page](../../updates/new-user/) for detailed instructions and information on how to proceed.
 
 !!! tip "Before you begin"
     -   Before you run the update tool, **remember to stop** the product pack from running.
