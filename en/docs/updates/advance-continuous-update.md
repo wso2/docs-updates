@@ -59,19 +59,15 @@ Shown below is the folder structure of the `dev` folder.
    
         ./update.sh -p apim
 
-<br>
 
-6. After all the conflicts are resolved (Without producing warning or errors) in your current environment, updates are properly installed in the aforementioned environment.<br>
-   
+6. After all the conflicts are resolved (Without producing warning or errors) in your current environment, updates are properly installed in the aforementioned environment.<br> 
 7. Perform git commit and push the template changes to your repository everytime a successful update has been performed.<br>
-   
 8. Disseminate the update to the other deployment environments (dev) using the following command. Now the user can perform their expected test on this environment as the updates are properly propagated to the development environment.<br>
 
     
         ansible-playbook -i dev site.yml
-
-<br>
-9. Thereafter distribution of updates to Staging and Production environments can be done using these commands:
+                                        
+9. Thereafter, distribution of updates to Staging and Production environments can be done using these commands:
     
         ansible-playbook -i staging site.yml
         ansible-playbook -i production site.yml
