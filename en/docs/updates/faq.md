@@ -11,9 +11,7 @@ A WSO2 Subscription entitles you to :
 
 - Run WSO2 software in production.
 - Receive all updates.
-- Access WSO2 support.
-- View migration scriptions, documentation, and run-books.
-- And much more.
+- Access WSO2 support and much more.
 
 Find out more about [WSO2 Subscriptions](https://wso2.com/subscription/)
 
