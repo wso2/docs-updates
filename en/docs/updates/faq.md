@@ -29,7 +29,7 @@ For urgent security updates, WSO2 will alert customers via the Support Portal. I
 3. Next, run the **apply-update** command pointing the proper zip file location. If you have an older update client tool version, the tool will update itself and show a message to re-run the same command.<br>
 4. Upon running the `apply-update` command again will propagate new updates to that environment.
 
-##### What should I do if I get an`unknown command "apply-update" for "wso2update` error while applying updates offline?
+### What should I do if I get an`unknown command "apply-update" for "wso2update` error while applying updates offline?
 You will get this error if the update tool is old and does not support the apply-update command. To resolve this problem, follow the steps below:<br>
 
 1. Check the version of the Update Tool in the non-internet environment by running `wso2update_<os> version` command. <br>
