@@ -9,7 +9,7 @@ The Update Tool is a CLI distribution for Linux, MacOS and Windows distributions
     -   You may need to run the relevant update command twice. The first time you execute `./wso2update_<os>`, the Update Tool will update itself. The second time you execute `./wso2update_<os>` will update the product pack. 
 
 !!! important
-    The Update Tool is be compatible with AMD64 (X86_64) architecture, and there are three separate binaries for Windows, Linux, and MacOS.<br>
+    The Update Tool is compatible with AMD64 (X86_64) architecture, and there are three separate binaries for Windows, Linux, and MacOS.<br>
     If your runtime environment isn't one of the these options, <strong>we recommend you keep a builder machine, run the Update Tool in the builder machine, and ship the updated packs to your runtime environment.</strong>
 
 
