@@ -76,8 +76,9 @@ Follow the steps given below:<br>
 
 ### What can I do in case of an issue?
 
-If you encounter any issues when using WSO2 updates, report a issue on [Support Portal](https://wso2.com/contact/?ref=subscription). Please be sure to attach the 
-details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
+If you encounter any issues while using WSO2 updates, and you have a valid subscription, please report the issue on the [Support Portal](https://support.wso2.com/support). Be sure to attach the details of the error when making the report. You can obtain the details by accessing the log files in 'updates/logs' within the product directory.<br>
+
+If you do not have a subscription, kindly reach out to us through the [contact page](https://wso2.com/contact/) for assistance.
 
 ### How can I know what changes are included in an update?
 
