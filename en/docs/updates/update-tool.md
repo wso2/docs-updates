@@ -5,7 +5,7 @@ The Update Tool is a CLI distribution for Linux, MacOS and Windows distributions
 !!! tip "Before you begin"
     -   Before you run the Update Tool, **stop the product pack from running**.
     -   If you have symbolic links (also known as symlinks) in the product pack, back up the original files as they could be modified during the update.
-    -   The updates commands should be performed in the command prompt under the folder path of <strong>`<product-home>/bin`</strong>
+    -   The updates commands should be performed in the terminal under the folder path of <strong>`<product-home>/bin`</strong>
     -   You may need to run the relevant update command twice. The first time you execute `./wso2update_<os>`, the Update Tool will update itself. The second time you execute `./wso2update_<os>` will update the product pack. 
 
 !!! important
