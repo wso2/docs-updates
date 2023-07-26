@@ -2,6 +2,8 @@
 
 The Update Tool is a CLI distribution for Linux, MacOS and Windows distributions that streamlines updating WSO2 products. When you run The Update Tool, it will automatically download and install the latest updates for your WSO2 products. It will also take a backup of your current installation before updating it.
 
+If you have not taken updates using WSO2 Updates, we recommend referring the [new user page](../../updates/new-user/) for detailed instructions and information on how to proceed.
+
 !!! tip "Before you begin"
     -   Before you run the Update Tool, **stop the product pack from running**.
     -   If you have symbolic links (also known as symlinks) in the product pack, back up the original files as they could be modified during the update.
