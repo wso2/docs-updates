@@ -15,7 +15,7 @@ listed below are the steps:
         The above command will be like ``git checkout v2.6.0.7`` for the latest WSO2 APIM 2.6.0 version.
 <br>
 
-4. Place the downloaded product pack provided in the `/files/packs` directory.<br>
+4. Store the product pack you've downloaded in the `/files/packs`directory.<br>
 
 5. Move to the `scripts` directory and run the `update.sh` in the main node.
 
@@ -45,6 +45,4 @@ listed below are the steps:
 </div>
 
 !!! Note
-    To learn more about Continuous Delivery, please visit this [link](https://github.com/wso2/ansible-apim/blob/master/scripts/update_README.md)
-
-Need to further refer WSO2 recommended Puppet and Ansible, Click [Here](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes).
+    Require additional references to WSO2's recommended Puppet and Ansible configurations. Click [Here](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes).
