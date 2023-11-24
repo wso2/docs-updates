@@ -4,18 +4,20 @@ listed below are the steps:
 
 1. Go to the desired git repository location of the selected configuration management tool.
    [e.g., Let say we are using WSO2 APIM with ansible as the configuration management tool, thus the git repo to refer is `https://github.com/wso2/ansible-apim` ]
-2. Clone the correct git repo
+2. Clone the correct git repo.
 3. Check out the latest tag of the product version.
    
       
          git checkout <version of the latest tag>
       
 
-!!! info
-      The above command will be like ``git checkout v2.6.0.7`` for the latest WSO2 APIM 2.6.0 version
+    !!! info
+        The above command will be like ``git checkout v2.6.0.7`` for the latest WSO2 APIM 2.6.0 version.
+<br>
 
+4. Place the downloaded product pack provided in the `/files/packs` directory.<br>
 
-4.Move to the `scripts` directory and run the `update.sh` in the main node.
+5. Move to the `scripts` directory and run the `update.sh` in the main node.
 
 
          cd scripts
@@ -23,9 +25,9 @@ listed below are the steps:
       
 
    
-5.After the product is updated, propagate the updated product pack to the relevant environments. (i.e. Development, Staging and Production)
+6.  After the product is updated, propagate the updated product pack to the relevant environments. (i.e. Development, Staging and Production)
 
-Refer the following diagram for a better understanding on continuous updates:
+  Refer the following diagram for a better understanding on continuous updates:
 
 <a class="open-modal" data-open="modal1">
     <img src="../../assets/img/updates/continous-update.png">
@@ -41,5 +43,8 @@ Refer the following diagram for a better understanding on continuous updates:
         </section>
     </div>
 </div>
+
+!!! Note
+    To learn more about Continuous Delivery, please visit this [link](https://github.com/wso2/ansible-apim/blob/master/scripts/update_README.md)
 
 Need to further refer WSO2 recommended Puppet and Ansible, Click [Here](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes).
