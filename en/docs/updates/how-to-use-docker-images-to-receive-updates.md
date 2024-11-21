@@ -7,4 +7,4 @@ Follow the steps given below to receive WSO2 Updates using Docker images.<br>
   5. Use this image in other deployments as required.<br>
 
 !!! Note
-    <ins>Docker Image Release Frequency</ins> : Docker images with updates are <strong>released weekly</strong> to the [WSO2 Private Docker registry](https://docker.wso2.com/). Therefore, you will not find continuous update-level tags in the docker images added in the WSO2 Docker registry.  Furthemore registry retains only the latest Docker images, and older images are periodically removed. 
+    <ins>Docker Image Release Frequency</ins> : Docker images with updates are <strong>released weekly</strong> to the [WSO2 Private Docker registry](https://docker.wso2.com/). Therefore, you will not find continuous update-level tags in the docker images added in the WSO2 Docker registry. Furthermore, the registry retains only the latest Docker images, with older images being periodically removed 
