@@ -1,5 +1,4 @@
-### Update Troubleshoot Guide
-
+### Troubleshooting Updates
 <table>
 <colgroup>
 </colgroup>
@@ -153,6 +152,8 @@ by default) directory and run the update tool again.</p>
 </tr>
 </tbody>
 </table>
+
+
 ### Permission Restrictions
 You may encounter the following error messages due to permission restrictions at an OS level.
 
@@ -238,3 +239,30 @@ If you encounter any of the above listed OS related issue:
 
 * If the error occurs even after enabling the above permissions, please report to WSO2 by accessing the  [Contact page](https://wso2.com/contact). 
 Please be sure to attach the details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
+
+
+### Troubleshooting the Update Tool Setup
+<table>
+    <thead>
+        <tr class="header">
+            <th><p>Error Message</p></th>
+            <th><p>Explanation</p></th>
+            <th><p>Resolution</p></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><p>Product does not support the current system's OS and architecture</p></td>
+            <td><p>The product pack does not support the OS and architecture of your system and there's no supported Update Tool available.</p></td>
+            <td>
+                <p>Most likely scenario for this error is that the architecture of the system is ARM64 (AArch64) based, 
+                since the AMD64 (x86-64) architecture is supported by all WSO2 products. (as of 2025-03-01)</p>
+                <p>If your system is ARM64 based and has an x86-64 compatibility layer (e.g. "Rosetta" on MacOS), 
+                you can use the corresponding x86-64 Update Tool for your system OS.</p>
+                <p>Run the Update Tool setup script with the [`--all` option](../update-tool-setup-usage-guide) to set 
+                up all the Update Tools supported by the product.</p>
+                <p>If you are still unable to set up the Update Tool, please contact support via the WSO2 [Contact page](https://wso2.com/contact).</p>
+            </td>
+        </tr>
+    </tbody>
+</table>

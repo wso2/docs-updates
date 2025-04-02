@@ -2,7 +2,7 @@
 
 The Update Tool is a CLI distribution for Linux, MacOS and Windows distributions that streamlines updating WSO2 products. When you run The Update Tool, it will automatically download and install the latest updates for your WSO2 products. It will also take a backup of your current installation before updating it.
 
-If you have not taken updates using WSO2 Updates, we recommend referring the [new user page](../../updates/new-user/) for detailed instructions and information on how to proceed.
+If you have not taken updates using WSO2 Updates, we recommend referring the [new user page](../new-user/) for detailed instructions and information on how to proceed.
 
 !!! tip "Before you begin"
     -   Before you run the Update Tool, **stop the product pack from running**.
@@ -11,23 +11,41 @@ If you have not taken updates using WSO2 Updates, we recommend referring the [ne
     -   You may need to run the relevant update command twice. The first time you execute `./wso2update_<os>`, the Update Tool will update itself. The second time you execute `./wso2update_<os>` will update the product pack. 
 
 !!! important
-    The Update Tool is compatible with AMD64 (X86_64) architecture, and there are three separate binaries for Windows, Linux, and MacOS.<br>
+    The Update Tool is compatible with AMD64 (x86-64) and ARM64 (AArch64)* architectures, and there are six separate binaries for Windows, Linux, and MacOS and for each architecture.  
     If your runtime environment isn't one of the these options, <strong>we recommend you keep a builder machine, run the Update Tool in the builder machine, and ship the updated packs to your runtime environment.</strong>
 
 
 
 ### Update Commands for OS
 
-```bash tab='On Linux'
-./wso2update_linux 
+##### AMD64 (x86-64) systems
+```bash tab='Linux'
+$ ./wso2update_linux 
 ```
 
-```bash tab='On Mac'
-./wso2update_darwin
+```bash tab='MacOS'
+$ ./wso2update_darwin
 ```
 
-```bash tab='On Windows'
-./wso2update_windows.exe
+```console tab='Windows'
+$ ./wso2update_windows.exe
+```
+
+##### ARM64 (AArch64) systems
+
+!!! note
+    The ARM64 (AArch64) architecture supported Update Tools are only available in **ARM64 compatible products**, which ships with the [Update Tool setup scripts](../set-up-update-tool/).
+
+```bash tab='Linux'
+$ ./wso2update_linux_arm64 
+```
+
+```bash tab='MacOS'
+$ ./wso2update_darwin_arm64
+```
+
+```console tab='Windows'
+$ ./wso2update_windows_arm64.exe
 ```
 
 There are many features of the WSO2 Updates Tool: 
