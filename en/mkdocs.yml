@@ -68,6 +68,7 @@ nav:
       - 'Hotfixes': 'updates/hotfixes.md'
       - 'Updates Portal': 'updates/updates-portal.md'
       - 'Best Practices': 'updates/best-practices.md'
+      - 'Update Tool Setup Usage Guide': 'updates/update-tool-setup-usage-guide.md'
       - 'Troubleshooting Guide': 'updates/troubleshoot.md'
       - 'Frequently Asked Questions': 'updates/faq.md'
       - 'WUM/In-place Decommission Plan': 'updates/wum-decommission.md'
