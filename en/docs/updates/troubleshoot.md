@@ -253,15 +253,33 @@ Please be sure to attach the details of the error when you report it. You can ge
     <tbody>
         <tr>
             <td><p>Product does not support the current system's OS and architecture</p></td>
-            <td><p>The product pack does not support the OS and architecture of your system and there's no supported Update Tool available.</p></td>
+            <td>
+                <p>The product pack is not compatible with the OS and architecture of the system. 
+                Hence, there's no supported Update Tool available.</p>
+            </td>
             <td>
                 <p>Most likely scenario for this error is that the architecture of the system is ARM64 (AArch64) based, 
                 since the AMD64 (x86-64) architecture is supported by all WSO2 products. (as of 2025-03-01)</p>
-                <p>If your system is ARM64 based and has an x86-64 compatibility layer (e.g. "Rosetta" on MacOS), 
-                you can use the corresponding x86-64 Update Tool for your system OS.</p>
-                <p>Run the Update Tool setup script with the [`--all` option](../update-tool-setup-usage-guide) to set 
-                up all the Update Tools supported by the product.</p>
-                <p>If you are still unable to set up the Update Tool, please contact support via the WSO2 [Contact page](https://wso2.com/contact).</p>
+                <p>If the system is ARM64 based and has an x86-64 compatibility layer (e.g. "Rosetta" on MacOS), 
+                use the corresponding x86-64 Update Tool for the system OS.</p>
+                <p>To fetch the x86-64 Update Tools, execute the Update Tool setup script with the 
+                [`-a` option](../update-tool-setup-usage-guide/#options) to set up all the Update Tools 
+                supported by the product.</p>
+                <p>If still unable to set up the Update Tool, please contact support via the 
+                WSO2 [Contact page](https://wso2.com/contact).</p>
+            </td>
+        </tr>
+        <tr>
+            <td><p>No Update Tool binaries available for the product</p></td>
+            <td>
+                <p>The setup script failed to fetch any product compatible Update Tools when executed with the 
+                [`-a` option](../update-tool-setup-usage-guide/#options).</p>
+            </td>
+            <td>
+                <p>Ideally, this error should not occur, as all WSO2 products support the AMD64 (x86-64) architecture 
+                (as of 2025-03-01) and the corresponding Update Tool binaries should be available for download.</p>
+                <p>If this issue is encountered, please contact support via the 
+                WSO2 [Contact page](https://wso2.com/contact).</p>
             </td>
         </tr>
     </tbody>
