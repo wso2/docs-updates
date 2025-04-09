@@ -12,7 +12,9 @@ If you have not taken updates using WSO2 Updates, we recommend referring the [ne
 
 !!! important
     The Update Tool is compatible with AMD64 (x86-64) and ARM64 (AArch64)* architectures, and there are six separate binaries for Windows, Linux, and MacOS and for each architecture.  
-    If your runtime environment isn't one of the these options, <strong>we recommend you keep a builder machine, run the Update Tool in the builder machine, and ship the updated packs to your runtime environment.</strong>
+    If your runtime environment isn't one of the these options, <strong>we recommend you keep a builder machine, run the Update Tool in the builder machine, and ship the updated packs to your runtime environment.</strong>  
+
+    _* Refer to the Note in the [ARM64 (AArch64) systems](#arm64-aarch64-systems) section below._
 
 
 
