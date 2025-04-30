@@ -2,9 +2,13 @@ To use the **WSO2 Update Tool 2.0**, users must first set up the tool in the pro
 
 The script will set up the appropriate Update Tool based on the OS and architecture of the system, provided the product supports the detected system configuration.
 
-!!! note "Notice for older product packs"
-    **Setting up the Update Tool is not required if you are using an older product pack.**  
-    Update Tool setup scripts are only included in **newer product packs**, as the **older product packs** come with pre-bundled Update Tools (located at `<product-home>/bin/wso2update_<os>`).
+!!! note
+    The following list of products are **ARM64** compatible:  
+
+    - Identity Server v7.1.0 (`wso2is-7.1.0`)
+    
+    Update Tool setup scripts are only included in Arm compatible product packs, as the older (non-compatible) product packs come with pre-bundled Update Tools (located at `<product-home>/bin/wso2update_<os>`).  
+    **Hence, setting up the Update Tool is not required if you are using an older product pack.**  
 
 ### Setup Commands for OS
 
