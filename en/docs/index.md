@@ -261,8 +261,8 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
                   <g>
                     <path class="st1" d="M57.5,34.6v20.2H37.3V34.6H57.5 M59,33.1H35.8v23.2H59V33.1L59,33.1z"/>
                   </g>
-                  <polyline class="st0" points="41.6,44.3 45.6,50.7 53.5,38.7 	"/>
-                  <polyline class="st0" points="45.5,23.4 52,29.9 57.4,22.3 	"/>
+                  <polyline class="st0" points="41.6,44.3 45.6,50.7 53.5,38.7 "/>
+                  <polyline class="st0" points="45.5,23.4 52,29.9 57.4,22.3 "/>
                 </g>
               </svg>         
             </div>
