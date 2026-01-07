@@ -19,7 +19,7 @@ To generate a new user token, follow these steps:
 
 ## 2. Generate Service Token
 
-Service tokens issued on behalf of service accounts that do not have Support Portal access.
+Service tokens are issued on behalf of service accounts that do not have Support Portal access.
 
 To generate a new service token, follow these steps:
 
