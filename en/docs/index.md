@@ -247,6 +247,35 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
     </a>   
 </div>
 <div class="integratorDescription">
+    <a style="color: #222222;" href="updates/customer-guide-harbor-registry">
+        <div>
+            <div>
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;width: 60px;" xml:space="preserve">
+                <style type="text/css">
+                  .st0{fill:none;stroke:#FF7300;stroke-width:1;stroke-miterlimit:10;}
+                  .st1{fill:#1A1A1A;}
+                </style>
+                <g>
+                  <path class="st0" d="M52.2,29.3c0-14.2-11.5-25.6-25.6-25.6S1,15.2,1,29.3s11.5,25.6,25.6,25.6c1.6,0,3.1-0.1,4.6-0.4"/>
+                  <g>
+                    <path class="st1" d="M57.5,34.6v20.2H37.3V34.6H57.5 M59,33.1H35.8v23.2H59V33.1L59,33.1z"/>
+                  </g>
+                  <polyline class="st0" points="41.6,44.3 45.6,50.7 53.5,38.7 	"/>
+                  <polyline class="st0" points="45.5,23.4 52,29.9 57.4,22.3 	"/>
+                </g>
+              </svg>         
+            </div>
+            <div class="content" style="">
+                Harbor & WSO2 Registry Guide
+                <div class="description" style="">
+                  Learn how to publish updated WSO2 product images to Harbor and pull from WSO2 Container Registry using tokens         
+                 </div>
+            </div>
+        </div>   
+    </a>
+</div>
+<div class="integratorDescription">
     <a style="color: #222222;" href="updates/best-practices">
         <div>
             <div>
