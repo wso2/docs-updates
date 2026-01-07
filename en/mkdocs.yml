@@ -67,6 +67,11 @@ nav:
           - 'Advance Setup': 'updates/advance-continuous-update.md'
       - 'Hotfixes': 'updates/hotfixes.md'
       - 'Updates Portal': 'updates/updates-portal.md'
+      - 'Customer Guide for Harbor Registry': 'updates/customer-guide-harbor-registry.md'
+      - 'Registry Token Management':
+        - 'Customer Guide for Registry Token Management': 'updates/registry-token-management.md'
+        - 'Customer Guide': 'updates/registry-token-management-customer.md'
+        - 'Customer Admin Guide': 'updates/registry-token-management-admin.md'
       - 'Best Practices': 'updates/best-practices.md'
       - 'Update Tool Setup Usage Guide': 'updates/update-tool-setup-usage-guide.md'
       - 'Troubleshooting Guide': 'updates/troubleshoot.md'
