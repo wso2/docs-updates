@@ -25,3 +25,5 @@ hs_err_pid*
 # IDE files
 .idea
 .vscode
+
+en/venv/
