@@ -1,29 +1,56 @@
-# Accessing the Registry Web Portal
+## **1\. Accessing the Registry Web Portal**
 
-Use the WSO2 Container Registry web portal to browse projects, repositories, and tags with your WSO2 account credentials.
+The web portal provides a visual interface to browse the projects and images you are entitled to.
 
-## Logging In
+### **1.1 Logging In**
 
-1. Open registry.wso2.com and sign in with your WSO2 account credentials (same as the Support Portal).
+1. Browse URL [**registry.wso2.com**](https://www.google.com/search?q=https://registry.wso2.com).  
+2. Sign in using your standard **WSO2 Account Credentials** (the same email/password used for the Support Portal).
 
-!!! warning "Note"
-    If you are already signed in to your WSO2 account, the session authenticates you automatically. Token-based credentials generated from the Support Portal are not valid for web portal login.
+![][image1]
 
-## Browsing Products and Projects
+**Note** : If you are already logged in to your WSO2 account, that session will automatically authenticate you with the container registry. However, keep in mind that the user and system tokens generated from the WSO2 Support Portal are not valid for logging into the web portal.
 
-After login, the dashboard lists projects filtered by your active product subscriptions (for example, `wso2-apim`, `wso2-is`).
+### **1.2 Browsing Products and Projects**
 
-Select a project to view its repositories, then open a repository to see the available tags.
+Upon logging in, the view is filtered based on your active WSO2 product subscriptions. You will see projects associated with your account.
 
-## Searching for an Image
+1. **Dashboard**: The main page displays a list of Projects. Each Project corresponds to a WSO2 Product (e.g., wso2-apim, wso2-is etc.).
 
-To search for a specific artifact, use the search bar, set Type to Tags, and enter the product/tag (for example, `4.2.0-rocky`).
+![][image2]
 
-## Getting the Pull Command
+2. **Select a Project:** Click on a project name to enter it.  
+3. **Repositories:** Inside the project, you will see a list of **Repositories**. 
 
-To copy a pull command:
+![][image3]
 
-1. Open the repository
-2. Pick the tag (for example, `latest` or `4.2.0.15`)
-3. Click the artifact SHA
-4. Copy the pull command (for example, `docker pull registry.wso2.com/wso2-apim/am:latest`)
+      4\.  **Tags:** Inside a Repository you can list down all the tags available.
+
+![][image4]
+
+### **1.3 Searching for an Image**
+
+If you are looking for a specific version or component under under a **Repository**:
+
+1. Use the **Search Bar** at the top of the portal.  
+2. Select the **Tags** as **Type.**  
+3. Type the product name or tag (e.g., 4.2.0-rocky).  
+4. The results will show matching repositories available under your subscription.
+
+![][image5]
+
+### **1.4 Getting the Pull Command**
+
+To use an image, you need the exact "pull command" for your CLI.
+
+1. Click into a specific **Repository**.  
+2. Locate the specific **Tag** (version) you wish to use (e.g., latest or 4.2.0.15).  
+3. Click the Artifact **SHA** value
+
+![][image6]
+
+4. Then select the Tag and Click the Copy Icon next to the pull command.
+
+![][image7]
+
+e.g: docker pull registry.wso2.com/wso2-apim/am:latest
