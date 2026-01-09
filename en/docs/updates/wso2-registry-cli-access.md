@@ -1,21 +1,32 @@
-# Accessing Images via CLI (Command Line)
+## **2\. Accessing Images via CLI (Command Line)**
 
-CLI access uses user or service tokens generated in the WSO2 Support Portal.
+To pull images via a terminal or automation pipeline, you cannot use your **WSO2 Account Credentials** as previously. You must use a **User Token or a Service Token** generated from the WSO2 Support Portal.
 
-## Prerequisites: Generate a Token
+### **2.1 Prerequisites: Generate a Token**
 
-In the WSO2 Support Portal, go to Projects > My Projects > Registry Tokens and select **Generate Token**. 
+*Note: This is done in the WSO2 Support Portal, not the Registry Portal.*
 
-Provide a descriptive name (for example, `Jenkins-Pipeline-Token`). 
+1. Log in to the **WSO2 Support Portal**.  
+2. Navigate to **Projects \> My Projects \> Registry Tokens**.  
+3. Click **Generate Token** and provide a descriptive name (e.g., "Jenkins-Pipeline-Token").  
+4. **Important:** Copy the **Token Name** and **Token Secret** immediately. The secret is shown only once.  
+   
 
-Copy the token name and token secret immediately; the secret is shown only once.
+### **2.2 Logging in to Docker/Container Client**
 
-## Logging in to Docker/Container Client
+Open your terminal and run the login command using the credentials generated above.
 
-Log in from your container client using the token name as the username and the token secret as the password:
+* **Username:** Your generated Token Name.  
+* **Password:** Your generated Token Secret.
 
-```bash
-docker login registry.wso2.com -u <TOKEN_NAME> -p <TOKEN_SECRET>
+```
+docker login registry.wso2.com
+# When prompted for Username: Paste your Token Name
+# When prompted for Password: Paste your Token Secret
 ```
 
-After successful login, you can pull images using standard docker pull commands with the registry URL.
+*Alternatively, in a single line:*
+
+```
+docker login registry.wso2.com -u <Your_Token_Name> -p <Your_Token_Secret>
+```
