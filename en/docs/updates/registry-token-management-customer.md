@@ -43,7 +43,7 @@ Use the Re-sync Products action to update an existing token's permissions to inc
 
 This action should be used if the existing token secret has been lost, forgotten, or compromised.
 
-![Re-generate token secret](../assets/img/updates/registry-regenarate-product.png)
+![Re-generate token secret](../assets/img/updates/registry-regenerate-product.png)
 
 **Important Note:** Re-generating the secret will immediately invalidate the previous secret. Update all systems and applications using the old secret with the newly generated one.
 
