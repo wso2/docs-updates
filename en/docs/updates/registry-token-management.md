@@ -10,5 +10,3 @@ To access this feature, navigate to the [Projects \> My Projects](https://suppor
 ![Registry tokens overview page 1](../assets/img/updates/registry-token-page-1.png)
 
 ![Registry tokens overview page 2](../assets/img/updates/registry-token-page-2.png)
-
-
