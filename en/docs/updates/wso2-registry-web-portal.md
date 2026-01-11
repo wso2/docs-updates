@@ -7,7 +7,7 @@ The web portal provides a visual interface to browse the projects and images you
 1. Browse URL [**registry.wso2.com**](https://www.google.com/search?q=https://registry.wso2.com).  
 2. Sign in using your standard **WSO2 Account Credentials** (the same email/password used for the Support Portal).
 
-![Registry login page](../assets/img/updates/registry-portal-logging-page.png)
+![Registry login page](../assets/img/updates/registry-portal-login-page.png)
 
 **Note** : If you are already logged in to your WSO2 account, that session will automatically authenticate you with the container registry. However, keep in mind that the user and system tokens generated from the WSO2 Support Portal are not valid for logging into the web portal.
 
