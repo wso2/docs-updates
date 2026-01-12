@@ -274,7 +274,7 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
 </svg>         
             </div>
             <div class="content" style="">
-                WSO2 Customer Registry Guide
+                Registry
                 <div class="description" style="">
                   Learn how to publish updated WSO2 product images to the WSO2 Registry and pull them using tokens         
                  </div>
