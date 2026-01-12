@@ -15,16 +15,17 @@ Upon logging in, the view is filtered based on your active WSO2 product subscrip
 
 1. **Dashboard**: The main page displays a list of Projects. Each Project corresponds to a WSO2 Product (e.g., wso2-apim, wso2-is etc.).
 
-![Project dashboard](../assets/img/updates/registry-portal-project-dashboard.png)
+    ![Project dashboard](../assets/img/updates/registry-portal-project-dashboard.png)
 
-2. **Select a Project:** Click on a project name to enter it.  
+2. **Select a Project:** Click on a project name to enter it.
+
 3. **Repositories:** Inside the project, you will see a list of **Repositories**. 
 
-![Repositories list](../assets/img/updates/registry-portal-repositories.png)
+    ![Repositories list](../assets/img/updates/registry-portal-repositories.png)
 
-      4\.  **Tags:** Inside a Repository you can list down all the tags available.
+4. **Tags:** Inside a Repository you can list down all the tags available.
 
-![Repository tags](../assets/img/updates/registry-portal-tags.png)
+    ![Repository tags](../assets/img/updates/registry-portal-tags.png)
 
 ### **1.3 Searching for an Image**
 
