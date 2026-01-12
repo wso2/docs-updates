@@ -36,7 +36,7 @@ If you are looking for a specific version or component under a **Repository**:
 3. Type the product name or tag (e.g., 4.2.0-rocky).  
 4. The results will show matching repositories available under your subscription.
 
-![Search for an image](../assets/img/updates/registry-portal-search-for-image.png)
+    ![Search for an image](../assets/img/updates/registry-portal-search-for-image.png)
 
 ### **1.4 Getting the Pull Command**
 
@@ -46,11 +46,11 @@ To use an image, you need the exact "pull command" for your CLI.
 2. Locate the specific **Tag** (version) you wish to use (e.g., latest or 4.2.0.15).  
 3. Click the Artifact **SHA** value.
 
-![Pull command - SHA view](../assets/img/updates/registry-portal-pull-command.png)
+    ![Pull command - SHA view](../assets/img/updates/registry-portal-pull-command.png)
 
 4. Select the Tag and click the Copy Icon next to the pull command.
 
-![Pull command with SHA](../assets/img/updates/registry-portal-pull-command-sha.png)
+    ![Pull command with SHA](../assets/img/updates/registry-portal-pull-command-sha.png)
 
 
 e.g: docker pull registry.wso2.com/wso2-apim/am:latest
