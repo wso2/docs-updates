@@ -14,7 +14,7 @@ To generate a new token, follow these steps:
 
 1. Click the **Generate Token** button.  
 2. Enter a descriptive **Token Name**.  
-3. Click the **Generate** **Token** button.
+3. Click the **Generate Token** button.
 
 ![Generate token page](../assets/img/updates/registry-token-generate-token-1.png)
 
