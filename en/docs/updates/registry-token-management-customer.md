@@ -1,5 +1,3 @@
-## Customer Guide
-
 Customers can perform the following token management operations:
 
 1. Generate Token  
