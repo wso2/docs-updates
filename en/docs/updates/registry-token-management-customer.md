@@ -1,3 +1,5 @@
+# Customer Guide
+
 Customers can perform the following token management operations:
 
 1. Generate Token  
@@ -6,7 +8,7 @@ Customers can perform the following token management operations:
 4. Re-generate Secret  
 5. Delete Token
 
-### 1\. Generate Token
+### **Generate Token**
 
 To generate a new token, follow these steps:
 
@@ -21,7 +23,7 @@ Upon successful generation, the system will display the **Token Name** and the *
 ![Generate token dialog 2](../assets/img/updates/registry-token-generate-token-2.png)
 **Important Note:** The **Token Secret** is displayed only once. Please ensure you back up the secret before closing the window. If the secret is lost or forgotten, you must refer to the [**Re-generate Secret**](#4-re-generate-secret) section below.
 
-### 2\. View Tokens
+### **View Tokens**
 
 Customers can view a list of all their generated tokens. The displayed information includes:
 
@@ -33,13 +35,13 @@ Customers can view a list of all their generated tokens. The displayed informati
 
 ![View tokens table](../assets/img/updates/registry-token-view-token-1.png)
 
-### 3\. Re-sync Products
+### **Re-sync Products**
 
 Use the Re-sync Products action to update an existing token's permissions to include any new products you have recently subscribed to. Once this action is performed, the token will grant access to product images related to the new subscription.
 
 ![Re-sync products action](../assets/img/updates/registry-resync-product.png)
 
-### 4. Re-generate Secret
+### **Re-generate Secret**
 
 This action should be used if the existing token secret has been lost, forgotten, or compromised.
 
@@ -47,7 +49,7 @@ This action should be used if the existing token secret has been lost, forgotten
 
 **Important Note:** Re-generating the secret will immediately invalidate the previous secret. Update all systems and applications using the old secret with the newly generated one.
 
-### 5. Delete Token
+### **Delete Token**
 
 If a token is no longer required, it can be deleted.
 
