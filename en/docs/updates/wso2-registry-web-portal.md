@@ -1,5 +1,3 @@
-## **1\. Accessing the Registry Web Portal**
-
 The web portal provides a visual interface to browse the projects and images you are entitled to.
 
 ### **1.1 Logging In**
