@@ -1,5 +1,3 @@
-## **2\. Accessing Images via CLI (Command Line)**
-
 To pull images via a terminal or automation pipeline, you cannot use your **WSO2 Account Credentials** as previously. You must use a **User Token or a Service Token** generated from the WSO2 Support Portal.
 
 ### **2.1 Prerequisites: Generate a Token**
