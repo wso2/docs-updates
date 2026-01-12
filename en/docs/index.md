@@ -250,28 +250,28 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
     <a style="color: #222222;" href="updates/registry-token-management/">
         <div>
             <div>
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                   viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;width: 60px;" xml:space="preserve">
-                <style type="text/css">
-                  .st0{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
-                  .st1{fill:none;stroke:#212A32;stroke-width:1.5;stroke-miterlimit:10;}
-                  .st2{fill:#FF7300;}
-                </style>
-                <g>
-                  <!-- Container box -->
-                  <rect class="st1" x="8" y="15" width="35" height="35"/>
-                  <!-- Horizontal lines inside container (shelves) -->
-                  <line class="st1" x1="8" y1="24" x2="43" y2="24"/>
-                  <line class="st1" x1="8" y1="33" x2="43" y2="33"/>
-                  <line class="st1" x1="8" y1="42" x2="43" y2="42"/>
-                  <!-- Upload arrow -->
-                  <polyline class="st0" points="48,28 52,24 56,28"/>
-                  <line class="st0" x1="52" y1="24" x2="52" y2="35"/>
-                  <!-- Download arrow -->
-                  <polyline class="st0" points="48,40 52,44 56,40"/>
-                  <line class="st0" x1="52" y1="35" x2="52" y2="44"/>
-                </g>
-              </svg>         
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 60 60" style="enable-background:new 0 0 60 60; width: 60px" xml:space="preserve">
+<style type="text/css">
+  .st0{fill:none;stroke:#212A32;stroke-width:1.5;stroke-miterlimit:10;}
+  .st1{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
+  .st2{fill:none;stroke:#FF7300;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  .st3{fill:#FF7300;}
+</style>
+<g>
+  <!-- Outer window frame -->
+  <rect class="st1" x="6" y="9" width="48" height="42" rx="2.5" ry="2.5"/>
+  <line class="st1" x1="6" y1="17" x2="54" y2="17"/>
+  <!-- Header dots -->
+  <circle class="st3" cx="12" cy="13" r="1.2"/>
+  <circle class="st3" cx="17" cy="13" r="1.2"/>
+  <circle class="st3" cx="22" cy="13" r="1.2"/>
+  <!-- Download arrow -->
+  <line class="st2" x1="30" y1="24" x2="30" y2="36"/>
+  <polyline class="st2" points="24,31 30,37 36,31"/>
+  <line class="st0" x1="22" y1="38" x2="38" y2="38"/>
+</g>
+</svg>         
             </div>
             <div class="content" style="">
                 WSO2 Customer Registry Guide
