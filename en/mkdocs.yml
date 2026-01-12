@@ -67,8 +67,8 @@ nav:
           - 'Advance Setup': 'updates/advance-continuous-update.md'
       - 'Hotfixes': 'updates/hotfixes.md'
       - 'Updates Portal': 'updates/updates-portal.md'
-      - 'Customer Guide for Harbor Registry':
-        - 'Working with the WSO2 Container Registry':
+      - 'Registry':
+        - 'Registry Web Portal':
           - 'Overview': 'updates/customer-guide-harbor-registry.md'
           - 'Accessing the Registry Web Portal': 'updates/wso2-registry-web-portal.md'
           - 'Accessing Images via CLI': 'updates/wso2-registry-cli-access.md'
