@@ -1,5 +1,3 @@
-## Customer Admin Guide
-
 In addition to all customer features, Customer Administrators can perform the following extra token management actions:
 
 1. **Generate User Tokens** \- This action is similar to the regular customer token generation. Created on behalf of the admin and used to access the WSO2 registry through the CLI.  
