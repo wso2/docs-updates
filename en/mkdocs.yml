@@ -68,15 +68,15 @@ nav:
       - 'Hotfixes': 'updates/hotfixes.md'
       - 'Updates Portal': 'updates/updates-portal.md'
       - 'Customer Guide for Harbor Registry':
-        - 'Registry Token Management':
-          - 'Customer Guide for Registry Token Management': 'updates/registry-token-management.md'
-          - 'Customer Guide': 'updates/registry-token-management-customer.md'
-          - 'Customer Admin Guide': 'updates/registry-token-management-admin.md'
         - 'Working with the WSO2 Container Registry':
-          - 'Harbor Registry Guide': 'updates/customer-guide-harbor-registry.md'
+          - 'Overview': 'updates/customer-guide-harbor-registry.md'
           - 'Accessing the Registry Web Portal': 'updates/wso2-registry-web-portal.md'
           - 'Accessing Images via CLI': 'updates/wso2-registry-cli-access.md'
           - 'FAQ': 'updates/wso2-registry-faq.md'
+        - 'Registry Token Management':
+          - 'Overview': 'updates/registry-token-management.md'
+          - 'Customer Guide': 'updates/registry-token-management-customer.md'
+          - 'Customer Admin Guide': 'updates/registry-token-management-admin.md'
       - 'Best Practices': 'updates/best-practices.md'
       - 'Update Tool Setup Usage Guide': 'updates/update-tool-setup-usage-guide.md'
       - 'Troubleshooting Guide': 'updates/troubleshoot.md'
