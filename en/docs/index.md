@@ -267,9 +267,9 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
               </svg>         
             </div>
             <div class="content" style="">
-                Harbor & WSO2 Registry Guide
+                WSO2 Registry Guide
                 <div class="description" style="">
-                  Learn how to publish updated WSO2 product images to Harbor and pull from WSO2 Container Registry using tokens         
+                  Learn how to publish updated WSO2 product images to the WSO2 Registry and pull them using tokens         
                  </div>
             </div>
         </div>   
