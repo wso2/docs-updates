@@ -1,4 +1,4 @@
-# 3. FAQ
+# FAQ
 
 ### **Q: I just purchased a new WSO2 product subscription. Why can't I pull the images?**
 
