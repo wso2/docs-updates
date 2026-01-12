@@ -2,7 +2,7 @@ The web portal provides a visual interface to browse the projects and images you
 
 ### **1.1 Logging In**
 
-1. Browse URL [**registry.wso2.com**](https://www.google.com/search?q=https://registry.wso2.com).  
+1. Browse URL [**registry.wso2.com**](https://registry.wso2.com).  
 2. Sign in using your standard **WSO2 Account Credentials** (the same email/password used for the Support Portal).
 
 ![Registry login page](../assets/img/updates/registry-portal-login-page.png)
