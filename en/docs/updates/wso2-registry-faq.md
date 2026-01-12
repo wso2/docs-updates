@@ -1,3 +1,5 @@
+# 3. FAQ
+
 ### **Q: I just purchased a new WSO2 product subscription. Why can't I pull the images?**
 
 When a new subscription is added to your account, your existing **User Tokens or System Tokens** do not automatically receive permission for the new images. You must update them manually.
