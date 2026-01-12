@@ -30,7 +30,7 @@ Upon logging in, the view is filtered based on your active WSO2 product subscrip
 
 ### **1.3 Searching for an Image**
 
-If you are looking for a specific version or component under under a **Repository**:
+If you are looking for a specific version or component under a **Repository**:
 
 1. Use the **Search Bar** at the top of the portal.  
 2. Select the **Tags** as **Type.**  
@@ -45,11 +45,11 @@ To use an image, you need the exact "pull command" for your CLI.
 
 1. Click into a specific **Repository**.  
 2. Locate the specific **Tag** (version) you wish to use (e.g., latest or 4.2.0.15).  
-3. Click the Artifact **SHA** value
+3. Click the Artifact **SHA** value.
 
 ![Pull command - SHA view](../assets/img/updates/registry-portal-pull-command.png)
 
-4. Then select the Tag and Click the Copy Icon next to the pull command.
+4. Select the Tag and click the Copy Icon next to the pull command.
 
 ![Pull command with SHA](../assets/img/updates/registry-portal-pull-command-sha.png)
 
