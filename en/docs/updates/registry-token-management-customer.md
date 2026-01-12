@@ -39,7 +39,7 @@ Use the Re-sync Products action to update an existing token's permissions to inc
 
 ![Re-sync products action](../assets/img/updates/registry-resync-product.png)
 
-### 4. Re-generate Secret {#4-re-generate-secret}
+### 4. Re-generate Secret
 
 This action should be used if the existing token secret has been lost, forgotten, or compromised.
 
