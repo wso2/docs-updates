@@ -4,7 +4,7 @@
 
 When a new subscription is added to your account, your existing **User Tokens or System Tokens** do not automatically receive permission for the new images. You must update them manually.
 
-**Solution: Re-sync Products**
+#### Solution: Re-sync Products
 
 1. Go to the **WSO2 Support Portal** \> **Registry Tokens**.  
 2. Find your existing token in the list.  
@@ -15,7 +15,7 @@ When a new subscription is added to your account, your existing **User Tokens or
 
 No. For security reasons, the secret is displayed only once upon generation.
 
-**Solution: Re-generate Secret**
+#### Solution: Re-generate Secret
 
 1. Go to the **WSO2 Support Portal** \> **Registry Tokens**.  
 2. Select the **Re-generate Secret** option for the token.  
