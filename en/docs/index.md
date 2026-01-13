@@ -115,12 +115,12 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;width: 60px;" xml:space="preserve">
               <style type="text/css">
-                .st0{fill:#212A32;}
+                .st0{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
                 .st1{fill:none;stroke:#212A32;stroke-width:1;stroke-miterlimit:10;}
                 .st2{fill:none;stroke:#1A1A1A;stroke-width:1;stroke-miterlimit:10;}
                 .st3{fill:#FFFFFF;}
                 .st4{fill:#1A1A1A;}
-                .st5{fill:none;stroke:#FF7300;stroke-width:1;stroke-miterlimit:10;}
+                .st5{fill:none;stroke:#212A32;stroke-width:1;stroke-miterlimit:10;}
               </style>
               <g>
                 <g>
@@ -254,23 +254,23 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 60 60" style="enable-background:new 0 0 60 60; width: 60px" xml:space="preserve">
 <style type="text/css">
-  .st0{fill:none;stroke:#212A32;stroke-width:1.5;stroke-miterlimit:10;}
-  .st1{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
-  .st2{fill:none;stroke:#FF7300;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-  .st3{fill:#FF7300;}
+  .registry-st0{fill:none;stroke:#212A32;stroke-width:1.5;stroke-miterlimit:10;}
+  .registry-st1{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
+  .registry-st2{fill:none;stroke:#FF7300;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+  .registry-st3{fill:#FF7300;}
 </style>
 <g>
   <!-- Outer window frame -->
-  <rect class="st1" x="6" y="9" width="48" height="42" rx="2.5" ry="2.5"/>
-  <line class="st1" x1="6" y1="17" x2="54" y2="17"/>
+  <rect class="registry-st1" x="6" y="9" width="48" height="42" rx="2.5" ry="2.5"/>
+  <line class="registry-st1" x1="6" y1="17" x2="54" y2="17"/>
   <!-- Header dots -->
-  <circle class="st3" cx="12" cy="13" r="1.2"/>
-  <circle class="st3" cx="17" cy="13" r="1.2"/>
-  <circle class="st3" cx="22" cy="13" r="1.2"/>
+  <circle class="registry-st3" cx="12" cy="13" r="1.2"/>
+  <circle class="registry-st3" cx="17" cy="13" r="1.2"/>
+  <circle class="registry-st3" cx="22" cy="13" r="1.2"/>
   <!-- Download arrow -->
-  <line class="st2" x1="30" y1="24" x2="30" y2="36"/>
-  <polyline class="st2" points="24,31 30,37 36,31"/>
-  <line class="st0" x1="22" y1="38" x2="38" y2="38"/>
+  <line class="registry-st2" x1="30" y1="24" x2="30" y2="36"/>
+  <polyline class="registry-st2" points="24,31 30,37 36,31"/>
+  <line class="registry-st0" x1="22" y1="38" x2="38" y2="38"/>
 </g>
 </svg>         
             </div>
