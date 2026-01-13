@@ -250,27 +250,36 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
     <a style="color: #222222;" href="updates/customer-guide-harbor-registry/">
         <div>
             <div>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" 
-xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 60 60" style="enable-background:new 0 0 60 60; width: 60px" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60; width: 60px" xml:space="preserve">
 <style type="text/css">
-  .registry-st0{fill:none;stroke:#212A32;stroke-width:1.5;stroke-miterlimit:10;}
-  .registry-st1{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
-  .registry-st2{fill:none;stroke:#FF7300;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-  .registry-st3{fill:#FF7300;}
+	.registry-st0{fill:none;stroke:#FF7300;stroke-width:1;stroke-miterlimit:10;}
+	.registry-st1{fill:#FFFFFF;stroke:#212A32;stroke-miterlimit:10;}
+	.registry-st2{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
+	.registry-st3{fill:none;stroke:#212A32;stroke-width:1.5;stroke-miterlimit:10;}
+	.registry-st8{fill:#1A1A1A;}
+	.registry-st9{fill:none;stroke:#FF7300;stroke-miterlimit:10;}
 </style>
 <g>
-  <!-- Outer window frame -->
-  <rect class="registry-st1" x="6" y="9" width="48" height="42" rx="2.5" ry="2.5"/>
-  <line class="registry-st1" x1="6" y1="17" x2="54" y2="17"/>
-  <!-- Header dots -->
-  <circle class="registry-st3" cx="12" cy="13" r="1.2"/>
-  <circle class="registry-st3" cx="17" cy="13" r="1.2"/>
-  <circle class="registry-st3" cx="22" cy="13" r="1.2"/>
-  <!-- Download arrow -->
-  <line class="registry-st2" x1="30" y1="24" x2="30" y2="36"/>
-  <polyline class="registry-st2" points="24,31 30,37 36,31"/>
-  <line class="registry-st0" x1="22" y1="38" x2="38" y2="38"/>
+	<g>
+		<path class="registry-st0" d="M54.2,51.8H5.8c-1.8,0-3.3-1.5-3.3-3.3V11.5c0-1.8,1.5-3.3,3.3-3.3h48.4c1.8,0,3.3,1.5,3.3,3.3v36.9
+			C57.5,50.3,56,51.8,54.2,51.8z"/>
+		<line class="registry-st0" x1="2.5" y1="19.3" x2="57.5" y2="19.3"/>
+		<g>
+			<circle class="registry-st1" cx="9.5" cy="13.7" r="2.2"/>
+			<circle class="registry-st1" cx="16.9" cy="13.7" r="2.2"/>
+			<circle class="registry-st1" cx="24.4" cy="13.7" r="2.2"/>
+		</g>
+		<rect x="7.8" y="24.3" class="registry-st1" width="8.6" height="5.7"/>
+		<rect x="7.8" y="32.4" class="registry-st1" width="8.6" height="5.7"/>
+		<rect x="7.8" y="40.4" class="registry-st1" width="8.6" height="5.7"/>
+	</g>
+	<g>
+		<!-- Download arrow -->
+		<line class="registry-st3" x1="36" y1="28" x2="36" y2="40"/>
+		<polyline class="registry-st3" points="30,35 36,41 42,35"/>
+		<line class="registry-st3" x1="28" y1="42" x2="44" y2="42"/>
+	</g>
 </g>
 </svg>         
             </div>
