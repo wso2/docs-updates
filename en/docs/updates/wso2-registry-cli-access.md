@@ -16,8 +16,8 @@ To pull images via a terminal or automation pipeline, you cannot use your **WSO2
 
 Open your terminal and run the login command using the credentials generated above.
 
-* **Username:** Your generated Token Name.  
-* **Password:** Your generated Token Secret.
+* **Username:** Your generated `Token Name`.  
+* **Password:** Your generated `Token Secret`.
 
 ```
 docker login registry.wso2.com
