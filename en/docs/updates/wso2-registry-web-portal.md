@@ -9,13 +9,14 @@ The web portal provides a visual interface to browse the projects and images you
 
 ![Registry login page](../assets/img/updates/registry-portal-login-page.png)
 
-**Note** : If you are already logged in to your WSO2 account, that session will automatically authenticate you with the container registry. However, keep in mind that the user and system tokens generated from the WSO2 Support Portal are not valid for logging into the web portal.
+!!! Note
+    If you are already logged in to your WSO2 account, that session will automatically authenticate you with the container registry. However, keep in mind that the user and system tokens generated from the WSO2 Support Portal are not valid for logging into the web portal.
 
 ### **Browsing Products and Projects**
 
 Upon logging in, the view is filtered based on your active WSO2 product subscriptions. You will see projects associated with your account.
 
-1. **Dashboard**: The main page displays a list of Projects. Each Project corresponds to a WSO2 Product (e.g., wso2-apim, wso2-is etc.).
+1. **Dashboard**: The main page displays a list of Projects. Each Project corresponds to a WSO2 Product (e.g., `wso2-apim`, `wso2-is` etc.).
 
     ![Project dashboard](../assets/img/updates/registry-portal-project-dashboard.png)
 
@@ -35,7 +36,7 @@ If you are looking for a specific version or component under a **Repository**:
 
 1. Use the **Search Bar** at the top of the portal.  
 2. Select the **Tags** as **Type.**  
-3. Type the product name or tag (e.g., 4.2.0-rocky).  
+3. Type the product name or tag (e.g., `4.2.0-rocky`).  
 4. The results will show matching repositories available under your subscription.
 
     ![Search for an image](../assets/img/updates/registry-portal-search-for-image.png)
@@ -45,7 +46,7 @@ If you are looking for a specific version or component under a **Repository**:
 To use an image, you need the exact "pull command" for your CLI.
 
 1. Click into a specific **Repository**.  
-2. Locate the specific **Tag** (version) you wish to use (e.g., latest or 4.2.0.15).  
+2. Locate the specific **Tag** (version) you wish to use (e.g., `latest` or `4.2.0.15`).  
 3. Click the Artifact **SHA** value.
 
     ![Pull command - SHA view](../assets/img/updates/registry-portal-pull-command.png)
@@ -55,4 +56,4 @@ To use an image, you need the exact "pull command" for your CLI.
     ![Pull command with SHA](../assets/img/updates/registry-portal-pull-command-sha.png)
 
 
-e.g: docker pull registry.wso2.com/wso2-apim/am:latest
+e.g: `docker pull registry.wso2.com/wso2-apim/am:latest`

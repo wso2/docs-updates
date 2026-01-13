@@ -1,6 +1,6 @@
 # Overview
 
-This guide provides instructions on how to access WSO2 products container images using the [WSO2 Container Registry](https://registry.wso2.com) (*registry.wso2.com*).
+This guide provides instructions on how to access WSO2 products container images using the [WSO2 Container Registry](https://registry.wso2.com).
 
 There are two primary ways to interact with the WSO2 container registry:
 
