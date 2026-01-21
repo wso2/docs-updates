@@ -115,12 +115,12 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;width: 60px;" xml:space="preserve">
               <style type="text/css">
-                .st0{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
+                .st0{fill:#212A32}
                 .st1{fill:none;stroke:#212A32;stroke-width:1;stroke-miterlimit:10;}
                 .st2{fill:none;stroke:#1A1A1A;stroke-width:1;stroke-miterlimit:10;}
                 .st3{fill:#FFFFFF;}
                 .st4{fill:#1A1A1A;}
-                .st5{fill:none;stroke:#212A32;stroke-width:1;stroke-miterlimit:10;}
+                .st5{fill:none;stroke:#FF7300;stroke-width:1;stroke-miterlimit:10;}
               </style>
               <g>
                 <g>
@@ -247,50 +247,50 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
     </a>   
 </div>
 <div class="integratorDescription">
-    <a style="color: #222222;" href="updates/customer-guide-harbor-registry/">
-        <div>
-            <div>
+  <a style="color: #222222;" href="updates/customer-guide-harbor-registry/">
+    <div>
+      <div>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 60 60" style="enable-background:new 0 0 60 60; width: 60px" xml:space="preserve">
+   viewBox="0 0 60 60" style="enable-background:new 0 0 60 60; width: 60px" xml:space="preserve">
 <style type="text/css">
-    .registry-st0{fill:none;stroke:#FF7300;stroke-width:1;stroke-miterlimit:10;}
-    .registry-st1{fill:#FFFFFF;stroke:#212A32;stroke-miterlimit:10;}
-    .registry-st2{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
-    .registry-st3{fill:none;stroke:#212A32;stroke-width:1.5;stroke-miterlimit:10;}
-    .registry-st8{fill:#1A1A1A;}
-    .registry-st9{fill:none;stroke:#FF7300;stroke-miterlimit:10;}
+  .registry-st0{fill:none;stroke:#FF7300;stroke-width:1;stroke-miterlimit:10;}
+  .registry-st1{fill:#FFFFFF;stroke:#212A32;stroke-miterlimit:10;}
+  .registry-st2{fill:none;stroke:#FF7300;stroke-width:1.5;stroke-miterlimit:10;}
+  .registry-st3{fill:none;stroke:#212A32;stroke-width:1.5;stroke-miterlimit:10;}
+  .registry-st8{fill:#1A1A1A;}
+  .registry-st9{fill:none;stroke:#FF7300;stroke-miterlimit:10;}
 </style>
 <g>
-    <g>
-        <path class="registry-st0" d="M54.2,51.8H5.8c-1.8,0-3.3-1.5-3.3-3.3V11.5c0-1.8,1.5-3.3,3.3-3.3h48.4c1.8,0,3.3,1.5,3.3,3.3v36.9
-            C57.5,50.3,56,51.8,54.2,51.8z"/>
-        <line class="registry-st0" x1="2.5" y1="19.3" x2="57.5" y2="19.3"/>
-        <g>
-            <circle class="registry-st1" cx="9.5" cy="13.7" r="2.2"/>
-            <circle class="registry-st1" cx="16.9" cy="13.7" r="2.2"/>
-            <circle class="registry-st1" cx="24.4" cy="13.7" r="2.2"/>
-        </g>
-        <rect x="7.8" y="24.3" class="registry-st1" width="8.6" height="5.7"/>
-        <rect x="7.8" y="32.4" class="registry-st1" width="8.6" height="5.7"/>
-        <rect x="7.8" y="40.4" class="registry-st1" width="8.6" height="5.7"/>
-    </g>
-    <g>
-        <!-- Download arrow -->
-        <line class="registry-st3" x1="36" y1="28" x2="36" y2="40"/>
-        <polyline class="registry-st3" points="30,35 36,41 42,35"/>
-        <line class="registry-st3" x1="28" y1="42" x2="44" y2="42"/>
-    </g>
+  <g>
+  <path class="registry-st0" d="M54.2,51.8H5.8c-1.8,0-3.3-1.5-3.3-3.3V11.5c0-1.8,1.5-3.3,3.3-3.3h48.4c1.8,0,3.3,1.5,3.3,3.3v36.9
+    C57.5,50.3,56,51.8,54.2,51.8z"/>
+  <line class="registry-st0" x1="2.5" y1="19.3" x2="57.5" y2="19.3"/>
+  <g>
+    <circle class="registry-st1" cx="9.5" cy="13.7" r="2.2"/>
+    <circle class="registry-st1" cx="16.9" cy="13.7" r="2.2"/>
+    <circle class="registry-st1" cx="24.4" cy="13.7" r="2.2"/>
+  </g>
+  <rect x="7.8" y="24.3" class="registry-st1" width="8.6" height="5.7"/>
+  <rect x="7.8" y="32.4" class="registry-st1" width="8.6" height="5.7"/>
+  <rect x="7.8" y="40.4" class="registry-st1" width="8.6" height="5.7"/>
+  </g>
+  <g>
+  <!-- Download arrow -->
+  <line class="registry-st3" x1="36" y1="28" x2="36" y2="40"/>
+  <polyline class="registry-st3" points="30,35 36,41 42,35"/>
+  <line class="registry-st3" x1="28" y1="42" x2="44" y2="42"/>
+  </g>
 </g>
-</svg>         
-            </div>
-            <div class="content" style="">
-                Registry
-                <div class="description" style="">
-                 Guide to accessing WSO2 Container Registry and managing registry tokens securely via web and CLI.        
-                 </div>
-            </div>
-        </div>   
-    </a>
+</svg>
+      </div>
+      <div class="content" style="">
+        Registry
+        <div class="description" style="">
+          Guide to accessing WSO2 Container Registry and managing registry tokens securely via web and CLI.
+        </div>
+      </div>
+    </div>
+  </a>
 </div>
 <div class="integratorDescription">
     <a style="color: #222222;" href="updates/best-practices">
