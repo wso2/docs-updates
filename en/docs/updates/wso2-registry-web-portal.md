@@ -2,7 +2,7 @@
 
 The web portal provides a visual interface to browse the projects and images you are entitled to.
 
-### **Logging In**
+## **Logging In**
 
 1. Browse URL [**registry.wso2.com**](https://registry.wso2.com).  
 2. Sign in using your standard **WSO2 Account Credentials** (the same email/password used for the Support Portal).
@@ -12,7 +12,7 @@ The web portal provides a visual interface to browse the projects and images you
 !!! Note
     If you are already logged in to your WSO2 account, that session will automatically authenticate you with the container registry. However, keep in mind that the user and system tokens generated from the WSO2 Support Portal are not valid for logging into the web portal.
 
-### **Browsing Products and Projects**
+## **Browsing Products and Projects**
 
 Upon logging in, the view is filtered based on your active WSO2 product subscriptions. You will see projects associated with your account.
 
@@ -30,7 +30,7 @@ Upon logging in, the view is filtered based on your active WSO2 product subscrip
 
     ![Repository tags](../assets/img/updates/registry-portal-tags.png)
 
-### **Searching for an Image**
+## **Searching for an Image**
 
 If you are looking for a specific version or component under a **Repository**:
 
@@ -41,7 +41,7 @@ If you are looking for a specific version or component under a **Repository**:
 
     ![Search for an image](../assets/img/updates/registry-portal-search-for-image.png)
 
-### **Getting the Pull Command**
+## **Getting the Pull Command**
 
 To use an image, you need the exact "pull command" for your CLI.
 
