@@ -75,8 +75,8 @@ nav:
           - 'FAQ': 'updates/wso2-registry-faq.md'
         - 'Registry Token Management':
           - 'Overview': 'updates/registry-token-management.md'
-          - 'Customer Guide': 'updates/registry-token-management-customer.md'
-          - 'Customer Admin Guide': 'updates/registry-token-management-admin.md'
+          - 'User Guide': 'updates/registry-token-management-customer.md'
+          - 'Admin Guide': 'updates/registry-token-management-admin.md'
       - 'Best Practices': 'updates/best-practices.md'
       - 'Update Tool Setup Usage Guide': 'updates/update-tool-setup-usage-guide.md'
       - 'Troubleshooting Guide': 'updates/troubleshoot.md'
