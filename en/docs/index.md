@@ -115,7 +115,7 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;width: 60px;" xml:space="preserve">
               <style type="text/css">
-                .st0{fill:#212A32}
+                .st0{fill:#212A32;}
                 .st1{fill:none;stroke:#212A32;stroke-width:1;stroke-miterlimit:10;}
                 .st2{fill:none;stroke:#1A1A1A;stroke-width:1;stroke-miterlimit:10;}
                 .st3{fill:#FFFFFF;}
