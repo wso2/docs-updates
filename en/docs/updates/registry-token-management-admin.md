@@ -1,4 +1,4 @@
-# Customer Admin Guide
+# Admin Guide
 
 In addition to all customer features, Customer Administrators can perform the following extra token management actions:
 
