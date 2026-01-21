@@ -1,4 +1,4 @@
-# Customer Guide
+# User Guide
 
 Customers can perform the following token management operations:
 
