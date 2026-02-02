@@ -40,7 +40,7 @@ Each token displays the following details:
 
 * Token Name  
 * Subscription End Date  
-* Products associated with the token  
+* Products Associated With The Token  
 * Token Type  
 * Created For  
 * Created By  
