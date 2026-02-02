@@ -31,7 +31,7 @@ Customers can view a list of all their generated tokens. The displayed informati
 
 * Token Name  
 * Subscription End Date  
-* Products associated with the token  
+* Products Associated with the Token  
 * Created On  
 * Token Status
 
