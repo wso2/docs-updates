@@ -23,7 +23,7 @@ Upon successful generation, the system will display the **Token Name** and the *
 ![Generate token dialog 2](../assets/img/updates/registry-token-generate-token-2.png)
 
 !!! important
-    The **Token Secret** is displayed only once. Please ensure you back up the secret before closing the window. If the secret is lost or forgotten, you must refer to the [**Re-generate Secret**](#4-re-generate-secret) section below.
+    The **Token Secret** is displayed only once. Please ensure you back up the Secret before closing the window. If the Secret is lost or forgotten, you must refer to the [**Re-generate Secret**](#4-re-generate-secret) section below.
 
 ### **View Tokens**
 
@@ -45,12 +45,12 @@ Use the Re-sync Products action to update an existing token's permissions to inc
 
 ### **Re-generate Secret**
 
-This action should be used if the existing token secret has been lost, forgotten, or compromised.
+This action should be used if the existing token Secret has been lost, forgotten, or compromised.
 
-![Re-generate token secret](../assets/img/updates/registry-regenerate-product.png)
+![Re-generate token Secret](../assets/img/updates/registry-regenerate-product.png)
 
 !!! important
-    Re-generating the secret will immediately invalidate the previous secret. Update all systems and applications using the old secret with the newly generated one.
+    Re-generating the Secret will immediately invalidate the previous Secret. Update all systems and applications using the old Secret with the newly generated one.
 
 ### **Delete Token**
 
