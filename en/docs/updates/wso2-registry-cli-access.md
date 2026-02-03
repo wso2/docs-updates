@@ -2,6 +2,8 @@
 
 To pull images via a terminal or automation pipeline, you cannot use your **WSO2 Account Credentials** as previously. You must use a **User Token or a Service Token** generated from the WSO2 Support Portal.
 
+Please refer to the [Registry Token Management](https://updates.docs.wso2.com/en/latest/updates/registry-token-management/) section for additional information.
+
 ### **Prerequisites: Generate a Token**
 
 *Note: This is done in the WSO2 Support Portal, not the Registry Portal.*
