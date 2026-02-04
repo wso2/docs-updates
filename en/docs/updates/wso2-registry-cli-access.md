@@ -20,7 +20,7 @@ Open your terminal and run the login command using the credentials generated abo
 * **Username:** Your generated `Token Name`.  
 * **Password:** Your generated `Token Secret`.
 
-```
+```bash
 docker login registry.wso2.com
 # When prompted for Username: Paste your Token Name
 # When prompted for Password: Paste your Token Secret
@@ -28,13 +28,13 @@ docker login registry.wso2.com
 
 *Alternatively, in a single line:*
 
-```
+```bash
 docker login registry.wso2.com -u <Your_Token_Name> -p <Your_Token_Secret>
 ```
 
 ### **Pull an Image**
-After logging into the container registry successfully, you are able to pull images from the product repositories to which you are subscribed.i.e:
+After logging into the container registry successfully, you can pull images from the product repositories to which you are subscribed. i.e.:
 
-```
+```bash
 docker pull registry.wso2.com/wso2-apim/am:4.5.0-alpine
 ```
