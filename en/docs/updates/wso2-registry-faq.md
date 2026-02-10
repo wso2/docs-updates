@@ -28,3 +28,22 @@ If a token is no longer required or if you believe it is compromised:
 1. Go to the **Registry Tokens** page.  
 2. Click the **Delete Token** (trash bin icon) button.  
 3. This action is permanent and cannot be undone.
+
+## **Q: Cannot pull images from my Arm64 based server/PC - "no matching manifest for linux/arm64/v8 in the manifest list entries"?**
+
+When you try to pull a container image from an Arm-based server or personal computer (please refer to the section **Getting the Pull Command**), the system may throw the error *"no matching manifest for linux/arm64/v8 in the manifest list entries."* This occurs when the registry does not contain a matching architecture container image for the one requested by the client device. You can verify it by,
+
+### Solution: Verify Available Architectures
+
+You can verify the available architectures for an image by:
+
+1. Click into a specific **Repository**.  
+2. Locate the specific **Tag** (version) you wish to use (e.g., `5.7.0.1770447688453.8`).  
+3. Click on the **folder icon** next to the **SHA** value.  
+
+   ![Click folder icon next to SHA](../assets/img/updates/registry-artifact-sha-folder-icon.png)
+ You can then see the available OS architectures for the image.  
+
+   ![OS Architecture listing](../assets/img/updates/registry-os-architecture-list.png)
+
+Since the image **doesn't** have any **arm64** architectural image, you are getting the error message.

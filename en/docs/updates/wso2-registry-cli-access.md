@@ -11,15 +11,16 @@ To pull images via a terminal or automation pipeline, you cannot use your **WSO2
 3. Click **Generate Token** and provide a descriptive name (e.g., "Jenkins-Pipeline-Token").  
 4. **Important:** Copy the **Token Name** and **Token Secret** immediately. The secret is shown only once.  
    
+Please refer to the [Registry Token Management](https://updates.docs.wso2.com/en/latest/updates/registry-token-management/) section for additional information.
 
 ### **Logging in to Docker/Container Client**
 
 Open your terminal and run the login command using the credentials generated above.
 
-* **Username:** Your generated `Token Name`.  
-* **Password:** Your generated `Token Secret`.
+* **Username:** Your generated **Token Name**.  
+* **Password:** Your generated **Token Secret**.
 
-```
+```bash
 docker login registry.wso2.com
 # When prompted for Username: Paste your Token Name
 # When prompted for Password: Paste your Token Secret
@@ -27,6 +28,13 @@ docker login registry.wso2.com
 
 *Alternatively, in a single line:*
 
-```
+```bash
 docker login registry.wso2.com -u <Your_Token_Name> -p <Your_Token_Secret>
+```
+
+### **Pull an Image**
+After logging into the container registry successfully, you can pull images from the product repositories to which you are subscribed. i.e.:
+
+```bash
+docker pull registry.wso2.com/wso2-apim/am:4.5.0-alpine
 ```
