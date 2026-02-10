@@ -17,8 +17,8 @@ Please refer to the [Registry Token Management](https://updates.docs.wso2.com/en
 
 Open your terminal and run the login command using the credentials generated above.
 
-* **Username:** Your generated `Token Name`.  
-* **Password:** Your generated `Token Secret`.
+* **Username:** Your generated **Token Name**.  
+* **Password:** Your generated **Token Secret**.
 
 ```bash
 docker login registry.wso2.com
