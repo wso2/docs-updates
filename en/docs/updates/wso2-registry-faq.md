@@ -31,7 +31,7 @@ If a token is no longer required or if you believe it is compromised:
 
 ## **Q: Cannot pull images from my Arm64 based server/PC - "no matching manifest for linux/arm64/v8 in the manifest list entries"?**
 
-When you try to pull a container image from an Arm-based server or personal computer (as in step **1.4**), the system may throw the error *"no matching manifest for linux/arm64/v8 in the manifest list entries."* This occurs when the registry does not contain a matching architecture container image for the one requested by the client device. You can verify it by,
+When you try to pull a container image from an Arm-based server or personal computer (please refer to the section **Getting the Pull Command**), the system may throw the error *"no matching manifest for linux/arm64/v8 in the manifest list entries."* This occurs when the registry does not contain a matching architecture container image for the one requested by the client device. You can verify it by,
 
 ### Solution: Verify Available Architectures
 
