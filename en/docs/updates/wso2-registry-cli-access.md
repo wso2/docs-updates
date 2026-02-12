@@ -11,7 +11,7 @@ To pull images via a terminal or automation pipeline, you cannot use your **WSO2
 3. Click **Generate Token** and provide a descriptive name (e.g., "Jenkins-Pipeline-Token").  
 4. **Important:** Copy the **Token Name** and **Token Secret** immediately. The secret is shown only once.  
    
-Please refer to the [Registry Token Management](../../updates/registry-token-management) section for additional information.
+Please refer to the [Registry Token Management](registry-token-management) section for additional information.
 
 ### **Logging in to Docker/Container Client**
 
