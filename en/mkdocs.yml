@@ -90,6 +90,7 @@ markdown_extensions:
   - markdown_include.include:
       base_path: docs
   - markdown.extensions.admonition
+  - markdown.extensions.attr_list
   - markdown.extensions.codehilite:
       linenums: true
       use_pygments: false
