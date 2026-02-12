@@ -42,7 +42,7 @@ theme:
   feature:
     tabs: true
   language: 'en'
-  
+
 # Navigation
 nav:
     - 'Home': index.md
@@ -51,6 +51,7 @@ nav:
         - 'Overview': 'updates/overview.md'
         - 'New to WSO2 Updates': 'updates/new-user.md'
         - 'Set Up the Update Tool': 'updates/set-up-update-tool.md'
+        - 'Authentication and Session Persistence': 'updates/authentication.md'
       #  - 'Finding the update tool' : 'updates/finding-the-update-tool.md'
       #  - 'Migrating to Updates 2.0'  : 'updates/migrating-to-updates2.0.md'
         - 'Whats new in WSO2 Updates' : 'updates/whats-new.md'
@@ -74,7 +75,7 @@ nav:
       - 'WUM/In-place Decommission Plan': 'updates/wum-decommission.md'
       - 'Reference Page': 'updates/reference.md'
     - '': page-not-found.md
-     
+
 # Extensions
 markdown_extensions:
   - markdown_include.include:
@@ -104,7 +105,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-    
+
 # Extra
 extra_css:
   - assets/lib/highlightjs/default.min.css
