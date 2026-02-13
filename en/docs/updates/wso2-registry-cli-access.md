@@ -9,7 +9,7 @@ To pull images via a terminal or automation pipeline, you cannot use your **WSO2
 1. Log in to the **WSO2 Support Portal**.  
 2. Navigate to **Projects \> My Projects \> Registry Tokens**.  
 3. Click **Generate Token** and provide a descriptive name (e.g., "Jenkins-Pipeline-Token").  
-4. **Important:** Copy the **Token Name** and **Token Secret** immediately. The secret is shown only once.  
+4. **Important:** Copy the **Token ID** and **Token Secret** immediately. The secret is shown only once.  
    
 Please refer to the [Registry Token Management](registry-token-management.md) section for additional information.
 
@@ -17,7 +17,7 @@ Please refer to the [Registry Token Management](registry-token-management.md) se
 
 Open your terminal and run the login command using the credentials generated above.
 
-* **Username:** Your generated **Token Name**.  
+* **Username:** Your generated **Token ID**.  
 * **Password:** Your generated **Token Secret**.
 
 ```bash
