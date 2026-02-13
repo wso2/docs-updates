@@ -51,6 +51,5 @@ Each token displays the following details:
 
 Administrators can also perform the following actions on any token:
 
-1. Re-sync Products  
-2. Re-generate Secrets  
-3. Delete tokens
+1. Re-generate Secrets  
+2. Delete Tokens

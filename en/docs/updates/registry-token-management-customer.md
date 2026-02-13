@@ -4,9 +4,8 @@ Customers can perform the following token management operations:
 
 1. Generate Token  
 2. View Tokens  
-3. Re-sync Products  
-4. Re-generate Secret  
-5. Delete Token
+3. Re-generate Secret  
+4. Delete Token
 
 ### **Generate Token**
 
@@ -36,12 +35,6 @@ Customers can view a list of all their generated tokens. The displayed informati
 * Token Status
 
 ![View tokens table](../assets/img/updates/registry-token-view-token-1.png)
-
-### **Re-sync Products**
-
-Use the Re-sync Products action to update an existing token's permissions to include any new products you have recently subscribed to. Once this action is performed, the token will grant access to product images related to the new subscription.
-
-![Re-sync products action](../assets/img/updates/registry-resync-product.png)
 
 ### **Re-generate Secret** { #re-generate-secret }
 
