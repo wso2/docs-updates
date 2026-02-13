@@ -22,14 +22,14 @@ Open your terminal and run the login command using the credentials generated abo
 
 ```bash
 docker login registry.wso2.com
-# When prompted for Username: Paste your Token Name
+# When prompted for Username: Paste your Token ID
 # When prompted for Password: Paste your Token Secret
 ```
 
 *Alternatively, in a single line:*
 
 ```bash
-docker login registry.wso2.com -u <Your_Token_Name> -p <Your_Token_Secret>
+docker login registry.wso2.com -u <Your_Token_ID> -p <Your_Token_Secret>
 
 i.e : docker login registry.wso2.com -u 'robot$example-token' -p 'top_secret'
 ```
