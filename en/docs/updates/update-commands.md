@@ -1,5 +1,5 @@
 ## Important Updates commands
-Shown below is an essential set of update commands that a user require to receive  updates seamlessly.  
+Shown below is an essential set of update commands that a user requires to receive updates seamlessly.
  To use below update commands replace the tag **<os\>**  with correct name depending on the operating system.
 
    * For mac     - `darwin`
@@ -7,31 +7,29 @@ Shown below is an essential set of update commands that a user require to receiv
    * For windows - `windows`
 
 !!! tip "Before you begin"
-    The following commands should be performed in command prompt under the folder path of <strong>`<product-home>/bin`</strong>  
+    The following commands should be performed in command prompt under the folder path of <strong>`<product-home>/bin`</strong>
 
 ### [wso2update_<os\>]()
 
    **Synopsis**
-    
-       ./wso2update_linux [--help | help]
-                          [<options>]
-                          <command> [<args>]
+
+    ./wso2update_linux [--help | help]
+                        [<options>]
+                        <command> [<args>]
 
    **Description**
- 
- ./wso2update_linux tool is a simple command-line tool that connects to the  WSO2 Update service, determines which updates are new and relevant, thereafter downloads and updates the product. 
- 
- You will be prompted to enter WSO2 credentials to initializing the tool. Therefore, you require a WSO2 account to start using the
- update tool. 
-        
-Need a WSO2 Account? [Sign up](https://wso2.com/user/register)
+
+ ./wso2update_linux tool is a simple command-line tool that connects to the  WSO2 Update service, determines which updates are new and relevant, thereafter downloads and updates the product.
+
+The Update Tool needs WSO2 credentials to authenticate requests.
+See the [Authentication and Session Persistence](./authentication.md) page for more details.
 
 To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.com/updates)
 
 
 **Options**
- 	
- 	-l, --level <level>      Update the product upto the given level. 
+
+ 	-l, --level <level>      Update the product upto the given level.
                              The provided level may or may not contain the product version.
 
 	-b, --backup             Specify updates backup directory.
@@ -54,12 +52,12 @@ Here is a list of available subcommands:
 | **Sub commands**  | **Detail**                                                                                       |
 |------------------|--------------------------------------------------------------------------------------------------|
 |   apply-hotfix   |      Apply an available hotfix                                                                   |
-|   apply-update   |      Apply updates to an isolated environment                                                    | 
+|   apply-update   |      Apply updates to an isolated environment                                                    |
 |   check          |      Check available new levels for the product<br>                                              |
 |   current-state  |      Show current details of the product                                                         |
 |   create-update  |      Creates a zip file with updates corresponding to an update level range                      |
 |   revert-hotfix  |      Revert the most recently applied hotfix                                                     |
-|   version        |      Print Update tool version                                                                   |  
+|   version        |      Print Update tool version                                                                   |
 |   help           |      Prints usage details of a command                                                           |
 
 **Exit Codes**
@@ -98,7 +96,20 @@ Password for ‘user@wso2.com’: my_password
 ./wso2update_linux --username user@wso2.com --password my_password
 ```
 
-* Use templating to obtain output specific to the type of information that is required. 
+* Update the product using environment variables (useful for CI/CD pipelines):
+
+    ```bash
+    export UPDATE_TOOL_USERNAME=user@wso2.com
+    export UPDATE_TOOL_PASSWORD=my_password
+    ./wso2update_linux
+    ```
+
+* If you have an active session (i.e., you have already logged in and have valid session tokens in the environment), simply running the command will reuse the session without prompting for credentials:
+```bash
+./wso2update_linux
+```
+
+* Use templating to obtain output specific to the type of information that is required.
 ``` bash
 ./wso2update_linux --template "Added: {{.Added}}, Modified: {{.Modified}}, Removed: {{.Removed}}"
 ```
@@ -108,7 +119,7 @@ Password for ‘user@wso2.com’: my_password
 ./wso2update_linux --level 3.0.0.10
 ```
 
-* Simulate the update 
+* Simulate the update
 ``` bash
 ./wso2update_linux --dry-run
 ```
@@ -116,20 +127,20 @@ Password for ‘user@wso2.com’: my_password
 ### [wso2update_<os\> help]()
 
 **Synopsis**
- 	
+
  	./wso2update_linux help [command] [options]
 
 **Description**
- 
-Help provides help for any command in the tool.	
+
+Help provides help for any command in the tool.
 If Help command is applied with no options and no command, the synopsis of the update command, and a list of updates are printed.
 If a command is given, full details for that command is brought up.
 
-!!! Note 
+!!! Note
     `./wso2update_linux -h` and `./wso2update_linux –-help` commands are identical to `./wso2update_linux help`.
 
 **Options**
- 	
+
  	-v, --verbose
           	Enable verbose mode.
 
@@ -137,24 +148,24 @@ If a command is given, full details for that command is brought up.
 
 * Get help on how to use the check command
 
-``    
+    ``` bash
     ./wso2update_linux help check
-``  
+    ```
 
 
 ### [wso2update_<os\> version]()
 
 **Synopsis**
- 	
+
  	./wso2update_linux version [options]
 
 **Description**
- 
-Version command prints the Update tool distribution version information such as Update tool version, release date, 
+
+Version command prints the Update tool distribution version information such as Update tool version, release date,
 operating system, architecture and Go version.
 
 **Options**
-	
+
  	 	-v, --verbose
           	Enable verbose mode.
 
@@ -162,60 +173,60 @@ operating system, architecture and Go version.
 
 * Get update tool version information.
 
-``  
+    ``` bash
     ./wso2update_linux version
-``  
+    ```
 
 ### [wso2update_<os\> check]()
 
 **Synopsis**
- 	
+
  	./wso2update_linux check [options]
 
 **Description**
- 
+
 Checks the availability of new levels for the product.
 
 Check command detects available new levels for the product and prints the findings.
 
 **Options**
- 	
+
  	-v, --verbose
       	Enable verbose mode.
 
 **Examples**
 
 Check new levels
- 	   
+
     ./wso2update_linux check
 
 ### [wso2update_<os\> current-state]()
 
 **Synopsis**
- 	
+
     ./wso2update_linux current-state [options]
 
 **Description**
- 
+
 Show current state details of the product.
 
 Current-state command prints the current details of the product. This command retrieves and shows the current level and add hotfixes to the product.
 
 **Options**
- 	
+
     -v, --verbose
       	Enable verbose mode.
 
 **Examples**
 
 Get the current status of the product
- 	   
+
     ./wso2update_linux current-state
 
 ### [wso2update_<os\> create-update]()
 
 **Synopsis**
- 	
+
     ./wso2update_linux create-update [options]
 
 **Description**<br>
@@ -225,29 +236,29 @@ that is applied to a product in an environment without Internet access.
 **Options**
 
     -e, --end-level string      Ending update level (default "0")
-    -h, --help                  Help for create-update 
+    -h, --help                  Help for create-update
     -s, --start-level string    Starting update level
-    -p, --password string       Specify your WSO2 account password 
+    -p, --password string       Specify your WSO2 account password
     -u, --username string       Specify your WSO2 account email
     -v, --verbose               Enable verbose mode
 
 **Examples**
 
 Creates a zip file that comprises update level range that is applied to a product.
- 	   
+
     ./wso2update_linux create-update
 Creates a zip file with defined update level range that is applied to a product.
-    
+
     ./wso2update_linux create-update -s <start_level> -e <end_level>
 
 ### [wso2update_<os\> apply-update]()
 
 **Synopsis**
- 	
+
  	./wso2update_linux apply-update [options]
 
 **Description**<br>
-`apply-update` command pointing to the update zip file would facilitate the propagation of updates to a WSO2 product in a lockdown environment. 
+`apply-update` command pointing to the update zip file would facilitate the propagation of updates to a WSO2 product in a lockdown environment.
 First apply-update command would ascertain whether the latest version of the update client is being used, if the latest version of the tool is absent the client updates itself.
 Thereafter, it would prompt the user for a re-run of apply-update command.
 
@@ -264,7 +275,7 @@ Thereafter, it would prompt the user for a re-run of apply-update command.
 **Examples**
 
 Executing the `apply-update` command pointing the update zip file location would facilitate receiving updates to the lockdown environment.
- 	   
+
     ./wso2update_linux apply-update <path-to-update-zip-file>
 
 <strong>Note:</strong> if you are faced with an `unknown command "apply-update" for "wso2update"` error while applying updates offline, [Click here](../../updates/faq/#what-should-you-do-if-you-get-anunknown-command-apply-update-for-wso2update-error-while-applying-updates-offline)
@@ -272,10 +283,10 @@ Executing the `apply-update` command pointing the update zip file location would
 ### [wso2update_<os\> apply-hotfix]()
 
 **Synopsis**
- 	
+
  	./wso2update_linux apply-hotfix [options] <path-to-hotfix>
-                  
- 
+
+
 **Description**
 
 Apply an available hotfix.
@@ -284,33 +295,33 @@ Apply-hotfix command applies an available hotfix to the product distribution. Th
 file that contains a WSO2 provided hotfix.
 
 
-!!! Note 
-    That a Hotfix cannot be applied when an update is taken immediately before taking a Hotfix. 
+!!! Note
+    That a Hotfix cannot be applied when an update is taken immediately before taking a Hotfix.
 
 **Options**
 
  	-v, --verbose
       	Enable verbose mode.
-    --offline 
+    --offline
         Apply hotfix offline
 
 
 **Examples**
 
 Apply a hotfix to the product
- 	   
+
     ./wso2update_linux apply-hotfix wso2am-3.0.0-abc-hf1.zip
 
 ### [wso2update_<os\> revert-hotfix]()
 
 **Name**
- 	
+
  	wso2update_linux revert-hotfix - Revert most recently applied hotfix.
 
 **Synopsis**
 
- 	./wso2update_linux revert-hotfix [options]                  
- 
+ 	./wso2update_linux revert-hotfix [options]
+
 **Description**
 
 Revert-hotfix command reverts the most recently applied hotfix and any configuration that you may have changed while the newest hotfix is installed to the product distribution.
@@ -323,7 +334,7 @@ Revert-hotfix command reverts the most recently applied hotfix and any configura
 **Examples**
 
 Revert the previously applied hotfix
- 	   
+
  	   ./wso2update_linux revert-hotfix
 
 ### [wso2update_<os\> create-docker]()
