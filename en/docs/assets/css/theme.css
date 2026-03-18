@@ -70,8 +70,9 @@
 }
 
 .md-header-nav__button.md-logo > img {
-    width: 60px;
-    margin-top: 3px;
+    max-height: 2.2rem;
+    width: auto;
+    margin-top: 2px;
 }
 
 .md-header__version-select {
