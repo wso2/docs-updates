@@ -29,15 +29,14 @@ edit_uri: https://github.com/wso2/docs-updates/edit/master/en/docs/
 copyright: WSO2 Updates 2.0 - Documentation
 
 # Configuration
-theme: material
 theme:
   name: material
   palette:
     primary: deep-orange
     accent: deep-orange
   custom_dir: theme/material
-  logo: images/logo.svg
-  favicon: images/favicon.png
+  logo: https://wso2.cachefly.net/wso2/sites/all/image_resources/logos/WSO2-Logo-Black.webp
+  favicon: https://wso2.com/themes/wso2theme/favicon.ico
   highlightjs: true
   feature:
     tabs: true
