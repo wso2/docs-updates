@@ -24,18 +24,6 @@ Upon successful generation, the system will display the **Token Name** and the *
 !!! important
     The **Token Secret** is displayed only once. Please ensure you back up the Secret before closing the window. If the Secret is lost or forgotten, you must refer to the [**Re-generate Secret**](#re-generate-secret) section below.
 
-### **View Tokens**
-
-Customers can view a list of all their generated tokens. The displayed information includes:
-
-* Token Name  
-* Subscription End Date  
-* Products Associated with the Token  
-* Created On  
-* Token Status
-
-![View tokens table](../assets/img/updates/registry-token-view-token-1.png)
-
 ### **Re-generate Secret** { #re-generate-secret }
 
 This action should be used if the existing token Secret has been lost, forgotten, or compromised.
