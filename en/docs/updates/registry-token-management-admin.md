@@ -24,7 +24,7 @@ Service tokens are issued on behalf of service accounts that do not have Support
 
 To generate a new service token, follow these steps:
 
-1. Click the **Generate Token** button.  
+1. Click the **Generate Service Token** button.  
 2. Enter a descriptive **Token Name**.  
 3. Click the **Integration User** button.
 4. Click the **Generate Token** button.
