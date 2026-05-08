@@ -12,7 +12,7 @@ User tokens are generated on behalf of the creator and are intended for accessin
 
 To generate a new user token, follow these steps:
 
-1. Click the **Generate Token** button.  
+1. Click the **Generate User Token** button.  
 2. Enter a descriptive **Token Name**.  
 3. Click the **Generate Token** button.
 
