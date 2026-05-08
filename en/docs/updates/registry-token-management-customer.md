@@ -11,7 +11,7 @@ Customers can perform the following token management operations:
 
 To generate a new token, follow these steps:
 
-1. Click the **Generate Token** button.  
+1. Click the **Generate User Token** button.  
 2. Enter a descriptive **Token Name**.  
 3. Click the **Generate Token** button.
 
