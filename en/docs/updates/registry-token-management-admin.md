@@ -45,8 +45,6 @@ Each token displays the following details:
 * Created On  
 * Token Status
 
-![View and manage all tokens](../assets/img/updates/registry-manage-all-token.png)
-
 Administrators can also perform the following actions on any token:
 
 1. Re-generate Secrets  
