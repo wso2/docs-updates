@@ -29,7 +29,7 @@ To generate a new service token, follow these steps:
 3. Select a **Service User** from the dropdown.  
 4. Click the **Generate Token** button.
 
-![Generate service token dialog](../assets/img/updates/registry-generate-user-token-2.png)
+![Generate service token dialog](../assets/img/updates/registry-generate-service-token.png)
 
 ### **View and Manage All Tokens**
 
