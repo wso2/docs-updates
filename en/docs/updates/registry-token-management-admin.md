@@ -14,8 +14,7 @@ To generate a new user token, follow these steps:
 
 1. Click the **Generate Token** button.  
 2. Enter a descriptive **Token Name**.  
-3. Select the **User Token** option.  
-4. Click the **Generate Token** button.
+3. Click the **Generate Token** button.
 
 ![Generate user token dialog](../assets/img/updates/registry-generate-user-token-1.png)
 
@@ -27,9 +26,8 @@ To generate a new service token, follow these steps:
 
 1. Click the **Generate Token** button.  
 2. Enter a descriptive **Token Name**.  
-3. Select the **Service Token** option.  
-4. Select a **Service User** from the dropdown.  
-5. Click the **Generate Token** button.
+3. Click the **Intergration User** button.
+4. Click the **Generate Token** button.
 
 ![Generate service token dialog](../assets/img/updates/registry-generate-user-token-2.png)
 
