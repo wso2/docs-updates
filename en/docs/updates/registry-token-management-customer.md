@@ -11,7 +11,7 @@ Customers can perform the following token management operations:
 
 To generate a new token, follow these steps:
 
-1. Click the **Generate Token** button.  
+1. Click the **Generate User Token** button.  
 2. Enter a descriptive **Token Name**.  
 3. Click the **Generate Token** button.
 
@@ -32,9 +32,7 @@ Customers can view a list of all their generated tokens. The displayed informati
 * Subscription End Date  
 * Products Associated with the Token  
 * Created On  
-* Token Status
-
-![View tokens table](../assets/img/updates/registry-token-view-token-1.png)
+* Token Status    
 
 ### **Re-generate Secret** { #re-generate-secret }
 
