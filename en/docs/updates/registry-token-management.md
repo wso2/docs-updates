@@ -4,6 +4,6 @@ This comprehensive guide is designed for WSO2 customers and their administrators
 
 To access this feature, navigate to the **Settings > Registry Tokens** page in the WSO2 Customer Portal.  
 
-![Registry tokens overview page 1](../assets/img/updates/registry-token-page-1.png)
+![Registry tokens overview page 1](../assets/img/updates/registry-token-page1.png)
 
-![Registry tokens overview page 2](../assets/img/updates/registry-token-page-2.png)
+![Registry tokens overview page 2](../assets/img/updates/registry-token-page2.png)
