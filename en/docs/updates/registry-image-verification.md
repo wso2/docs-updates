@@ -30,7 +30,7 @@ gQIDAQAB
 
 ### Run the Verification Command
 
-The command you run depends on whether you are logged in to the WSO2 container registry. Use the following command structure to verify your image. Replace *\<image\_path\>* with the full registry path of the WSO2 image (e.g., `registry.wso2.com/wso2-am/am:v1.0.0`).
+The command you run depends on whether you are logged in to the WSO2 container registry. Use the following command structure to verify your image. Replace `<image_path>` with the full registry path of the WSO2 image (e.g., `registry.wso2.com/wso2-am/am:v1.0.0`).
 
 ### A. If Already Logged In (Docker/OCI Client)
 
@@ -58,7 +58,7 @@ Pass credentials securely using environment variables:
       --registry-username="$REGISTRY_USERNAME" \
       --registry-password="$REGISTRY_PASSWORD" \
       --key /path/to/wso2-public-key.pub \
-      <image_url>
+      <image_path>
     ```
 
 ## Understanding the Results
