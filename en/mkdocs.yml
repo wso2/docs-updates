@@ -57,6 +57,7 @@ nav:
       - How to Update :
         - 'Using the Update Tool': 'updates/update-tool.md'
         - 'Useful Update Commands': 'updates/update-commands.md'
+        - 'Changelog': 'updates/changelog.md'
         - 'Resolving Conflicts': 'updates/resolve-conflicts.md'
         - Using Docker Images:
           - Using Docker images to receive Updates: 'updates/how-to-use-docker-images-to-receive-updates.md'
