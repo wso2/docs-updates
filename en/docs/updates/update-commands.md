@@ -43,6 +43,8 @@ To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.co
     -v, --verbose            Enable verbose mode.
     -h, --help               Help for wso2update.
     --no-backup              Skip product backup
+    --no-changelog           Skip changelog generation after a successful update.
+    --get-summary            Generate a summary of the applied updates.
 
 **Sub Commands**
 
@@ -59,6 +61,7 @@ Here is a list of available subcommands:
 |   revert-hotfix  |      Revert the most recently applied hotfix                                                     |
 |   version        |      Print Update tool version                                                                   |
 |   help           |      Prints usage details of a command                                                           |
+|   get-summary    |      Get a summary of updates between two update levels                                          |
 
 **Exit Codes**
 
@@ -359,3 +362,33 @@ prior to applying the same to a production environment.
     -v, --verbose                Enable verbose mode
 
 Refer our [Webinar on Updates 2.0](https://youtu.be/Z2XeRhzkdpI?t=1050) to witness how you could receive updates with WSO2 Updates 2.0
+
+### [wso2update_<os\> get-summary]()
+
+**Synopsis**
+
+    ./wso2update_linux get-summary <starting-update-level> <ending-update-level>
+
+**Description**
+
+`get-summary` command retrieves a markdown summary of the updates released between the given starting and ending update levels for the product and saves it to the product updates directory.
+
+The summary file is saved as `update-summary-<starting-level>-<ending-level>.md` (each level zero-padded to four digits) inside the `<product-home>/updates/` directory.
+
+**Options**
+
+    -u, --username string   Specify your WSO2 account email.
+    -p, --password string   Specify your WSO2 account password.
+    -h, --help              Help for get-summary.
+
+**Examples**
+
+* Get the summary of updates between levels 5 and 10.
+``` bash
+./wso2update_linux get-summary 5 10
+```
+
+* Get the summary with explicit credentials.
+``` bash
+./wso2update_linux get-summary 5 10 --username user@wso2.com --password my_password
+```
