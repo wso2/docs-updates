@@ -36,3 +36,7 @@ You can verify the available architectures for an image by:
    ![OS Architecture listing](../assets/img/updates/registry-os-architecture-list.png)
 
 Since the image **doesn't** have any **arm64** architectural image, you are getting the error message.
+
+## **Q: How can I programmatically discover the latest image tag for use in my pipeline?**
+
+The Harbor CLI is the recommended approach for this use case. It supports querying, filtering, and sorting artifacts by version and works seamlessly with tokens generated from the WSO2 Customer Support Portal. Refer to the [Harbor CLI](wso2-registry-cli-access.md#harbor-cli) section for setup and usage instructions.

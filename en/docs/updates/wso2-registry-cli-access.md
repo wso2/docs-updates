@@ -12,11 +12,15 @@ To pull images via a terminal or automation pipeline, you cannot use your **WSO2
    
 Please refer to the [Registry Token Management](registry-token-management.md) section for additional information.
 
-### **Logging in to Docker/Container Client**
+## Docker CLI
+
+The Docker CLI is the standard method for authenticating and pulling images from the WSO2 Container Registry. Use this method for straightforward image pull operations.
+
+### **Login**
 
 Open your terminal and run the login command using the credentials generated above.
 
-* **Username:** Your generated **Token ID**.  
+* **Username:** Your generated **Token ID**.
 * **Password:** Your generated **Token Secret**.
 
 ```bash
@@ -28,14 +32,76 @@ docker login registry.wso2.com
 *Alternatively, in a single line:*
 
 ```bash
-docker login registry.wso2.com -u <Your_Token_ID> -p <Your_Token_Secret>
+docker login registry.wso2.com -u '<Your_Token_ID>' -p '<Your_Token_Secret>'
 
-i.e : docker login registry.wso2.com -u 'robot$example-token' -p 'top_secret'
+e.g : docker login registry.wso2.com -u 'robot$example-token' -p 'top_secret'
 ```
 
 ### **Pull an Image**
+
 After logging into the container registry successfully, you can pull images from the product repositories to which you are subscribed. i.e.:
 
 ```bash
 docker pull registry.wso2.com/wso2-apim/am:4.5.0-alpine
+```
+
+!!! note
+    The Docker CLI does not support querying or listing available tags in a repository. If your use case requires programmatically discovering the latest image tag, use the [Harbor CLI](#harbor-cli) instead.
+
+## Harbor CLI
+
+WSO2 container registry is powered by the open source project, [Harbor](https://goharbor.io/). Therefore, the Harbor CLI can be used to access the registry too. It suits automated workflows and CI/CD pipelines which need more control. It provides capabilities such as browsing repositories, querying artifacts, filtering, and discovering the latest available image tags within your subscribed projects.
+
+The Harbor CLI can be installed by following the [installation guide](https://github.com/goharbor/harbor-cli#install). The WSO2 Container Registry supports repository and artifact operations via the Harbor CLI. For more information refer to the [Harbor CLI documentation](https://github.com/goharbor/harbor-cli).
+
+!!! note
+    The [jq](https://jqlang.org) command-line tool is also required to parse the JSON output from Harbor CLI commands.
+
+### **Login**
+
+```bash
+harbor login registry.wso2.com -u '<Your_Token_ID>' -p '<Your_Token_Secret>'
+
+e.g : harbor login registry.wso2.com -u 'robot$example-token' -p 'top_secret'
+```
+
+### **Listing Artifacts and Tags**
+
+To list all artifacts in a repository filtered by a specific major version:
+
+```bash
+harbor artifact list <project>/<repository> \
+  -q "tags=~<major-version>." \
+  -s '-push_time' \
+  -n 100 \
+  -o json | jq -r '.Payload[].tags[].name' \
+  | grep -E '^<major-version>\.[0-9]+\.[0-9]+\.[0-9]+$' \
+  | sort -V
+```
+
+For example:
+
+```bash
+harbor artifact list wso2-apim/am -q "tags=~4." -n 100 -o json | jq -r '.Payload[].tags[].name' | grep -E '^4\.[0-9]+\.[0-9]+\.[0-9]+$' | sort -V
+```
+
+### **Finding the Latest Tag**
+
+To programmatically identify the latest pinned image tag for a given major version:
+
+```bash
+harbor artifact list <project>/<repository> \
+  -q "tags=~<major-version>." \
+  -s '-push_time' \
+  -n 100 \
+  -o json | jq -r '.Payload[].tags[].name' \
+  | grep -E '^<major-version>\.[0-9]+\.[0-9]+\.[0-9]+$' \
+  | sort -V \
+  | tail -1
+```
+
+For example:
+
+```bash
+harbor artifact list wso2-apim/am -q "tags=~4." -n 100 -o json | jq -r '.Payload[].tags[].name' | grep -E '^4\.[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | tail -1
 ```

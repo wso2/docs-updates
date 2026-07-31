@@ -2,14 +2,14 @@
 
 ## Introduction
 
-To ensure the security and authenticity of your deployments, WSO2 provides signed container images. This guide explains how to use the Cosign tool to verify that an image has not been tampered with and was officially released by WSO2.
+To ensure the security and authenticity of your deployments, WSO2 provides signed container images. This section explains how to use the Cosign tool to verify that an image has not been tampered with and was officially released by WSO2.
 
 ## Prerequisites
 
 Before verification, ensure:
 
-* [Cosign](https://docs.sigstore.dev/cosign/system_config/installation/) is installed  
-* Access to the [WSO2 container registry](https://registry.wso2.com)  
+* [Cosign](https://docs.sigstore.dev/cosign/system_config/installation/) is installed
+* Access to the [WSO2 container registry](https://registry.wso2.com)
 * Public key provided by WSO2
 
 You need the WSO2 public key to validate the signatures. Save the following block into a file named **wso2-public-key.pub** on your local machine:
@@ -65,7 +65,9 @@ Pass credentials securely using environment variables:
 
 When you run the command, a successful verification will display a message confirming that the **Cosign claims were validated** and the **signatures were verified** against the public key. If the verification fails, do not deploy the image and contact WSO2 support.
 
-* Signature is valid  
+A successful verification confirms:
+
+* Signature is valid
 * Image digest matches signed content
 
 ![Registry Image Verification Preview](../assets/img/updates/registry-image-verification-preview.jpg)
