@@ -69,10 +69,11 @@ nav:
       - 'Hotfixes': 'updates/hotfixes.md'
       - 'Updates Portal': 'updates/updates-portal.md'
       - 'Registry':
-        - 'Registry Web Portal':
+        - 'Registry User Guide':
           - 'Overview': 'updates/customer-guide-harbor-registry.md'
           - 'Accessing the Registry Web Portal': 'updates/wso2-registry-web-portal.md'
           - 'Accessing Images via CLI': 'updates/wso2-registry-cli-access.md'
+          - 'Image Retention Policy' : 'updates/wso2-registry-image-retention-policy.md'
           - 'FAQ': 'updates/wso2-registry-faq.md'
         - 'Registry Token Management':
           - 'Overview': 'updates/registry-token-management.md'

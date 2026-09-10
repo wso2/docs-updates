@@ -1,7 +1,21 @@
 # Accessing Images via CLI (Command Line)
 
 To pull images via a terminal or automation pipeline, you cannot use your **WSO2 Account Credentials** as previously. You must use a **User Token or a Service Token** generated from the WSO2 Support Portal.
-### **Prerequisites: Generate a Token**
+
+## Network Requirements
+
+The WSO2 Container Registry uses a Content Delivery Network (CDN) to serve image content. When you pull an image, authentication and manifest requests are served by `registry.wso2.com`, while the image layers are downloaded from `registry-cdn.wso2.com`.
+
+If your environment restricts outbound network access through a firewall or proxy, allow HTTPS (port 443) traffic to both of the following domains:
+
+* `registry.wso2.com`
+* `registry-cdn.wso2.com`
+
+!!! Note
+    If only `registry.wso2.com` is allowed, logging in and listing repositories will succeed, but image pulls will fail while downloading layers.
+
+
+## Prerequisites: Generate a Token
 
 *Note: This is done in the WSO2 Support Portal, not the Registry Portal.*
 
@@ -45,7 +59,7 @@ After logging into the container registry successfully, you can pull images from
 docker pull registry.wso2.com/wso2-apim/am:4.5.0-alpine
 ```
 
-!!! note
+!!! Note
     The Docker CLI does not support querying or listing available tags in a repository. If your use case requires programmatically discovering the latest image tag, use the [Harbor CLI](#harbor-cli) instead.
 
 ## Harbor CLI
