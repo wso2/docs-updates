@@ -1034,3 +1034,7 @@ html .md-footer-meta.md-typeset a,
     line-height: 1;
     margin-top: 5px;
 }
+
+.md-typeset .tab-note[hidden] {
+    display: none;
+}

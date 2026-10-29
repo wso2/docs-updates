@@ -150,6 +150,20 @@ by default) directory and run the update tool again.</p>
 <td><p>Change the backup location to a new location that is not within the product pack.
        For more details on changing the backup location refer <a href="../faq/#how-to-change-the-backup-location">how to change the backup location</a></p></td>
 </tr>
+<tr id="unable-to-run-wso2update-darwin-on-macos27">
+<td>Unable to run wso2update_darwin on macOS27</td>
+<td><p>When upgrading to or installing macOS 27, the operating system automatically removes Rosetta 2. Some WSO2 product distributions bundle an Update Tool only compatible with the x86 / x86-64 architecture, which requires Rosetta 2 to execute on Apple Silicon (M-series) Macs. As a result, running the Update Tool on macOS 27 without Rosetta 2 installed will fail.</p>
+    <p>Impacted Product Versions:</p>
+    <ul>
+        <li>WSO2 API Manager versions prior to wso2am-4.4.0</li>
+        <li>WSO2 Identity Server versions prior to wso2is-7.1.0</li>
+        <li>WSO2 Micro Integrator versions prior to wso2mi-4.4.0</li>
+        <li>WSO2 Streaming Integrator versions prior to wso2si-4.4.0</li>
+    </ul></td>
+<td><p>If you are operating on Apple Silicon hardware running macOS 27, please ensure Rosetta 2 is installed by executing the following command in your terminal:</p>
+    <p><code>softwareupdate --install-rosetta</code></p>
+    </td>
+</tr>
 </tbody>
 </table>
 
