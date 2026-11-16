@@ -55,21 +55,22 @@ We have released Choreo Labs Updates with a commercial EULA license. Find out mo
 Choreo Labs tests all updates and hotfixes before releasing them to customers. However, it is a best practice to install updates or hotfixes to either your development, staging or testing environment that has the same product distribution that runs on your production environment, execute test run and thereafter apply to the production environment.
 
 ### How do I know when updates are available?
+There are two ways:
+1. You can run the `check` sub-command of the update tool.
+2. You can log into [Support Portal](https://support.choreolabs.com/support) and navigate to the `Updates` page.
 
-You can learn about the latest updates from Choreo Labs by logging into [Updates Portal](https://updates-info.choreolabs.com).
+### Where can I find description and instructions related to specific updates?
 
-### Where can I find description and instructions related to specific updates and hotfixes?
+You can review details about each update by logging into the [Support Portal](https://support.choreolabs.com/support) and navigating to the `Updates` page. 
 
-You can review details about each update and hotfix in [Updates Portal](https://updates-info.choreolabs.com). Information about your subscribed products is available in [Updates Portal](https://updates-info.choreolabs.com).
-
-### How can I print update information by accessing the Updates portal?
+### How can I print update information by accessing the Support portal?
 
 Follow the steps given below:<br>
-1. Login to the [Updates portal](https://updates-info.choreolabs.com/)<br>
+1. Login to the [Support Portal](https://support.choreolabs.com/support)<br>
 2. Enter your Choreo Labs user credentials and click on the 'Sign In' button.<br>
-3. The page will be directed to the 'Choreo Labs Updates Information Portal'.<br>
-4. Click on the products  **"Already installed updates"** button or **"Newly Available Updates"** button.<br>
-5. Click on the **"View Report"** button then the user is able to print the update report.
+3. Navigate to the **"Updates"** page from the left navigation bar.<br>
+4. Select the desired product, product version, starting update level and the ending update level and then click **"Search"**.<br>
+5. Click on the **"Download Report"** button then the user is able to print the update report.
 
 ### What can I do in case of an issue?
 
