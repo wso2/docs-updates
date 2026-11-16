@@ -15,9 +15,6 @@ A Choreo Labs Subscription entitles you to :
 
 Find out more about [Choreo Labs Subscriptions](https://choreolabs.com/subscription/)
 
-### How can I migrate from WUM/In-place model to the new Choreo Labs Updates 2.0 model?
-The Choreo Labs WUM and In-place update tools were decommissioned on 7th March 2023. For more information, please review the [Decommission plan](../../updates/wum-decommission/) and reach out to [Choreo Labs support](https://support.choreolabs.com/) with any questions.
-
 ### How often does Choreo Labs release new updates?
 Choreo Labs updates are released **bi-weekly** as new update levels. Follow the updates commands in [updates command page](../../updates/update-commands/).
 
