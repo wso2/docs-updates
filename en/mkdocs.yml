@@ -15,10 +15,10 @@
 # under the License.
 
 # Project information
-site_name: WSO2 Updates 2.0 Documentation
-site_description: Documentation for WSO2 Updates 2.0
-site_author: WSO2
-site_url: https://updates.docs.wso2.com/en/latest/
+site_name: Updates 2.0 Documentation
+site_description: Documentation for Choreo Labs Updates 2.0
+site_author: Choreo Labs
+site_url: https://updates.docs.choreolabs.com/en/latest/
 
 # Repository
 repo_name: wso2/docs-updates
@@ -26,7 +26,7 @@ repo_url: https://github.com/wso2/docs-updates
 edit_uri: https://github.com/wso2/docs-updates/edit/master/en/docs/
 
 # Copyright
-copyright: WSO2 Updates 2.0 - Documentation
+copyright: Choreo Labs Updates 2.0 - Documentation
 
 # Configuration
 theme:
@@ -35,8 +35,8 @@ theme:
     primary: deep-orange
     accent: deep-orange
   custom_dir: theme/material
-  logo: https://wso2.cachefly.net/wso2/sites/all/image_resources/logos/WSO2-Logo-Black.webp
-  favicon: https://wso2.com/themes/wso2theme/favicon.ico
+  logo: assets/img/choreo-labs-horizontal-black.webp
+  favicon: assets/img/choreo-labs-icon.svg
   highlightjs: true
   feature:
     tabs: true
@@ -48,12 +48,12 @@ nav:
     - Updates :
       - Get Started :
         - 'Overview': 'updates/overview.md'
-        - 'New to WSO2 Updates': 'updates/new-user.md'
+        - 'New to Choreo Labs Updates': 'updates/new-user.md'
         - 'Set Up the Update Tool': 'updates/set-up-update-tool.md'
         - 'Authentication': 'updates/authentication.md'
       #  - 'Finding the update tool' : 'updates/finding-the-update-tool.md'
       #  - 'Migrating to Updates 2.0'  : 'updates/migrating-to-updates2.0.md'
-        - 'Whats new in WSO2 Updates' : 'updates/whats-new.md'
+        - 'Whats new in Choreo Labs Updates' : 'updates/whats-new.md'
       - How to Update :
         - 'Using the Update Tool': 'updates/update-tool.md'
         - 'Useful Update Commands': 'updates/update-commands.md'
@@ -61,7 +61,7 @@ nav:
         - 'Resolving Conflicts': 'updates/resolve-conflicts.md'
         - Using Docker Images:
           - Using Docker images to receive Updates: 'updates/how-to-use-docker-images-to-receive-updates.md'
-          - Docker image tags with Updates 2.0: 'updates/using-wso2-docker-images.md'
+          - Docker image tags with Updates 2.0: 'updates/using-choreo-labs-docker-images.md'
           - Creating Custom Docker images:  'updates/customized-dockerfile.md'
         - Continuous Update :
           - 'Simple Setup': 'updates/continuous-update.md'
@@ -71,10 +71,10 @@ nav:
       - 'Registry':
         - 'Registry User Guide':
           - 'Overview': 'updates/customer-guide-harbor-registry.md'
-          - 'Accessing the Registry Web Portal': 'updates/wso2-registry-web-portal.md'
-          - 'Accessing Images via CLI': 'updates/wso2-registry-cli-access.md'
-          - 'Image Retention Policy' : 'updates/wso2-registry-image-retention-policy.md'
-          - 'FAQ': 'updates/wso2-registry-faq.md'
+          - 'Accessing the Registry Web Portal': 'updates/choreo-labs-registry-web-portal.md'
+          - 'Accessing Images via CLI': 'updates/choreo-labs-registry-cli-access.md'
+          - 'Image Retention Policy' : 'updates/choreo-labs-registry-image-retention-policy.md'
+          - 'FAQ': 'updates/choreo-labs-registry-faq.md'
         - 'Registry Token Management':
           - 'Overview': 'updates/registry-token-management.md'
           - 'User Guide': 'updates/registry-token-management-customer.md'
@@ -138,7 +138,7 @@ extra:
     - type: github
       link: https://github.com/wso2
     - type: twitter
-      link: https://twitter.com/wso2
+      link: https://twitter.com/choreo-labs
     - type: linkedin
-      link: https://www.linkedin.com/company/wso2
+      link: https://www.linkedin.com/company/choreo-labs
   site_version: 2.0.0

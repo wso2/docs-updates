@@ -1,8 +1,8 @@
-This guide is an introduction to WSO2 Updates 2.0 for fresh users. It provides guidance and direction that you need to start receiving WSO2 Updates with a fresh start.<br>
-If you are new to WSO2 products, and prefer to use the WSO2 update 2.0 for the first time, try the steps given below:<br>
+This guide is an introduction to Choreo Labs Updates 2.0 for fresh users. It provides guidance and direction that you need to start receiving Choreo Labs Updates with a fresh start.<br>
+If you are new to Choreo Labs products, and prefer to use the Choreo Labs update 2.0 for the first time, try the steps given below:<br>
 
 !!! Note  
-     - To download the pack, please visit the official [WSO2 website](https://wso2.com/) and access the "Products" section from the top menu. <br> 
+     - To download the pack, please visit the official [Choreo Labs website](https://choreolabs.com/) and access the "Products" section from the top menu. <br> 
      - Select the specific product you wish to download. 
      - After providing your email address during the download process, please check your inbox for an email containing a one-time download link.
 

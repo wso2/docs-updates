@@ -5,18 +5,18 @@ The web portal provides a visual interface to browse the projects and images you
 ## **Logging In**
 
 1. Browse URL [**registry.wso2.com**](https://registry.wso2.com).  
-2. Sign in using your standard **WSO2 Account email address** (the same email used for the Support Portal).
+2. Sign in using your standard **Choreo Labs Account email address** (the same email used for the Support Portal).
 
 ![Registry login page](../assets/img/updates/registry-portal-login-page.png)
 
 !!! Note
-    If you are already logged in to your WSO2 account, that session will automatically authenticate you with the container registry. However, keep in mind that the user and system tokens generated from the WSO2 Support Portal are not valid for logging into the web portal.
+    If you are already logged in to your Choreo Labs account, that session will automatically authenticate you with the container registry. However, keep in mind that the user and system tokens generated from the Choreo Labs Support Portal are not valid for logging into the web portal.
 
 ## **Browsing Products and Projects**
 
-Upon logging in, the view is filtered based on your active WSO2 product subscriptions. You will see projects associated with your account.
+Upon logging in, the view is filtered based on your active Choreo Labs product subscriptions. You will see projects associated with your account.
 
-1. **Dashboard**: The main page displays a list of Projects. Each Project corresponds to a WSO2 Product (e.g., `wso2-apim`, `wso2-is` etc.).
+1. **Dashboard**: The main page displays a list of Projects. Each Project corresponds to a Choreo Labs Product (e.g., `wso2-apim`, `wso2-is` etc.).
 
     ![Project dashboard](../assets/img/updates/registry-portal-project-dashboard.png)
 

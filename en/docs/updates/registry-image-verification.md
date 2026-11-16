@@ -2,17 +2,17 @@
 
 ## Introduction
 
-To ensure the security and authenticity of your deployments, WSO2 provides signed container images. This section explains how to use the Cosign tool to verify that an image has not been tampered with and was officially released by WSO2.
+To ensure the security and authenticity of your deployments, Choreo Labs provides signed container images. This section explains how to use the Cosign tool to verify that an image has not been tampered with and was officially released by Choreo Labs.
 
 ## Prerequisites
 
 Before verification, ensure:
 
 * [Cosign](https://docs.sigstore.dev/cosign/system_config/installation/) is installed
-* Access to the [WSO2 container registry](https://registry.wso2.com)
-* Public key provided by WSO2
+* Access to the [Choreo Labs container registry](https://registry.choreolabs.com)
+* Public key provided by Choreo Labs
 
-You need the WSO2 public key to validate the signatures. Save the following block into a file named **wso2-public-key.pub** on your local machine:
+You need the Choreo Labs public key to validate the signatures. Save the following block into a file named **choreolabs-public-key.pub** on your local machine:
 
 ```shell
 -----BEGIN PUBLIC KEY-----
@@ -30,7 +30,7 @@ gQIDAQAB
 
 ### Run the Verification Command
 
-The command you run depends on whether you are logged in to the WSO2 container registry. Use the following command structure to verify your image. Replace `<image_path>` with the full registry path of the WSO2 image (e.g., `registry.wso2.com/wso2-am/am:v1.0.0`).
+The command you run depends on whether you are logged in to the Choreo Labs container registry. Use the following command structure to verify your image. Replace `<image_path>` with the full registry path of the Choreo Labs image (e.g., `registry.choreolabs.com/wso2-am/am:v1.0.0`).
 
 ### A. If Already Logged In (Docker/OCI Client)
 
@@ -63,7 +63,7 @@ Pass credentials securely using environment variables:
 
 ## Understanding the Results
 
-When you run the command, a successful verification will display a message confirming that the **Cosign claims were validated** and the **signatures were verified** against the public key. If the verification fails, do not deploy the image and contact WSO2 support.
+When you run the command, a successful verification will display a message confirming that the **Cosign claims were validated** and the **signatures were verified** against the public key. If the verification fails, do not deploy the image and contact Choreo Labs support.
 
 A successful verification confirms:
 

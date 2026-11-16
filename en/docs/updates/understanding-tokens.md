@@ -1,14 +1,14 @@
 # Understanding Tokens
 
-This section explains how registry access tokens work within the WSO2 Customer Support Portal, including token types, visibility rules, and lifecycle behavior.
+This section explains how registry access tokens work within the Choreo Labs Customer Support Portal, including token types, visibility rules, and lifecycle behavior.
 
 ## Token Types
 
-The WSO2 Container Registry supports two distinct token types, each suited to different access scenarios.
+The Choreo Labs Container Registry supports two distinct token types, each suited to different access scenarios.
 
 ### User Tokens
 
-User Tokens are scoped to the individual user account and are intended for personal, interactive access to the WSO2 registry via the CLI.
+User Tokens are scoped to the individual user account and are intended for personal, interactive access to the Choreo Labs registry via the CLI.
 
 * Visible only to the user who created them. Customer Admins can view and manage all User Tokens within the project.
 * Remain valid until the subscription expiry date, regardless of any changes to the generating user's account status.
@@ -43,7 +43,7 @@ This design keeps personal credentials private for regular users while giving Cu
 
 | Use Case | Recommended Token Type |
 |---|---|
-| Personal CLI access to the WSO2 registry | User Token |
+| Personal CLI access to the Choreo Labs registry | User Token |
 | CI/CD pipelines and automated deployments | Service Token |
 | Shared integrations across multiple team members | Service Token |
 | Service accounts without Support Portal access | Service Token |

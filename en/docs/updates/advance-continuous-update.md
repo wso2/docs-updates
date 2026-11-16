@@ -1,12 +1,12 @@
 
 You can get continuous updates for your Dev, Staging, and Production Environments using the Configuration Management tools as its benefits are highlighted. Namely, changes and deployments are implemented faster, remove the possible room for human error, while making system management predictable and scalable.
 Below are the steps a user has to follow to seamlessly propagate updates to multiple environments.
-(To easily illustrate we are describing this process for a user using the latest version of WSO2 APIM and managing continuous updates using Ansible)
+(To easily illustrate we are describing this process for a user using the latest version of Choreo Labs APIM and managing continuous updates using Ansible)
  
 ### Configuring the control node for propagation
 1. Install the Ansible v.2.5 in your deployment environment. Refer [Ansible Installation Guide](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 
-2. Thereafter, take a git clone [WSO2 APIM Ansible resources] (https://github.com/wso2/ansible-apim/)
+2. Thereafter, take a git clone [Choreo Labs APIM Ansible resources] (https://github.com/wso2/ansible-apim/)
    
     ``
         git clone https://github.com/wso2/ansible-apim.git
@@ -20,7 +20,7 @@ Below are the steps a user has to follow to seamlessly propagate updates to mult
     ``
 
 !!! info
-    The above command will be like ``git checkout v3.2.0.3`` for the latest WSO2 APIM 3.2.0 version.
+    The above command will be like ``git checkout v3.2.0.3`` for the latest Choreo Labs APIM 3.2.0 version.
 
 !!! Note
     The Ansible resources obtained from GitHub only contains resources for a single deployment environment (dev) by default. The parameters with respect to this environment are found in the `ansible-apim/dev` directory. <br>

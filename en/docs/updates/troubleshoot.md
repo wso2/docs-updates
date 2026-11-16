@@ -11,11 +11,11 @@
 </thead>
 <tbody>
 <tr>
-<td><p>Unable to connect to WSO2 Update</p></td>
-<td><p>The Update Tool is not able to connect to the WSO2 Update Server due to a network failure or the server 
+<td><p>Unable to connect to Choreo Labs Update</p></td>
+<td><p>The Update Tool is not able to connect to the Choreo Labs Update Server due to a network failure or the server 
 response is not successful.</p></td>
-<td><p>Check your network connection. If the connection is still failing, please report to WSO2 at <a 
-href="https://wso2.com/contact">https://wso2.com/contact</a></p>
+<td><p>Check your network connection. If the connection is still failing, please report to Choreo Labs at <a 
+href="https://choreolabs.com/contact">https://choreolabs.com/contact</a></p>
 <p>Please be sure to attach the details of the error when you report it. You can get the details by 
 getting the log files in `updates/logs` in the product directory.</p></td>
 </tr>
@@ -25,7 +25,7 @@ getting the log files in `updates/logs` in the product directory.</p></td>
 <td><p>If the update command is being executed, delete the content in the &lt;UpdatesHome&gt;/updates (~/.wso2-updates/updates) directory and run the update tool again.
 <p>If the hotfix command is being executed, download the hotfix file again and run the update tool against the 
 newly-downloaded file.</p>
-<p>If the connection is still failing, please report to WSO2 at <a href="https://wso2.com/contact">https://wso2.com/contact</a></p>
+<p>If the connection is still failing, please report to Choreo Labs at <a href="https://choreolabs.com/contact">https://choreolabs.com/contact</a></p>
 <p>Please be sure to attach the details of the error when you report it. You can get the details by 
 getting the log files in updates/logs in the product directory.</p>
 </td>
@@ -34,37 +34,37 @@ getting the log files in updates/logs in the product directory.</p>
 </tr>
 <tr class="even">
 <td>Error while downloading update file from UpdateFileURL</td>
-<td>The Update Tool is unable to download an update file from the WSO2 Update service due to a server error.</td>
-<td>Try running the update tool again. If the command continues to fail, please report to WSO2 at <a href="https://wso2.com/contact">https://wso2
+<td>The Update Tool is unable to download an update file from the Choreo Labs Update service due to a server error.</td>
+<td>Try running the update tool again. If the command continues to fail, please report to Choreo Labs at <a href="https://choreolabs.com/contact">https://choreolabs
 .com/contact</a>. Please be sure to attach the details of the error when you report it. You can get the details by 
 getting the log files in updates/logs in the product directory.</td>
 </tr>
 <tr>
 <td>Unable to get MD5 hash of file</td>
 <td>The update tool is unable to find the md5sum value of the file.</td>
-<td>Try running the update tool again. If the command continues to fail, please report to WSO2 at <a href="https://wso2.com/contact">https://wso2
+<td>Try running the update tool again. If the command continues to fail, please report to Choreo Labs at <a href="https://choreolabs.com/contact">https://choreolabs
 .com/contact</a>. Please be sure to attach the details of the error when you report it. You can get the details by 
 getting the log files in updates/logs in the product directory.</td>
 </tr>
 <tr>
 <td>Update configurations are not loaded</td>
 <td>Update tool has encountered an error while loading the configuration values from the config file.</td>
-<td>Try running the update tool again. If the command continues to fail, please report to WSO2 at <a href="https://wso2.com/contact">https://wso2
+<td>Try running the update tool again. If the command continues to fail, please report to Choreo Labs at <a href="https://choreolabs.com/contact">https://choreolabs
 .com/contact</a>. Please be sure to attach the details of the error when you report it. You can get the details by 
 getting the log files in updates/logs in the product directory.</td>
 </tr>
 <tr>
 <td>Error while initializing updates config file</td>
 <td>Update tool encountered an error while being executed for the first time.</td>
-<td>Try running the update tool again. If the command continues to fail, please report to WSO2 at <a href="https://wso2.com/contact">https://wso2
+<td>Try running the update tool again. If the command continues to fail, please report to Choreo Labs at <a href="https://choreolabs.com/contact">https://choreolabs
 .com/contact</a>. Please be sure to attach the details of the error when you report it. You can get the details by 
 getting the log files in updates/logs in the product directory.</td>
 </tr>
 <tr>
 <td>Invalid credentials</td>
-<td>The credentials provided are not valid. If the WSO2 account was created recently, the reason for the login failure may be that the credentials are not synced with the WSO2 Update Server.</td>
+<td>The credentials provided are not valid. If the Choreo Labs account was created recently, the reason for the login failure may be that the credentials are not synced with the Choreo Labs Update Server.</td>
 <td>Try again by providing the correct credentials. If your account was created a short while back, you might have to wait.
-If authentication is still failing, please report to WSO2 at <a href="https://wso2.com/contact">https://wso2.com/contact</a>.
+If authentication is still failing, please report to Choreo Labs at <a href="https://choreolabs.com/contact">https://choreolabs.com/contact</a>.
 Please be sure to attach the details of the error when you report it. You can get the details by getting the log files in updates/logs in the product directory.</td>
 </tr>
 <tr>
@@ -82,7 +82,7 @@ Please be sure to attach the details of the error when you report it. You can ge
     .</p>
     <p>Unable to parse hotfix.json:
     Download the hotfix file and apply the hotfix to the newly-downloaded file.</p>
-    <p>If the error still persists, please report the issue to <a href="https://wso2.com/contact">https://wso2.com/contact.</p></a>
+    <p>If the error still persists, please report the issue to <a href="https://choreolabs.com/contact">https://choreolabs.com/contact.</p></a>
     <p>Please be sure to attach the details of the error when you report it. You can get the details by getting the log 
     files in updates/logs in the product directory.</p>
 </td>
@@ -132,7 +132,7 @@ Please be sure to attach the details of the error when you report it. You can ge
 <td>An error occurred while the update tool is updating itself.</td>
 <td><p>Check if the update tool has permissions to execute files in the &lt;UpdatesHome&gt;/updates (~/.wso2-updates/updates 
 by default) directory and run the update tool again.</p>
-    <p>If the error still persists, please report the issue to <a href="https://wso2.com/contact"> https://wso2.com/contact</a>.</p>
+    <p>If the error still persists, please report the issue to <a href="https://choreolabs.com/contact"> https://choreolabs.com/contact</a>.</p>
     <p>Please be sure to attach the details of the error when you report it. You can get the details by getting the log
      files in updates/logs in the product directory.</p></td>
 </tr>
@@ -140,7 +140,7 @@ by default) directory and run the update tool again.</p>
 <td>Invalid hotfix name</td>
 <td>The hotfix being applied contains an invalid name.</td>
 <td><p>Download the hotfix again and run the apply-hotfix command.</p>
-    <p>If the error still persists, please report the issue to <a href="https://wso2.com/contact">https://wso2.com/contact</a>.</p>
+    <p>If the error still persists, please report the issue to <a href="https://choreolabs.com/contact">https://choreolabs.com/contact</a>.</p>
     <p>Please be sure to attach the details of the error when you report it. You can get the details by getting the log
      files in updates/logs in the product directory.</p></td>
 </tr>
@@ -237,7 +237,7 @@ If you encounter any of the above listed OS related issue:
 
 * Check the available disc space and free some space if the available space is insufficient.
 
-* If the error occurs even after enabling the above permissions, please report to WSO2 by accessing the  [Contact page](https://wso2.com/contact). 
+* If the error occurs even after enabling the above permissions, please report to Choreo Labs by accessing the  [Contact page](https://choreolabs.com/contact). 
 Please be sure to attach the details of the error when you report it. You can get the details by getting the log files in `updates/logs` in the product directory.
 
 
@@ -259,14 +259,14 @@ Please be sure to attach the details of the error when you report it. You can ge
             </td>
             <td>
                 <p>Most likely scenario for this error is that the architecture of the system is ARM64 (AArch64) based, 
-                since the AMD64 (x86-64) architecture is supported by all WSO2 products. (as of 2025-03-01)</p>
+                since the AMD64 (x86-64) architecture is supported by all Choreo Labs products. (as of 2025-03-01)</p>
                 <p>If the system is ARM64 based and has an x86-64 compatibility layer (e.g. "Rosetta" on MacOS), 
                 use the corresponding x86-64 Update Tool for the system OS.</p>
                 <p>To fetch the x86-64 Update Tools, execute the Update Tool setup script with the 
                 [`-a` option](../update-tool-setup-usage-guide/#options) to set up all the Update Tools 
                 supported by the product.</p>
                 <p>If still unable to set up the Update Tool, please contact support via the 
-                WSO2 [Contact page](https://wso2.com/contact).</p>
+                Choreo Labs [Contact page](https://choreolabs.com/contact).</p>
             </td>
         </tr>
         <tr>
@@ -276,10 +276,10 @@ Please be sure to attach the details of the error when you report it. You can ge
                 [`-a` option](../update-tool-setup-usage-guide/#options).</p>
             </td>
             <td>
-                <p>Ideally, this error should not occur, as all WSO2 products support the AMD64 (x86-64) architecture 
+                <p>Ideally, this error should not occur, as all Choreo Labs products support the AMD64 (x86-64) architecture 
                 (as of 2025-03-01) and the corresponding Update Tool binaries should be available for download.</p>
                 <p>If this issue is encountered, please contact support via the 
-                WSO2 [Contact page](https://wso2.com/contact).</p>
+                Choreo Labs [Contact page](https://choreolabs.com/contact).</p>
             </td>
         </tr>
     </tbody>
