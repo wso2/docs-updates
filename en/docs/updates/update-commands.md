@@ -19,12 +19,12 @@ Shown below is an essential set of update commands that a user requires to recei
 
    **Description**
 
- ./wso2update_linux tool is a simple command-line tool that connects to the  WSO2 Update service, determines which updates are new and relevant, thereafter downloads and updates the product.
+ ./wso2update_linux tool is a simple command-line tool that connects to the  Choreo Labs Update service, determines which updates are new and relevant, thereafter downloads and updates the product.
 
-The Update Tool needs WSO2 credentials to authenticate requests.
+The Update Tool needs Choreo Labs credentials to authenticate requests.
 See the [Authentication](./authentication.md) page for more details.
 
-To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.com/updates)
+To find out the latest on Choreo Labs Update, visit [Choreo Labs Updates Page](https://choreolabs.com/updates)
 
 
 **Options**
@@ -36,8 +36,8 @@ To find out the latest on WSO2 Update, visit [WSO2 Updates Page](https://wso2.co
     -c, --channel string     Channel updates should be downloaded (default "full")
         --continue           Continue the update with merging resolved conflicts.
         --dry-run            Simulate the update
-    -u, --username           Specify your WSO2 account email.
-    -p, --password           Specify your WSO2 account password.
+    -u, --username           Specify your Choreo Labs account email.
+    -p, --password           Specify your Choreo Labs account password.
         --revert                  Revert to the previous update level.
         --template string         Specify the template output.
     -v, --verbose            Enable verbose mode.
@@ -87,21 +87,21 @@ Here is a list of exit codes:
 ./wso2update_linux help check
 ```
 
-* Update the product to the latest level. You will be prompted to enter WSO2 credentials.
+* Update the product to the latest level. You will be prompted to enter Choreo Labs credentials.
 ``` xml
 wso2update_linux
-Username: user@wso2.com
-Password for ‘user@wso2.com’: my_password
+Username: user@choreolabs.com
+Password for ‘user@choreolabs.com’: my_password
 ```
 
-* Update the product to the latest level by entering WSO2 credentials as arguments.
+* Update the product to the latest level by entering Choreo Labs credentials as arguments.
 ``` bash
-./wso2update_linux --username user@wso2.com --password my_password
+./wso2update_linux --username user@choreolabs.com --password my_password
 ```
 
 * Update the product using environment variables (useful for CI/CD pipelines):
 ```bash
-export UPDATE_TOOL_USERNAME=user@wso2.com
+export UPDATE_TOOL_USERNAME=user@choreolabs.com
 export UPDATE_TOOL_PASSWORD=my_password
 ./wso2update_linux
 ```
@@ -235,8 +235,8 @@ that is applied to a product in an environment without Internet access.
     -e, --end-level string      Ending update level (default "0")
     -h, --help                  Help for create-update
     -s, --start-level string    Starting update level
-    -p, --password string       Specify your WSO2 account password
-    -u, --username string       Specify your WSO2 account email
+    -p, --password string       Specify your Choreo Labs account password
+    -u, --username string       Specify your Choreo Labs account email
     -v, --verbose               Enable verbose mode
 
 **Examples**
@@ -255,7 +255,7 @@ Creates a zip file with defined update level range that is applied to a product.
  	./wso2update_linux apply-update [options]
 
 **Description**<br>
-`apply-update` command pointing to the update zip file would facilitate the propagation of updates to a WSO2 product in a lockdown environment.
+`apply-update` command pointing to the update zip file would facilitate the propagation of updates to a Choreo Labs product in a lockdown environment.
 First apply-update command would ascertain whether the latest version of the update client is being used, if the latest version of the tool is absent the client updates itself.
 Thereafter, it would prompt the user for a re-run of apply-update command.
 
@@ -289,7 +289,7 @@ Executing the `apply-update` command pointing the update zip file location would
 Apply an available hotfix.
 
 Apply-hotfix command applies an available hotfix to the product distribution. This path should be pointed to a `.zip`
-file that contains a WSO2 provided hotfix.
+file that contains a Choreo Labs provided hotfix.
 
 
 !!! Note
@@ -354,14 +354,14 @@ prior to applying the same to a production environment.
 
     -h, --help                   help for create-docker
         --os string              Base OS of the Docker image (default "alpine")
-    -p, --password string        Specify your WSO2 account password
+    -p, --password string        Specify your Choreo Labs account password
     -t, --tag string             Value the created image should be tagged with(default "alpine")
 
         --trial-subscription     Continue with a trial subscription
-    -u, --username string        Specify your WSO2 account email
+    -u, --username string        Specify your Choreo Labs account email
     -v, --verbose                Enable verbose mode
 
-Refer our [Webinar on Updates 2.0](https://youtu.be/Z2XeRhzkdpI?t=1050) to witness how you could receive updates with WSO2 Updates 2.0
+Refer our [Webinar on Updates 2.0](https://youtu.be/Z2XeRhzkdpI?t=1050) to witness how you could receive updates with Choreo Labs Updates 2.0
 
 ### [wso2update_<os\> get-summary]()
 
@@ -377,8 +377,8 @@ The summary file is saved as `update-summary-<starting-level>-<ending-level>.md`
 
 **Options**
 
-    -u, --username string   Specify your WSO2 account email.
-    -p, --password string   Specify your WSO2 account password.
+    -u, --username string   Specify your Choreo Labs account email.
+    -p, --password string   Specify your Choreo Labs account password.
     -h, --help              Help for get-summary.
 
 **Examples**
@@ -390,5 +390,5 @@ The summary file is saved as `update-summary-<starting-level>-<ending-level>.md`
 
 * Get the summary with explicit credentials.
 ``` bash
-./wso2update_linux get-summary 5 10 --username user@wso2.com --password my_password
+./wso2update_linux get-summary 5 10 --username user@choreolabs.com --password my_password
 ```

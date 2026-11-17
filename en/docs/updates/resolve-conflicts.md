@@ -16,12 +16,12 @@ Below are the best practices for different file types when updating your product
 
 
 !!! Note 
-    When updating your products, the WSO2 Update Tool replaces the existing .jar files with updated ones. **If you modify the original .jar files, any customizations will be lost.** <br>
-    To avoid losing your previous customizations, use an extension point as explained in using Extension Points in Carbon and [WSO2 Extension page](https://github.com/wso2-extensions). <br>
-    Or, refer to `https://store.wso2.com/store/pages/top-assets` for a list of released connectors and extensions.
+    When updating your products, the Choreo Labs Update Tool replaces the existing .jar files with updated ones. **If you modify the original .jar files, any customizations will be lost.** <br>
+    To avoid losing your previous customizations, use an extension point as explained in using Extension Points in Carbon and [Choreo Labs Extension page](https://github.com/wso2-extensions). <br>
+    Or, refer to `https://store.choreolabs.com/store/pages/top-assets` for a list of released connectors and extensions.
 
 - **.war** files	
-    -- When updating your product, the WSO2 update tool will unarchive your .war file (if applicable) and apply updates
+    -- When updating your product, the Choreo Labs update tool will unarchive your .war file (if applicable) and apply updates
      on top of your customizations (if applicable).
 
 - **.car** files	

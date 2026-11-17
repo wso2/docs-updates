@@ -1,8 +1,8 @@
 ## What is the Update Tool?
 
-The Update Tool is a CLI distribution for Linux, MacOS and Windows distributions that streamlines updating WSO2 products. When you run The Update Tool, it will automatically download and install the latest updates for your WSO2 products. It will also take a backup of your current installation before updating it.
+The Update Tool is a CLI distribution for Linux, MacOS and Windows distributions that streamlines updating Choreo Labs products. When you run The Update Tool, it will automatically download and install the latest updates for your Choreo Labs products. It will also take a backup of your current installation before updating it.
 
-If you have not taken updates using WSO2 Updates, we recommend referring the [new user page](../new-user/) for detailed instructions and information on how to proceed.
+If you have not taken updates using Choreo Labs Updates, we recommend referring the [new user page](../new-user/) for detailed instructions and information on how to proceed.
 
 !!! tip "Before you begin"
     -   Before you run the Update Tool, **stop the product pack from running**.
@@ -50,7 +50,7 @@ $ ./wso2update_darwin_arm64
 $ ./wso2update_windows_arm64.exe
 ```
 
-There are many features of the WSO2 Updates Tool: 
+There are many features of the Choreo Labs Updates Tool: 
 
 - The Update Tool updates the customized product distribution while merging the configurations and customized artifacts. 
 - The Update Tool has the capability to update itself automatically. If the update tool has been self updated, command 
@@ -58,4 +58,4 @@ returns with `exit code 2`.
 - The Update Tool takes backups of the current pack before performing updates. These backups are used when reverting the 
 pack to the previous state.
 
-Watch our [Webinar on Updates 2.0](https://youtu.be/Z2XeRhzkdpI?t=1050) to witness how you could receive updates with WSO2 Updates 2.0
+Watch our [Webinar on Updates 2.0](https://youtu.be/Z2XeRhzkdpI?t=1050) to witness how you could receive updates with Choreo Labs Updates 2.0

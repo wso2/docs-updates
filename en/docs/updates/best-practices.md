@@ -1,11 +1,11 @@
 ### Best Practices to adhere when using WSO2 Updates
-Here are the guidelines and recommendations to receive best update experience with WSO2 Updates 2.0.
+Here are the guidelines and recommendations to receive best update experience with Choreo Labs Updates 2.0.
 
 1. Update frequently
 
     Frequent update of products will ensure the product is bug free and always  up to dated with new features, 
-    security enhancements and improvements. WSO2 recommends updating your systems weekly or bi-weekly. Before 
-    directly applying any updates to your production system, WSO2 always recommends applying any update to lower 
+    security enhancements and improvements. Choreo Labs recommends updating your systems weekly or bi-weekly. Before 
+    directly applying any updates to your production system, Choreo Labs always recommends applying any update to lower 
     environments such as testing, development or staging environments which has a similar product distribution as in
     production environment. 
    
@@ -18,11 +18,11 @@ Here are the guidelines and recommendations to receive best update experience wi
     [how to reduce merge conflicts](../updates/resolve-conflicts.md).
 <br>    
 3. Run tests<br>
-    WSO2 thoroughly tests and certifies each update and hotfix released. Regardless of whether an update or hotfix 
+    Choreo Labs thoroughly tests and certifies each update and hotfix released. Regardless of whether an update or hotfix 
     running tests on your update environment ensures that all existing and new functionalities are working perfectly fine.
     
 !!! Note  
-    Whenever you apply an update WSO2 recommends you to apply the updates to lower environments, run tests and update the 
+    Whenever you apply an update Choreo Labs recommends you to apply the updates to lower environments, run tests and update the 
     production environment.
 <br>
 4.  Getting Updates to a lockdown Environment <br>
@@ -34,7 +34,7 @@ Here are the guidelines and recommendations to receive best update experience wi
     
 <br> 
 5.  Use a Configuration Management tool. <br>
-    There are a myriad of benefits of using a Configuration Management Tool. WSO2 advise the use of Configuration Management Tool such as [Puppet and Ansible](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes) 
+    There are a myriad of benefits of using a Configuration Management Tool. Choreo Labs advise the use of Configuration Management Tool such as [Puppet and Ansible](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-client-nodes) 
     to carry configuration changes flawlessly. Read more on our [Continuous Update Document](../continuous-update).
 
 <br>
@@ -47,6 +47,6 @@ Here are the guidelines and recommendations to receive best update experience wi
     to ensure an error free update retrieval, check for adequate space before starting the update process.
 
 <br>
-7. WSO2 advise you to keep a copy of your most reliable Docker image in your own private Docker registry for future usage. Further, you can
+7. Choreo Labs advise you to keep a copy of your most reliable Docker image in your own private Docker registry for future usage. Further, you can
 run security and other crucial compliance checks before you onboard an image to your private registry. Read the step-by step guidelines on this by clicking [here](../updates/how-to-use-docker-images-to-receive-updates.md).
    

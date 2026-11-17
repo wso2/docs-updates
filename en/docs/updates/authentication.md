@@ -1,7 +1,7 @@
 ## How Authentication Works in the Update Tool
 
-You require a WSO2 account to use the Update Tool.
-Need a WSO2 Account? [Sign up](https://wso2.com/user/register)
+You require a Choreo Labs account to use the Update Tool.
+Need a Choreo Labs Account? [Sign up](https://choreolabs.com/user/register)
 
 ---
 
@@ -30,11 +30,11 @@ For non-interactive environments such as GitHub Actions, Jenkins, or GitLab CI, 
 Example:
 
 ```bash
-export UPDATE_TOOL_USERNAME="user@wso2.com"
+export UPDATE_TOOL_USERNAME="user@choreolabs.com"
 export UPDATE_TOOL_PASSWORD="my_password"
 ```
 
 Without these, the tool will attempt to open an interactive prompt, which will hang in a headless pipeline.
 
 !!! IMPORTANT
-    Always treat your WSO2 credentials as sensitive data. Avoid hardcoding them in scripts or configuration files. For automated environments, store them as **Secrets** in your CI/CD platform and inject them at runtime. Rotate credentials immediately if an environment is compromised.
+    Always treat your Choreo Labs credentials as sensitive data. Avoid hardcoding them in scripts or configuration files. For automated environments, store them as **Secrets** in your CI/CD platform and inject them at runtime. Rotate credentials immediately if an environment is compromised.

@@ -2,13 +2,13 @@
 
 In addition to all customer features, customer administrators can perform the following extra token management actions:
 
-1. **Generate User Tokens** - This action is similar to the regular customer token generation. Created on behalf of the admin and used to access the WSO2 registry through the CLI.  
+1. **Generate User Tokens** - This action is similar to the regular customer token generation. Created on behalf of the admin and used to access the Choreo Labs registry through the CLI.  
 2. **Generate Service Tokens** - Created for service accounts that do not have Support Portal access.  
 3. **View and Manage All Tokens** - Admins can view and manage any token created by any user within the project.
 
 ### **Generate User Token**
 
-User tokens are generated on behalf of the creator and are intended for accessing WSO2 registry via the CLI.
+User tokens are generated on behalf of the creator and are intended for accessing Choreo Labs registry via the CLI.
 
 To generate a new user token, follow these steps:
 

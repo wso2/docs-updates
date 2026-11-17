@@ -3,7 +3,7 @@ Receiving continuous updates to your environment can be done with ease using WSO
 listed below are the steps:
 
 1. Go to the desired git repository location of the selected configuration management tool.
-   [e.g., Let say we are using WSO2 APIM with ansible as the configuration management tool, thus the git repo to refer is `https://github.com/wso2/ansible-apim` ]
+   [e.g., Let say we are using Choreo Labs APIM with ansible as the configuration management tool, thus the git repo to refer is `https://github.com/wso2/ansible-apim` ]
 2. Clone the correct git repo.
 3. Check out the latest tag of the product version.
    
@@ -12,7 +12,7 @@ listed below are the steps:
       
 
     !!! info
-        The above command will be like ``git checkout v2.6.0.7`` for the latest WSO2 APIM 2.6.0 version.
+        The above command will be like ``git checkout v2.6.0.7`` for the latest Choreo Labs APIM 2.6.0 version.
 <br>
 
 4. Store the product pack you've downloaded in the `/files/packs` directory.<br>
@@ -46,4 +46,4 @@ listed below are the steps:
 
 !!! Note
    
-    For more detailed information on WSO2's Puppet and Ansible configurations, refer the [link](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-clien).
+    For more detailed information on Choreo Labs's Puppet and Ansible configurations, refer the [link](../faq/#what-are-the-recommended-configuration-management-tools-to-deploy-configurations-to-clien).

@@ -2,8 +2,8 @@
 template: templates/home-page.html
 ---
 
-# WSO2 Updates Documentation
-We at WSO2 bring a greater, and an improved software solution when we release a product version. With valuable feedback from our users and by proactively searching for enhancements, we constantly improve our products, backport fixes to older affected versions, and push these improvements as updates through the WSO2 Update Process to our valued subscribed users.
+# Choreo Labs Updates Documentation
+We at Choreo Labs bring a greater, and an improved software solution when we release a product version. With valuable feedback from our users and by proactively searching for enhancements, we constantly improve our products, backport fixes to older affected versions, and push these improvements as updates through the Choreo Labs Update Process to our valued subscribed users.
 
 <!--
  Adding temporary urls for navigation
@@ -39,7 +39,7 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
             <div class="content" style="">
                 Overview
                 <div class="description" style="">
-                  A comprehensive insight as to what <strong>WSO2 Updates</strong> are and to know about is component and its structure           
+                  A comprehensive insight as to what <strong>Choreo Labs Updates</strong> are and to know about is component and its structure           
                  </div>
             </div>
         </div>   
@@ -286,7 +286,7 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
       <div class="content" style="">
         Registry
         <div class="description" style="">
-          Guide to accessing WSO2 Container Registry and managing registry tokens securely via web and CLI.
+          Guide to accessing Choreo Labs Container Registry and managing registry tokens securely via web and CLI.
         </div>
       </div>
     </div>
@@ -321,7 +321,7 @@ We at WSO2 bring a greater, and an improved software solution when we release a 
             <div class="content" style="">
                 Best Practises
                 <div class="description" style="">
-                  Guideline activities that make using WSO2 Updates easier or more effective.             
+                  Guideline activities that make using Choreo Labs Updates easier or more effective.             
                  </div>
             </div>
         </div>   

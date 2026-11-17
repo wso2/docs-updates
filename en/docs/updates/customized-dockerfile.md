@@ -1,7 +1,7 @@
 ### Creating Custom Docker images for Updated Products
-The `create-docker` command builds a Docker image of an updated product pack using the Docker resources developed by WSO2. However, the following steps should be followed if any customizations are required.
+The `create-docker` command builds a Docker image of an updated product pack using the Docker resources developed by Choreo Labs. However, the following steps should be followed if any customizations are required.
 
-In this example, we will assume that we are creating a custom Docker image for an updated product of WSO2 API Manager 3.0.0<br>
+In this example, we will assume that we are creating a custom Docker image for an updated product of Choreo Labs API Manager 3.0.0<br>
     1. Go to the product Docker resources repository on GitHub (e.g., [docker-apim](https://github.com/wso2/docker-apim/)).<br>
     2. Find the latest tag corresponding to the product version (e.g., v3.0.0.x)<br>
 

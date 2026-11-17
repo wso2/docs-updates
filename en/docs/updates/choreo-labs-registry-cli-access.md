@@ -1,10 +1,10 @@
 # Accessing Images via CLI (Command Line)
 
-To pull images via a terminal or automation pipeline, you cannot use your **WSO2 Account Credentials** as previously. You must use a **User Token or a Service Token** generated from the WSO2 Support Portal.
+To pull images via a terminal or automation pipeline, you cannot use your **Choreo Labs Account Credentials** as previously. You must use a **User Token or a Service Token** generated from the Choreo Labs Support Portal.
 
 ## Network Requirements
 
-The WSO2 Container Registry uses a Content Delivery Network (CDN) to serve image content. When you pull an image, authentication and manifest requests are served by `registry.wso2.com`, while the image layers are downloaded from `registry-cdn.wso2.com`.
+The Choreo Labs Container Registry uses a Content Delivery Network (CDN) to serve image content. When you pull an image, authentication and manifest requests are served by `registry.wso2.com`, while the image layers are downloaded from `registry-cdn.wso2.com`.
 
 If your environment restricts outbound network access through a firewall or proxy, allow HTTPS (port 443) traffic to both of the following domains:
 
@@ -17,24 +17,24 @@ If your environment restricts outbound network access through a firewall or prox
 
 ## Prerequisites: Generate a Token
 
-*Note: This is done in the WSO2 Support Portal, not the Registry Portal.*
+*Note: This is done in the Choreo Labs Support Portal, not the Registry Portal.*
 
-1. Log in to the **WSO2 Support Portal**.  
-2. Navigate to **Projects \> My Projects \> Registry Tokens**.  
+1. Log in to the **Choreo Labs Support Portal**.  
+2. Navigate to **Settings \> Registry Tokens**.  
 3. Click **Generate Token** and provide a descriptive name (e.g., "Jenkins-Pipeline-Token").  
-4. **Important:** Copy the **Token ID** and **Token Secret** immediately. The secret is shown only once.  
+4. **Important:** Copy the **Token Name** and **Token Secret** immediately. The secret is shown only once.  
    
 Please refer to the [Registry Token Management](registry-token-management.md) section for additional information.
 
 ## Docker CLI
 
-The Docker CLI is the standard method for authenticating and pulling images from the WSO2 Container Registry. Use this method for straightforward image pull operations.
+The Docker CLI is the standard method for authenticating and pulling images from the Choreo Labs Container Registry. Use this method for straightforward image pull operations.
 
 ### **Login**
 
 Open your terminal and run the login command using the credentials generated above.
 
-* **Username:** Your generated **Token ID**.
+* **Username:** Your generated **Token Name**.
 * **Password:** Your generated **Token Secret**.
 
 ```bash
@@ -64,9 +64,9 @@ docker pull registry.wso2.com/wso2-apim/am:4.5.0-alpine
 
 ## Harbor CLI
 
-WSO2 container registry is powered by the open source project, [Harbor](https://goharbor.io/). Therefore, the Harbor CLI can be used to access the registry too. It suits automated workflows and CI/CD pipelines which need more control. It provides capabilities such as browsing repositories, querying artifacts, filtering, and discovering the latest available image tags within your subscribed projects.
+Choreo Labs container registry is powered by the open source project, [Harbor](https://goharbor.io/). Therefore, the Harbor CLI can be used to access the registry too. It suits automated workflows and CI/CD pipelines which need more control. It provides capabilities such as browsing repositories, querying artifacts, filtering, and discovering the latest available image tags within your subscribed projects.
 
-The Harbor CLI can be installed by following the [installation guide](https://github.com/goharbor/harbor-cli#install). The WSO2 Container Registry supports repository and artifact operations via the Harbor CLI. For more information refer to the [Harbor CLI documentation](https://github.com/goharbor/harbor-cli).
+The Harbor CLI can be installed by following the [installation guide](https://github.com/goharbor/harbor-cli#install). The Choreo Labs Container Registry supports repository and artifact operations via the Harbor CLI. For more information refer to the [Harbor CLI documentation](https://github.com/goharbor/harbor-cli).
 
 !!! note
     The [jq](https://jqlang.org) command-line tool is also required to parse the JSON output from Harbor CLI commands.

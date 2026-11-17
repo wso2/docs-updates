@@ -17,7 +17,7 @@ To generate a new token, follow these steps:
 
 ![Generate token page](../assets/img/updates/registry-token-generate-token-1.png)
 
-Upon successful generation, the system will display the **Token Name** and the **Token Secret**. This token is required to pull WSO2 product images from the [WSO2 registry](http://registry.wso2.com).
+Upon successful generation, the system will display the **Token Name** and the **Token Secret**. This token is required to pull Choreo Labs product images from the [Choreo Labs registry](https://registry.choreolabs.com).
 
 ![Generate token dialog 2](../assets/img/updates/registry-token-generate-token-2.png)
 

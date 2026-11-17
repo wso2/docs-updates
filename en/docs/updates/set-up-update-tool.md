@@ -1,9 +1,9 @@
-To use the **WSO2 Update Tool 2.0**, users must first set up the tool in the product pack. The required setup scripts are bundled with the product pack and located in the `<product-home>/bin` directory.
+To use the **Choreo Labs Update Tool 2.0**, users must first set up the tool in the product pack. The required setup scripts are bundled with the product pack and located in the `<product-home>/bin` directory.
 
 The script will set up the appropriate Update Tool based on the OS and architecture of the system, provided the product supports the detected system configuration.
 
 !!! note
-    The following list of products are **ARM64** compatible:  
+    The following products are **ARM64** compatible starting from the listed versions and higher:  
 
     - Identity Server v7.1.0 (`wso2is-7.1.0`)
     - Micro Integrator v4.4.0 (`wso2mi-4.4.0`)
