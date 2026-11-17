@@ -54,7 +54,7 @@ Thereafter, you can refer to this Docker image in the remainder of your pipeline
     To undo a hotfix, you can run this script again after removing the corresponding hotfix. It is important to note that the remaining files in the hotfix directory must always be in sequence. Therefore, you should remove hotfixes in descending order.
 ****
 ### How move hotfixes to the latest update level in a containerized environment?
-Once the issue has been addressed in an update level, we recommend you to move to the update level that includes the fix or latest update level. This can be done by retrieving the docker image from the [Choreo Labs private Docker registry](https://docker.choreolabs.com/)  with the right version tag.
+Once the issue has been addressed in an update level, we recommend you to move to the update level that includes the fix or latest update level. This can be done by retrieving the docker image from the [Choreo Labs private Docker registry](https://docker.wso2.com/)  with the right version tag.
 
 ### Steps to follow if you are moving from hotfixes to the latest update level on your product pack
 Hotfix is a single fix provisioned to address a critical issue in the production environment. Once the issue has been addressed in an update level, we recommend you to revert the hotfix(es) and move to the latest update level.

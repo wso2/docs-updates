@@ -20,9 +20,9 @@ If your environment restricts outbound network access through a firewall or prox
 *Note: This is done in the Choreo Labs Support Portal, not the Registry Portal.*
 
 1. Log in to the **Choreo Labs Support Portal**.  
-2. Navigate to **Projects \> My Projects \> Registry Tokens**.  
+2. Navigate to **Settings \> Registry Tokens**.  
 3. Click **Generate Token** and provide a descriptive name (e.g., "Jenkins-Pipeline-Token").  
-4. **Important:** Copy the **Token ID** and **Token Secret** immediately. The secret is shown only once.  
+4. **Important:** Copy the **Token Name** and **Token Secret** immediately. The secret is shown only once.  
    
 Please refer to the [Registry Token Management](registry-token-management.md) section for additional information.
 
@@ -34,7 +34,7 @@ The Docker CLI is the standard method for authenticating and pulling images from
 
 Open your terminal and run the login command using the credentials generated above.
 
-* **Username:** Your generated **Token ID**.
+* **Username:** Your generated **Token Name**.
 * **Password:** Your generated **Token Secret**.
 
 ```bash

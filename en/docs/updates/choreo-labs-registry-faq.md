@@ -43,10 +43,10 @@ The Harbor CLI is the recommended approach for this use case. It supports queryi
 
 ## **Q: An image tag I previously pulled is no longer available in the registry. Why?**
 
-Older container images are periodically removed from the registry according to the [Image Retention Policy](choreo-labs-registry-image-retention-policy.md.md#Image Retention Policy): images pushed within the last 6 months are retained, and the latest tag in each repository is always retained regardless of age. Tags outside these rules are removed.
+Older container images are periodically removed from the registry according to the [Image Retention Policy](choreo-labs-registry-image-retention-policy.md#image-retention-policy): images pushed within the last 6 months are retained, and the latest tag in each repository is always retained regardless of age. Tags outside these rules are removed.
 
 To avoid depending on a tag remaining available, mirror the images you use to your own container registry after pulling them. If a removed image is critical and cannot be replaced with a newer update level, contact Choreo Labs support.
 
 ## **Q: I can log in to the registry, but pulling images fails. What could be the reason?**
 
-If `docker login` succeeds but `docker pull` fails partway through downloading, your network may be blocking the registry's CDN. Image layers are served from registry-cdn.wso2.com, so both registry.wso2.com and registry-cdn.wso2.com must be allowed through your firewall or proxy over HTTPS (port 443). See [Network Requirements](choreo-labs-registry-cli-access.md#Network Requirements) for details.
+If `docker login` succeeds but `docker pull` fails partway through downloading, your network may be blocking the registry's CDN. Image layers are served from registry-cdn.wso2.com, so both registry.wso2.com and registry-cdn.wso2.com must be allowed through your firewall or proxy over HTTPS (port 443). See [Network Requirements](choreo-labs-registry-cli-access.md#network-requirements) for details.

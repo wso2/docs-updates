@@ -68,7 +68,7 @@ You can review details about each update by logging into the [Support Portal](ht
 Follow the steps given below:<br>
 1. Login to the [Support Portal](https://support.choreolabs.com/support)<br>
 2. Enter your Choreo Labs user credentials and click on the 'Sign In' button.<br>
-3. Navigate to the **"Updates"** page from the left navigation bar.<br>
+3. Navigate to the **"Updates page from the left navigation bar.<br>
 4. Select the desired product, product version, starting update level and the ending update level and then click **"Search"**.<br>
 5. Click on the **"Download Report"** button then the user is able to print the update report.
 
@@ -161,7 +161,7 @@ After the necessary files have been downloaded, the Update tool validates the au
 The Update tool will then apply the downloaded updates and create an updated product distribution.
 
 ### How can I get Docker images with updates and how will those be distinguished?
-To get Docker images, please go to [Choreo Labs Docker Repository](https://docker.choreolabs.com/index.php) and select the Docker image based on `<product-name>`,`<product-version>`,`<update-level>` and the optional `[OS]` requirement.<br>
+To get Docker images, please go to [Choreo Labs Docker Repository](https://docker.wso2.com/index.php) and select the Docker image based on `<product-name>`,`<product-version>`,`<update-level>` and the optional `[OS]` requirement.<br>
 The `<docker-file-version>` represents the Docker file version that was used to build this image for reference purposes (you may disregard this value).
 
 The naming conversion of Docker images is as follows:<br>

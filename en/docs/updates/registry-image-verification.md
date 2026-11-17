@@ -37,7 +37,7 @@ The command you run depends on whether you are logged in to the Choreo Labs cont
 Verify the image directly:
 
 ```shell
-cosign verify --key /path/to/wso2-public-key.pub <image_path>
+cosign verify --key /path/to/choreolabs-public-key.pub <image_path>
 ```
 
 ### B. If Not Logged In
@@ -57,7 +57,7 @@ Pass credentials securely using environment variables:
     cosign verify \
       --registry-username="$REGISTRY_USERNAME" \
       --registry-password="$REGISTRY_PASSWORD" \
-      --key /path/to/wso2-public-key.pub \
+      --key /path/to/choreolabs-public-key.pub \
       <image_path>
     ```
 
