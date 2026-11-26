@@ -66,6 +66,7 @@ nav:
         - Continuous Update :
           - 'Simple Setup': 'updates/continuous-update.md'
           - 'Advance Setup': 'updates/advance-continuous-update.md'
+      - 'Binaries': 'updates/binaries.md'
       - 'Hotfixes': 'updates/hotfixes.md'
       - 'Updates Portal': 'updates/updates-portal.md'
       - 'Registry':

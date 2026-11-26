@@ -293,6 +293,29 @@ We at Choreo Labs bring a greater, and an improved software solution when we rel
   </a>
 </div>
 <div class="integratorDescription">
+    <a style="color: #222222;" href="updates/binaries">
+        <div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" style="width: 60px;" aria-hidden="true">
+                    <g fill="none" stroke="#212A32" stroke-width="1.5" stroke-linejoin="round">
+                        <path d="M8 18 30 6 52 18 30 30Z"/>
+                        <path d="M8 18v26l22 12 22-12V18M30 30v26"/>
+                    </g>
+                    <g fill="none" stroke="#FF7300" stroke-width="1.5">
+                        <path d="M30 12v12m-5-5 5 5 5-5"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="content" style="">
+                Binaries
+                <div class="description" style="">
+                    Download Choreo Labs product binaries from the registry and build your own Docker images using the matching Dockerfiles.
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+<div class="integratorDescription">
     <a style="color: #222222;" href="updates/best-practices">
         <div>
             <div>
