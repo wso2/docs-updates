@@ -34,6 +34,28 @@
 })();
 
 /*
+ * Show a note only while the tab it is bound to is selected
+ */
+(function() {
+    var notes = document.querySelectorAll('.tab-note[data-tab]');
+    for (var i = 0; i < notes.length; i++) {
+        (function(note) {
+            var tabs = note.previousElementSibling;
+            if (!tabs || !tabs.classList.contains('superfences-tabs')) {
+                return;
+            }
+            var update = function() {
+                var checked = tabs.querySelector('input:checked');
+                var label = checked && tabs.querySelector('label[for="' + checked.id + '"]');
+                note.hidden = !label || label.textContent.trim() !== note.getAttribute('data-tab');
+            };
+            tabs.addEventListener('change', update);
+            update();
+        })(notes[i]);
+    }
+})();
+
+/*
  * Initialize custom dropdown component
  */
 var dropdowns = document.getElementsByClassName('md-tabs__dropdown-link');

@@ -33,6 +33,11 @@ $ ./wso2update_darwin
 $ ./wso2update_windows.exe
 ```
 
+<div class="admonition note tab-note" data-tab="MacOS" hidden>
+<p class="admonition-title">Note</p>
+<p>If you are using older WSO2 product versions on macOS 27, please refer to the <a href="../troubleshoot/#unable-to-run-wso2update-darwin-on-macos27">Troubleshooting Guide</a>.</p>
+</div>
+
 ##### ARM64 (AArch64) systems
 
 !!! note
